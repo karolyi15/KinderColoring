@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/KinderColoring.dir/main.cpp.o  -o KinderColoring 
