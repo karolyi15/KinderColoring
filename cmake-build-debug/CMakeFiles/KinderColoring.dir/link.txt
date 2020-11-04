@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/KinderColoring.dir/main.cpp.o  -o KinderColoring 
+/usr/bin/c++  -g   CMakeFiles/KinderColoring.dir/main.cpp.o CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.o  -o KinderColoring 

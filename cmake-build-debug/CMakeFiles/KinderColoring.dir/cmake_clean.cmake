@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.o"
   "CMakeFiles/KinderColoring.dir/main.cpp.o"
   "KinderColoring"
   "KinderColoring.pdb"

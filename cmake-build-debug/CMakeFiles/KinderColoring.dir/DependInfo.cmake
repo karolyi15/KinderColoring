@@ -4,12 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/gunther/CLionProjects/KinderColoring/Sources/XmlManager.cpp" "/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.o"
   "/home/gunther/CLionProjects/KinderColoring/main.cpp" "/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles/KinderColoring.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../Libraries/rapidxml-1.13"
   )
 
 # Targets to which this target links.

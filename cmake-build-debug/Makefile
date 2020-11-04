@@ -143,6 +143,33 @@ KinderColoring/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/build
 .PHONY : KinderColoring/fast
 
+Sources/XmlManager.o: Sources/XmlManager.cpp.o
+
+.PHONY : Sources/XmlManager.o
+
+# target to build an object file
+Sources/XmlManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.o
+.PHONY : Sources/XmlManager.cpp.o
+
+Sources/XmlManager.i: Sources/XmlManager.cpp.i
+
+.PHONY : Sources/XmlManager.i
+
+# target to preprocess a source file
+Sources/XmlManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.i
+.PHONY : Sources/XmlManager.cpp.i
+
+Sources/XmlManager.s: Sources/XmlManager.cpp.s
+
+.PHONY : Sources/XmlManager.s
+
+# target to generate assembly for a file
+Sources/XmlManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.s
+.PHONY : Sources/XmlManager.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... KinderColoring"
+	@echo "... Sources/XmlManager.o"
+	@echo "... Sources/XmlManager.i"
+	@echo "... Sources/XmlManager.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

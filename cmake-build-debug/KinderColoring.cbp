@@ -44,6 +44,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/gunther/CLionProjects/KinderColoring/Libraries/rapidxml-1.13"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -66,6 +67,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/gunther/CLionProjects/KinderColoring/Libraries/rapidxml-1.13"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -82,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Headers/XmlManager.h">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Sources/XmlManager.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
 		<Unit filename="/home/gunther/CLionProjects/KinderColoring/main.cpp">
 			<Option target="KinderColoring"/>
 		</Unit>
