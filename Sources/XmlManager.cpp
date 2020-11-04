@@ -4,6 +4,26 @@
 
 #include "../Headers/XmlManager.h"
 
+//Init XmlManager Instance
+XmlManager *XmlManager::xmlManager = nullptr;
+
+//Constructor
+XmlManager::XmlManager() {}
+
+//Setters & Getters
+XmlManager* XmlManager::getInstance() {
+
+    if(xmlManager == nullptr){
+
+        xmlManager = new XmlManager();
+
+    }
+
+    return xmlManager;
+
+}
+
+//Parse XML Files
 xml_document<>* XmlManager::parseXML(char* xmlPath) {
 
     this->xmlData.clear();

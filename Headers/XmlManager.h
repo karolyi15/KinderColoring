@@ -16,17 +16,29 @@ using namespace rapidxml;
 
 class XmlManager {
 
+protected:
+
+    //Constructor
+    XmlManager();
+
 private:
 
+    //Instance
+    static XmlManager* xmlManager;
+
+    //Fields
     file<> * xmlFile;
     xml_document<> xmlData;
 
 public:
 
+    //Setter & Getters
+    static XmlManager* getInstance();
+
+    //Parsing XML
     xml_document<>* parseXML(char* xmlPath);
     void writeXML(char* xmlPath);
 
 };
-
 
 #endif //KINDERCOLORING_XMLMANAGER_H

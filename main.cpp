@@ -10,16 +10,16 @@ using namespace std;
 int main() {
 
     //Init Xml Manager
-    XmlManager * xmlManager = new XmlManager();
+    XmlManager * manager = XmlManager::getInstance();
 
     //Parse Xml File
-    xml_document<> *xmlData =xmlManager->parseXML("/home/gunther/CLionProjects/KinderColoring/_MapFiles/world.svg");
+    xml_document<> *xmlData =manager->parseXML("/home/gunther/CLionProjects/KinderColoring/_MapFiles/world.svg");
 
     //Access Xml Node
     cout<<xmlData->first_node()->name();
 
     //Save Xml to File
-    xmlManager->writeXML("/home/gunther/CLionProjects/KinderColoring/_MapFiles/test.svg");
+    //manager->writeXML("/home/gunther/CLionProjects/KinderColoring/_MapFiles/test.svg");
 
     return 0;
 
