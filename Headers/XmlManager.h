@@ -25,8 +25,8 @@ public:
 
     void parseXML(string xmlPath);
     void writeXML(string xmlPath);
-    xml_node<>* getNode(char * nodeName);
-    xml_attribute<>* getAttribute(char * attributeName);
+
+    xml_node<>* getNode(char* nodeName);
 };
 
 

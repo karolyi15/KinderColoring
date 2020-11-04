@@ -101,7 +101,7 @@ namespace rapidxml
 
         ///////////////////////////////////////////////////////////////////////////
         // Internal printing operations
-    
+
         // Print node
         template<class OutIt, class Ch>
         inline OutIt print_node(OutIt out, const xml_node<Ch> *node, int flags, int indent)
@@ -119,12 +119,12 @@ namespace rapidxml
             case node_element:
                 out = print_element_node(out, node, flags, indent);
                 break;
-            
+
             // Data
             case node_data:
                 out = print_data_node(out, node, flags, indent);
                 break;
-            
+
             // CDATA
             case node_cdata:
                 out = print_cdata_node(out, node, flags, indent);
@@ -139,7 +139,7 @@ namespace rapidxml
             case node_comment:
                 out = print_comment_node(out, node, flags, indent);
                 break;
-            
+
             // Doctype
             case node_doctype:
                 out = print_doctype_node(out, node, flags, indent);
@@ -155,7 +155,7 @@ namespace rapidxml
                 assert(0);
                 break;
             }
-            
+
             // If indenting not disabled, add line break after node
             if (!(flags & print_no_indenting))
                 *out = Ch('\n'), ++out;
@@ -163,8 +163,8 @@ namespace rapidxml
             // Return modified iterator
             return out;
         }
-        
-        // Print children of the node                               
+
+        // Print children of the node
         template<class OutIt, class Ch>
         inline OutIt print_children(OutIt out, const xml_node<Ch> *node, int flags, int indent)
         {
@@ -249,7 +249,7 @@ namespace rapidxml
             *out = Ch('<'), ++out;
             out = copy_chars(node->name(), node->name() + node->name_size(), out);
             out = print_attributes(out, node, flags);
-            
+
             // If node is childless
             if (node->value_size() == 0 && !node->first_node())
             {
@@ -308,11 +308,11 @@ namespace rapidxml
 
             // Print attributes
             out = print_attributes(out, node, flags);
-            
+
             // Print declaration end
             *out = Ch('?'), ++out;
             *out = Ch('>'), ++out;
-            
+
             return out;
         }
 
