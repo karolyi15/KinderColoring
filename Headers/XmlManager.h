@@ -23,10 +23,9 @@ private:
 
 public:
 
-    void parseXML(string xmlPath);
-    void writeXML(string xmlPath);
+    xml_document<>* parseXML(char* xmlPath);
+    void writeXML(char* xmlPath);
 
-    xml_node<>* getNode(char* nodeName);
 };
 
 

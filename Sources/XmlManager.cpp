@@ -4,25 +4,22 @@
 
 #include "../Headers/XmlManager.h"
 
-void XmlManager::parseXML(string xmlPath) {
+xml_document<>* XmlManager::parseXML(char* xmlPath) {
 
+    this->xmlData.clear();
     this->xmlFile = new file<>(xmlPath);
     this->xmlData.parse<0>(xmlFile->data());
+    return this->xmlData.document();
 }
 
-void XmlManager::writeXML(string xmlPath) {
+void XmlManager::writeXML(char* xmlPath) {
 
     string xml_as_string;
-    rapidxml::print(std::back_inserter(xml_as_string), this->xmlData);
+    print(std::back_inserter(xml_as_string), this->xmlData);
 
     ofstream xmlFile(xmlPath);
     xmlFile << this->xmlData;
     xmlFile.close();
     this->xmlData.clear();
-}
-
-xml_node<>* XmlManager::getNode(char *nodeName) {
-
-    return this->xmlData.first_node(nodeName);
 }
 

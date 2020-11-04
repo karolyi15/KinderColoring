@@ -13,10 +13,10 @@ int main() {
     XmlManager * xmlManager = new XmlManager();
 
     //Parse Xml File
-    xmlManager->parseXML("/home/gunther/CLionProjects/KinderColoring/_MapFiles/world.svg");
+    xml_document<> *xmlData =xmlManager->parseXML("/home/gunther/CLionProjects/KinderColoring/_MapFiles/world.svg");
 
     //Access Xml Node
-    cout << xmlManager->getNode("svg")->name();
+    cout<<xmlData->first_node()->name();
 
     //Save Xml to File
     xmlManager->writeXML("/home/gunther/CLionProjects/KinderColoring/_MapFiles/test.svg");
