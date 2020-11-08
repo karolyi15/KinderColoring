@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/KinderColoring.dir/main.cpp.o"
-  "KinderColoring"
+  "CMakeFiles/KinderColoring.dir/Arco.cpp.obj"
+  "CMakeFiles/KinderColoring.dir/Nodo.cpp.obj"
+  "CMakeFiles/KinderColoring.dir/main.cpp.obj"
+  "KinderColoring.exe"
+  "KinderColoring.exe.manifest"
+  "KinderColoring.lib"
   "KinderColoring.pdb"
 )
 
