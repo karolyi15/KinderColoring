@@ -36,6 +36,12 @@ fstream
 stdexcept
 -
 
+/home/gunther/CLionProjects/KinderColoring/Headers/LinkedList.h
+Node.h
+/home/gunther/CLionProjects/KinderColoring/Headers/Node.h
+iostream
+-
+
 /home/gunther/CLionProjects/KinderColoring/Headers/Node.h
 
 /home/gunther/CLionProjects/KinderColoring/Headers/XmlManager.h
@@ -50,6 +56,10 @@ rapidxml_print.hpp
 string
 -
 
+/home/gunther/CLionProjects/KinderColoring/Sources/LinkedList.cpp
+../Headers/LinkedList.h
+/home/gunther/CLionProjects/KinderColoring/Headers/LinkedList.h
+
 /home/gunther/CLionProjects/KinderColoring/main.cpp
 iostream
 -
@@ -63,4 +73,6 @@ Headers/XmlManager.h
 /home/gunther/CLionProjects/KinderColoring/Headers/XmlManager.h
 Headers/Node.h
 /home/gunther/CLionProjects/KinderColoring/Headers/Node.h
+Headers/LinkedList.h
+/home/gunther/CLionProjects/KinderColoring/Headers/LinkedList.h
 

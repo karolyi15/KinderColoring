@@ -87,10 +87,7 @@
 		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Headers/Country.h">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Headers/LInkedList.cpp">
-			<Option target="KinderColoring"/>
-		</Unit>
-		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Headers/LInkedList.h">
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Headers/LinkedList.h">
 			<Option target="KinderColoring"/>
 		</Unit>
 		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Headers/Node.h">
@@ -100,6 +97,9 @@
 			<Option target="KinderColoring"/>
 		</Unit>
 		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Sources/Country.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Sources/LinkedList.cpp">
 			<Option target="KinderColoring"/>
 		</Unit>
 		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Sources/Node.cpp">

@@ -143,33 +143,6 @@ KinderColoring/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/build
 .PHONY : KinderColoring/fast
 
-Headers/LInkedList.o: Headers/LInkedList.cpp.o
-
-.PHONY : Headers/LInkedList.o
-
-# target to build an object file
-Headers/LInkedList.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Headers/LInkedList.cpp.o
-.PHONY : Headers/LInkedList.cpp.o
-
-Headers/LInkedList.i: Headers/LInkedList.cpp.i
-
-.PHONY : Headers/LInkedList.i
-
-# target to preprocess a source file
-Headers/LInkedList.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Headers/LInkedList.cpp.i
-.PHONY : Headers/LInkedList.cpp.i
-
-Headers/LInkedList.s: Headers/LInkedList.cpp.s
-
-.PHONY : Headers/LInkedList.s
-
-# target to generate assembly for a file
-Headers/LInkedList.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Headers/LInkedList.cpp.s
-.PHONY : Headers/LInkedList.cpp.s
-
 Sources/Country.o: Sources/Country.cpp.o
 
 .PHONY : Sources/Country.o
@@ -196,6 +169,33 @@ Sources/Country.s: Sources/Country.cpp.s
 Sources/Country.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/Country.cpp.s
 .PHONY : Sources/Country.cpp.s
+
+Sources/LinkedList.o: Sources/LinkedList.cpp.o
+
+.PHONY : Sources/LinkedList.o
+
+# target to build an object file
+Sources/LinkedList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/LinkedList.cpp.o
+.PHONY : Sources/LinkedList.cpp.o
+
+Sources/LinkedList.i: Sources/LinkedList.cpp.i
+
+.PHONY : Sources/LinkedList.i
+
+# target to preprocess a source file
+Sources/LinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/LinkedList.cpp.i
+.PHONY : Sources/LinkedList.cpp.i
+
+Sources/LinkedList.s: Sources/LinkedList.cpp.s
+
+.PHONY : Sources/LinkedList.s
+
+# target to generate assembly for a file
+Sources/LinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/LinkedList.cpp.s
+.PHONY : Sources/LinkedList.cpp.s
 
 Sources/Node.o: Sources/Node.cpp.o
 
@@ -287,12 +287,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... KinderColoring"
-	@echo "... Headers/LInkedList.o"
-	@echo "... Headers/LInkedList.i"
-	@echo "... Headers/LInkedList.s"
 	@echo "... Sources/Country.o"
 	@echo "... Sources/Country.i"
 	@echo "... Sources/Country.s"
+	@echo "... Sources/LinkedList.o"
+	@echo "... Sources/LinkedList.i"
+	@echo "... Sources/LinkedList.s"
 	@echo "... Sources/Node.o"
 	@echo "... Sources/Node.i"
 	@echo "... Sources/Node.s"

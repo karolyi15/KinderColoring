@@ -4,6 +4,7 @@
 #include "rapidxml.hpp"
 #include "Headers/XmlManager.h"
 #include "Headers/Node.h"
+#include "Headers/LinkedList.h"
 
 using namespace rapidxml;
 using namespace std;
@@ -29,7 +30,7 @@ int main() {
 
     //*****************************************************************************************************************//
     //***** NODE TEST *****//
-    int value = 1;
+    /*int value = 1;
     Node<int> *node = new Node<int>(3);
     Node<int> *node2 = new Node<int>(4);
 
@@ -38,7 +39,19 @@ int main() {
     cout << "Node value: " << node->getValue() << endl;
     cout << "Node previous: " << node->getPrevious() << endl;
     cout << "Node next: " << node->getNext()->getValue() << endl;
+    */
+    //*****************************************************************************************************************//
 
+    //*****************************************************************************************************************//
+    //***** LIST TEST *****/
+
+    LinkedList<int> *list = new LinkedList<int>();
+    list->add(3);
+    list->add(4);
+    list->add(5);
+    list->add(6);
+    list->add(7);
+    list->print();
     //*****************************************************************************************************************//
     return 0;
 
