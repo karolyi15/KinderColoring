@@ -39,13 +39,19 @@ public:
 
             return nullptr;
         }
+        else if(this->head == nullptr){
 
-        Node<Type>* tempNode = this->head;
-        for(int counter = 0; counter == index; counter++){
-            tempNode = tempNode->getNext();
+            return nullptr;
+
+        } else {
+
+            Node<Type> *tempNode = this->head;
+            for (int counter = 1; counter <= index; counter++) {
+                tempNode = tempNode->getNext();
+            }
+
+            return tempNode;
         }
-
-        return tempNode;
     }
 
     //Nodes Management

@@ -54,7 +54,7 @@ int main() {
     list->print();
 
     cout << endl;
-    cout<< "List Get value Test: " << list->getNode(1)->getValue();
+    cout<< "List Get value Test: " << list->getNode(0)->getValue();
     //*****************************************************************************************************************//
     return 0;
 
