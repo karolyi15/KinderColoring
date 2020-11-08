@@ -103,19 +103,64 @@ CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Sources/XmlManager.cpp -o CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.s
 
+CMakeFiles/KinderColoring.dir/Sources/Country.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
+CMakeFiles/KinderColoring.dir/Sources/Country.cpp.o: ../Sources/Country.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/Country.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Sources/Country.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Sources/Country.cpp
+
+CMakeFiles/KinderColoring.dir/Sources/Country.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Sources/Country.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/Sources/Country.cpp > CMakeFiles/KinderColoring.dir/Sources/Country.cpp.i
+
+CMakeFiles/KinderColoring.dir/Sources/Country.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Sources/Country.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Sources/Country.cpp -o CMakeFiles/KinderColoring.dir/Sources/Country.cpp.s
+
+CMakeFiles/KinderColoring.dir/Headers/LInkedList.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
+CMakeFiles/KinderColoring.dir/Headers/LInkedList.cpp.o: ../Headers/LInkedList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/KinderColoring.dir/Headers/LInkedList.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Headers/LInkedList.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Headers/LInkedList.cpp
+
+CMakeFiles/KinderColoring.dir/Headers/LInkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Headers/LInkedList.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/Headers/LInkedList.cpp > CMakeFiles/KinderColoring.dir/Headers/LInkedList.cpp.i
+
+CMakeFiles/KinderColoring.dir/Headers/LInkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Headers/LInkedList.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Headers/LInkedList.cpp -o CMakeFiles/KinderColoring.dir/Headers/LInkedList.cpp.s
+
+CMakeFiles/KinderColoring.dir/Sources/Node.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
+CMakeFiles/KinderColoring.dir/Sources/Node.cpp.o: ../Sources/Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/Node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Sources/Node.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Sources/Node.cpp
+
+CMakeFiles/KinderColoring.dir/Sources/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Sources/Node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/Sources/Node.cpp > CMakeFiles/KinderColoring.dir/Sources/Node.cpp.i
+
+CMakeFiles/KinderColoring.dir/Sources/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Sources/Node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Sources/Node.cpp -o CMakeFiles/KinderColoring.dir/Sources/Node.cpp.s
+
 # Object files for target KinderColoring
 KinderColoring_OBJECTS = \
 "CMakeFiles/KinderColoring.dir/main.cpp.o" \
-"CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.o"
+"CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.o" \
+"CMakeFiles/KinderColoring.dir/Sources/Country.cpp.o" \
+"CMakeFiles/KinderColoring.dir/Headers/LInkedList.cpp.o" \
+"CMakeFiles/KinderColoring.dir/Sources/Node.cpp.o"
 
 # External object files for target KinderColoring
 KinderColoring_EXTERNAL_OBJECTS =
 
 KinderColoring: CMakeFiles/KinderColoring.dir/main.cpp.o
 KinderColoring: CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.o
+KinderColoring: CMakeFiles/KinderColoring.dir/Sources/Country.cpp.o
+KinderColoring: CMakeFiles/KinderColoring.dir/Headers/LInkedList.cpp.o
+KinderColoring: CMakeFiles/KinderColoring.dir/Sources/Node.cpp.o
 KinderColoring: CMakeFiles/KinderColoring.dir/build.make
 KinderColoring: CMakeFiles/KinderColoring.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable KinderColoring"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable KinderColoring"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/KinderColoring.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

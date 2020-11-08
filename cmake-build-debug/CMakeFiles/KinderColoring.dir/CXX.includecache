@@ -36,6 +36,8 @@ fstream
 stdexcept
 -
 
+/home/gunther/CLionProjects/KinderColoring/Headers/Node.h
+
 /home/gunther/CLionProjects/KinderColoring/Headers/XmlManager.h
 iostream
 -
@@ -48,7 +50,17 @@ rapidxml_print.hpp
 string
 -
 
-/home/gunther/CLionProjects/KinderColoring/Sources/XmlManager.cpp
-../Headers/XmlManager.h
+/home/gunther/CLionProjects/KinderColoring/main.cpp
+iostream
+-
+fstream
+-
+rapidxml_utils.hpp
+-
+rapidxml.hpp
+/home/gunther/CLionProjects/KinderColoring/rapidxml.hpp
+Headers/XmlManager.h
 /home/gunther/CLionProjects/KinderColoring/Headers/XmlManager.h
+Headers/Node.h
+/home/gunther/CLionProjects/KinderColoring/Headers/Node.h
 

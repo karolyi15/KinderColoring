@@ -143,6 +143,87 @@ KinderColoring/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/build
 .PHONY : KinderColoring/fast
 
+Headers/LInkedList.o: Headers/LInkedList.cpp.o
+
+.PHONY : Headers/LInkedList.o
+
+# target to build an object file
+Headers/LInkedList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Headers/LInkedList.cpp.o
+.PHONY : Headers/LInkedList.cpp.o
+
+Headers/LInkedList.i: Headers/LInkedList.cpp.i
+
+.PHONY : Headers/LInkedList.i
+
+# target to preprocess a source file
+Headers/LInkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Headers/LInkedList.cpp.i
+.PHONY : Headers/LInkedList.cpp.i
+
+Headers/LInkedList.s: Headers/LInkedList.cpp.s
+
+.PHONY : Headers/LInkedList.s
+
+# target to generate assembly for a file
+Headers/LInkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Headers/LInkedList.cpp.s
+.PHONY : Headers/LInkedList.cpp.s
+
+Sources/Country.o: Sources/Country.cpp.o
+
+.PHONY : Sources/Country.o
+
+# target to build an object file
+Sources/Country.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/Country.cpp.o
+.PHONY : Sources/Country.cpp.o
+
+Sources/Country.i: Sources/Country.cpp.i
+
+.PHONY : Sources/Country.i
+
+# target to preprocess a source file
+Sources/Country.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/Country.cpp.i
+.PHONY : Sources/Country.cpp.i
+
+Sources/Country.s: Sources/Country.cpp.s
+
+.PHONY : Sources/Country.s
+
+# target to generate assembly for a file
+Sources/Country.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/Country.cpp.s
+.PHONY : Sources/Country.cpp.s
+
+Sources/Node.o: Sources/Node.cpp.o
+
+.PHONY : Sources/Node.o
+
+# target to build an object file
+Sources/Node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/Node.cpp.o
+.PHONY : Sources/Node.cpp.o
+
+Sources/Node.i: Sources/Node.cpp.i
+
+.PHONY : Sources/Node.i
+
+# target to preprocess a source file
+Sources/Node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/Node.cpp.i
+.PHONY : Sources/Node.cpp.i
+
+Sources/Node.s: Sources/Node.cpp.s
+
+.PHONY : Sources/Node.s
+
+# target to generate assembly for a file
+Sources/Node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/Node.cpp.s
+.PHONY : Sources/Node.cpp.s
+
 Sources/XmlManager.o: Sources/XmlManager.cpp.o
 
 .PHONY : Sources/XmlManager.o
@@ -206,6 +287,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... KinderColoring"
+	@echo "... Headers/LInkedList.o"
+	@echo "... Headers/LInkedList.i"
+	@echo "... Headers/LInkedList.s"
+	@echo "... Sources/Country.o"
+	@echo "... Sources/Country.i"
+	@echo "... Sources/Country.s"
+	@echo "... Sources/Node.o"
+	@echo "... Sources/Node.i"
+	@echo "... Sources/Node.s"
 	@echo "... Sources/XmlManager.o"
 	@echo "... Sources/XmlManager.i"
 	@echo "... Sources/XmlManager.s"
