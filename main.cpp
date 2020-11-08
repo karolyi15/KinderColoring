@@ -52,6 +52,9 @@ int main() {
     list->add(6);
     list->add(7);
     list->print();
+
+    cout << endl;
+    cout<< "List Get value Test: " << list->getNode(1)->getValue();
     //*****************************************************************************************************************//
     return 0;
 

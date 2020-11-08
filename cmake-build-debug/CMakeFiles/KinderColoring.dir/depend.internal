@@ -3,6 +3,8 @@
 
 CMakeFiles/KinderColoring.dir/Sources/Country.cpp.o
  /home/gunther/CLionProjects/KinderColoring/Headers/Country.h
+ /home/gunther/CLionProjects/KinderColoring/Headers/LinkedList.h
+ /home/gunther/CLionProjects/KinderColoring/Headers/Node.h
  /home/gunther/CLionProjects/KinderColoring/Sources/Country.cpp
 CMakeFiles/KinderColoring.dir/Sources/LinkedList.cpp.o
  /home/gunther/CLionProjects/KinderColoring/Headers/LinkedList.h

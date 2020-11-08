@@ -33,6 +33,21 @@ public:
         return this->length;
     }
 
+    Node<Type>* getNode(int index){
+
+        if( index< 0 || index> this->length){
+
+            return nullptr;
+        }
+
+        Node<Type>* tempNode = this->head;
+        for(int counter = 0; counter == index; counter++){
+            tempNode = tempNode->getNext();
+        }
+
+        return tempNode;
+    }
+
     //Nodes Management
     void add(Type value){
 
