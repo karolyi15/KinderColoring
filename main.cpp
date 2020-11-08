@@ -1,24 +1,31 @@
 #include <iostream>
+#include <fstream>
+#include <rapidxml_utils.hpp>
+#include "rapidxml.hpp"
+#include "Headers/XmlManager.h"
+#include "Headers/Node.h"
+#include "Headers/LinkedList.h"
+
+using namespace rapidxml;
+using namespace std;
 
 int main() {
-<<<<<<< Updated upstream
-    std::cout << "Hello, World!" << std::endl;
-=======
     //*****************************************************************************************************************//
     //***** XML MANAGER TEST *****//
-
+    /*
     //Init Xml Manager
     XmlManager * manager = XmlManager::getInstance();
 
     //Parse Xml File
-    xml_document<> *xmlData =manager->parseXML("C:/Users/aguer/Documents/GitHub/KinderColoring/_MapFiles/world.svg");
+    xml_document<> *xmlData =manager->parseXML("/home/gunther/CLionProjects/KinderColoring/_MapFiles/world.svg");
 
     //Access Xml Node
-    cout<<xmlData->first_node()->first_node()->next_sibling()->next_sibling()->next_sibling()->first_node()->name();
+    cout<<xmlData->fi
+     rst_node()->name();
 
     //Save Xml to File
     //manager->writeXML("/home/gunther/CLionProjects/KinderColoring/_MapFiles/test.svg");
-
+     */
     //*****************************************************************************************************************//
 
     //*****************************************************************************************************************//
@@ -32,7 +39,7 @@ int main() {
     cout << "Node value: " << node->getValue() << endl;
     cout << "Node previous: " << node->getPrevious() << endl;
     cout << "Node next: " << node->getNext()->getValue() << endl;
-*/
+    */
     //*****************************************************************************************************************//
 
     //*****************************************************************************************************************//
@@ -44,11 +51,12 @@ int main() {
     list->add(5);
     list->add(6);
     list->add(7);
-    //list->print();
+    list->print();
 
     cout << endl;
     cout<< "List Get value Test: " << list->getNode(1)->getValue();
     //*****************************************************************************************************************//
->>>>>>> Stashed changes
     return 0;
+
+
 }
