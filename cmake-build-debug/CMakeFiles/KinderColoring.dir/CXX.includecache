@@ -36,15 +36,15 @@ fstream
 stdexcept
 -
 
-/home/gunther/CLionProjects/KinderColoring/Headers/LinkedList.h
+C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/LinkedList.h
 Node.h
-/home/gunther/CLionProjects/KinderColoring/Headers/Node.h
+C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/Node.h
 iostream
 -
 
-/home/gunther/CLionProjects/KinderColoring/Headers/Node.h
+C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/Node.h
 
-/home/gunther/CLionProjects/KinderColoring/Headers/XmlManager.h
+C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/XmlManager.h
 iostream
 -
 rapidxml.hpp
@@ -56,7 +56,7 @@ rapidxml_print.hpp
 string
 -
 
-/home/gunther/CLionProjects/KinderColoring/main.cpp
+C:/Users/aguer/Documents/GitHub/KinderColoring/main.cpp
 iostream
 -
 fstream
@@ -64,11 +64,13 @@ fstream
 rapidxml_utils.hpp
 -
 rapidxml.hpp
-/home/gunther/CLionProjects/KinderColoring/rapidxml.hpp
+C:/Users/aguer/Documents/GitHub/KinderColoring/rapidxml.hpp
 Headers/XmlManager.h
-/home/gunther/CLionProjects/KinderColoring/Headers/XmlManager.h
+C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/XmlManager.h
 Headers/Node.h
-/home/gunther/CLionProjects/KinderColoring/Headers/Node.h
+C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/Node.h
 Headers/LinkedList.h
-/home/gunther/CLionProjects/KinderColoring/Headers/LinkedList.h
+C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/LinkedList.h
+vector
+-
 

@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gunther/CLionProjects/KinderColoring/Sources/Country.cpp" "/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles/KinderColoring.dir/Sources/Country.cpp.o"
-  "/home/gunther/CLionProjects/KinderColoring/Sources/LinkedList.cpp" "/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles/KinderColoring.dir/Sources/LinkedList.cpp.o"
-  "/home/gunther/CLionProjects/KinderColoring/Sources/Node.cpp" "/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles/KinderColoring.dir/Sources/Node.cpp.o"
-  "/home/gunther/CLionProjects/KinderColoring/Sources/XmlManager.cpp" "/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.o"
-  "/home/gunther/CLionProjects/KinderColoring/main.cpp" "/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles/KinderColoring.dir/main.cpp.o"
+  "C:/Users/aguer/Documents/GitHub/KinderColoring/Sources/Country.cpp" "C:/Users/aguer/Documents/GitHub/KinderColoring/cmake-build-debug/CMakeFiles/KinderColoring.dir/Sources/Country.cpp.obj"
+  "C:/Users/aguer/Documents/GitHub/KinderColoring/Sources/LinkedList.cpp" "C:/Users/aguer/Documents/GitHub/KinderColoring/cmake-build-debug/CMakeFiles/KinderColoring.dir/Sources/LinkedList.cpp.obj"
+  "C:/Users/aguer/Documents/GitHub/KinderColoring/Sources/Node.cpp" "C:/Users/aguer/Documents/GitHub/KinderColoring/cmake-build-debug/CMakeFiles/KinderColoring.dir/Sources/Node.cpp.obj"
+  "C:/Users/aguer/Documents/GitHub/KinderColoring/Sources/XmlManager.cpp" "C:/Users/aguer/Documents/GitHub/KinderColoring/cmake-build-debug/CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.obj"
+  "C:/Users/aguer/Documents/GitHub/KinderColoring/main.cpp" "C:/Users/aguer/Documents/GitHub/KinderColoring/cmake-build-debug/CMakeFiles/KinderColoring.dir/main.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

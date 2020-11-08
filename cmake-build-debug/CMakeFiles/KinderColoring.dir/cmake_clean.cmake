@@ -1,10 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/KinderColoring.dir/Sources/Country.cpp.o"
-  "CMakeFiles/KinderColoring.dir/Sources/LinkedList.cpp.o"
-  "CMakeFiles/KinderColoring.dir/Sources/Node.cpp.o"
-  "CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.o"
-  "CMakeFiles/KinderColoring.dir/main.cpp.o"
-  "KinderColoring"
+  "CMakeFiles/KinderColoring.dir/Sources/Country.cpp.obj"
+  "CMakeFiles/KinderColoring.dir/Sources/LinkedList.cpp.obj"
+  "CMakeFiles/KinderColoring.dir/Sources/Node.cpp.obj"
+  "CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.obj"
+  "CMakeFiles/KinderColoring.dir/main.cpp.obj"
+  "KinderColoring.exe"
+  "KinderColoring.exe.manifest"
+  "KinderColoring.lib"
   "KinderColoring.pdb"
 )
 
