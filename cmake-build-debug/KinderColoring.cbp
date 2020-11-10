@@ -98,6 +98,9 @@
 		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/XmlManager.h">
 			<Option target="KinderColoring"/>
 		</Unit>
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Matriz.h">
+			<Option target="KinderColoring"/>
+		</Unit>
 		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Sources/Country.cpp">
 			<Option target="KinderColoring"/>
 		</Unit>
