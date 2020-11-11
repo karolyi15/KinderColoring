@@ -118,51 +118,11 @@ CMakeFiles\KinderColoring.dir\Sources\Country.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\Sources\Country.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\Country.cpp
 <<
 
-CMakeFiles\KinderColoring.dir\Sources\Node.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
-CMakeFiles\KinderColoring.dir\Sources\Node.cpp.obj: ..\Sources\Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/Node.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\Sources\Node.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\Node.cpp
-<<
-
-CMakeFiles\KinderColoring.dir\Sources\Node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Sources/Node.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\Sources\Node.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\Node.cpp
-<<
-
-CMakeFiles\KinderColoring.dir\Sources\Node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Sources/Node.cpp.s"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\Sources\Node.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\Node.cpp
-<<
-
-CMakeFiles\KinderColoring.dir\Sources\LinkedList.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
-CMakeFiles\KinderColoring.dir\Sources\LinkedList.cpp.obj: ..\Sources\LinkedList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/LinkedList.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\Sources\LinkedList.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\LinkedList.cpp
-<<
-
-CMakeFiles\KinderColoring.dir\Sources\LinkedList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Sources/LinkedList.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\Sources\LinkedList.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\LinkedList.cpp
-<<
-
-CMakeFiles\KinderColoring.dir\Sources\LinkedList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Sources/LinkedList.cpp.s"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\Sources\LinkedList.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\LinkedList.cpp
-<<
-
 # Object files for target KinderColoring
 KinderColoring_OBJECTS = \
 "CMakeFiles\KinderColoring.dir\main.cpp.obj" \
 "CMakeFiles\KinderColoring.dir\Sources\XmlManager.cpp.obj" \
-"CMakeFiles\KinderColoring.dir\Sources\Country.cpp.obj" \
-"CMakeFiles\KinderColoring.dir\Sources\Node.cpp.obj" \
-"CMakeFiles\KinderColoring.dir\Sources\LinkedList.cpp.obj"
+"CMakeFiles\KinderColoring.dir\Sources\Country.cpp.obj"
 
 # External object files for target KinderColoring
 KinderColoring_EXTERNAL_OBJECTS =
@@ -170,11 +130,9 @@ KinderColoring_EXTERNAL_OBJECTS =
 KinderColoring.exe: CMakeFiles\KinderColoring.dir\main.cpp.obj
 KinderColoring.exe: CMakeFiles\KinderColoring.dir\Sources\XmlManager.cpp.obj
 KinderColoring.exe: CMakeFiles\KinderColoring.dir\Sources\Country.cpp.obj
-KinderColoring.exe: CMakeFiles\KinderColoring.dir\Sources\Node.cpp.obj
-KinderColoring.exe: CMakeFiles\KinderColoring.dir\Sources\LinkedList.cpp.obj
 KinderColoring.exe: CMakeFiles\KinderColoring.dir\build.make
 KinderColoring.exe: CMakeFiles\KinderColoring.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable KinderColoring.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable KinderColoring.exe"
 	"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\KinderColoring.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\KinderColoring.dir\objects1.rsp @<<
  /out:KinderColoring.exe /implib:KinderColoring.lib /pdb:C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\KinderColoring.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

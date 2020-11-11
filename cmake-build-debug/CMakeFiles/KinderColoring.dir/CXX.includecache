@@ -63,12 +63,12 @@ rapidxml_utils.hpp
 -
 rapidxml.hpp
 C:/Users/aguer/Documents/GitHub/KinderColoring/rapidxml.hpp
-Headers/Node.h
-C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/Node.h
 Headers/XmlManager.h
 C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/XmlManager.h
 Headers/LinkedList.h
 C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/LinkedList.h
 vector
+-
+cmath
 -
 

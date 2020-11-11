@@ -154,60 +154,6 @@ Sources\Country.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\KinderColoring.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KinderColoring.dir\Sources\Country.cpp.s
 .PHONY : Sources\Country.cpp.s
 
-Sources\LinkedList.obj: Sources\LinkedList.cpp.obj
-
-.PHONY : Sources\LinkedList.obj
-
-# target to build an object file
-Sources\LinkedList.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KinderColoring.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KinderColoring.dir\Sources\LinkedList.cpp.obj
-.PHONY : Sources\LinkedList.cpp.obj
-
-Sources\LinkedList.i: Sources\LinkedList.cpp.i
-
-.PHONY : Sources\LinkedList.i
-
-# target to preprocess a source file
-Sources\LinkedList.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KinderColoring.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KinderColoring.dir\Sources\LinkedList.cpp.i
-.PHONY : Sources\LinkedList.cpp.i
-
-Sources\LinkedList.s: Sources\LinkedList.cpp.s
-
-.PHONY : Sources\LinkedList.s
-
-# target to generate assembly for a file
-Sources\LinkedList.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KinderColoring.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KinderColoring.dir\Sources\LinkedList.cpp.s
-.PHONY : Sources\LinkedList.cpp.s
-
-Sources\Node.obj: Sources\Node.cpp.obj
-
-.PHONY : Sources\Node.obj
-
-# target to build an object file
-Sources\Node.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KinderColoring.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KinderColoring.dir\Sources\Node.cpp.obj
-.PHONY : Sources\Node.cpp.obj
-
-Sources\Node.i: Sources\Node.cpp.i
-
-.PHONY : Sources\Node.i
-
-# target to preprocess a source file
-Sources\Node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KinderColoring.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KinderColoring.dir\Sources\Node.cpp.i
-.PHONY : Sources\Node.cpp.i
-
-Sources\Node.s: Sources\Node.cpp.s
-
-.PHONY : Sources\Node.s
-
-# target to generate assembly for a file
-Sources\Node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KinderColoring.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KinderColoring.dir\Sources\Node.cpp.s
-.PHONY : Sources\Node.cpp.s
-
 Sources\XmlManager.obj: Sources\XmlManager.cpp.obj
 
 .PHONY : Sources\XmlManager.obj
@@ -274,12 +220,6 @@ help:
 	@echo ... Sources/Country.obj
 	@echo ... Sources/Country.i
 	@echo ... Sources/Country.s
-	@echo ... Sources/LinkedList.obj
-	@echo ... Sources/LinkedList.i
-	@echo ... Sources/LinkedList.s
-	@echo ... Sources/Node.obj
-	@echo ... Sources/Node.i
-	@echo ... Sources/Node.s
 	@echo ... Sources/XmlManager.obj
 	@echo ... Sources/XmlManager.i
 	@echo ... Sources/XmlManager.s

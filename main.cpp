@@ -1,10 +1,11 @@
 #include <iostream>
 #include <rapidxml_utils.hpp>
 #include "rapidxml.hpp"
-#include "Headers/Node.h"
 #include "Headers/XmlManager.h"
 #include "Headers/LinkedList.h"
 #include <vector>
+#include <cmath>
+
 
 using namespace rapidxml;
 using namespace std;
@@ -48,6 +49,27 @@ vector<string> changePoints(string points,vector<string> contry){
     return  contry;
 }
 
+bool compararPuntos (string puntoActual, string puntoVerificar, int dimension){
+    cout<<puntoActual<<endl;
+    if ((pow((puntoActual.at(0)-puntoVerificar.at(0)),2)+pow((puntoActual.at(1)-puntoVerificar.at(1)),2))== dimension){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+bool verificarFrontera(vector<string> paisActual, vector<string> paisVerificar){
+
+    for (int puntoActual = 1; puntoActual < paisActual.size() ; puntoActual++) {
+        for (int puntoVerificar = 1; puntoVerificar < paisVerificar.size() ; puntoVerificar++){
+            if(compararPuntos(paisActual.at(puntoActual),paisVerificar.at(puntoVerificar),4)){
+                return true;
+            }
+        }
+    }
+    return  false;
+}
 
 int main() {
 
@@ -84,9 +106,33 @@ int main() {
     }
 
     //Verificar Matriz
-    for (int i = 0; i < matriz.size(); i++) {
+    /*for (int i = 0; i < matriz.size(); i++) {
         cout << matriz.at(i).at(0) << endl;
         cout<< matriz.at(i).at(1)<<endl;
+    }*/
+
+    //Crear fronteras
+    vector<vector<string>> fronteras;
+
+    for (int pais = 0; pais < matriz.size(); pais++) {
+        vector<string> limites = {};
+        limites.push_back(matriz.at(pais).at(0));
+        for (int paisComparar = 0; paisComparar < matriz.size(); paisComparar++){
+            if (verificarFrontera(matriz.at(pais),matriz.at(paisComparar))){
+                limites.push_back(matriz.at(paisComparar).at(0));
+                break;
+            }
+        }
+        fronteras.push_back(limites);
+    }
+
+    //Verificar fronteras
+    cout<<fronteras.size();
+    for (int i = 0; i < fronteras.size(); i++) {
+        cout<<endl;
+        for (int j = 0; j < fronteras.at(i).size(); i++) {
+            cout<<fronteras.at(i).at(j)<<" ";
+        }
     }
 
     return 0;

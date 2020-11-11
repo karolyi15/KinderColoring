@@ -6,13 +6,6 @@ CMakeFiles\KinderColoring.dir\Sources\Country.cpp.obj: ..\Headers\LinkedList.h
 CMakeFiles\KinderColoring.dir\Sources\Country.cpp.obj: ..\Headers\Node.h
 CMakeFiles\KinderColoring.dir\Sources\Country.cpp.obj: ..\Sources\Country.cpp
 
-CMakeFiles\KinderColoring.dir\Sources\LinkedList.cpp.obj: ..\Headers\LinkedList.h
-CMakeFiles\KinderColoring.dir\Sources\LinkedList.cpp.obj: ..\Headers\Node.h
-CMakeFiles\KinderColoring.dir\Sources\LinkedList.cpp.obj: ..\Sources\LinkedList.cpp
-
-CMakeFiles\KinderColoring.dir\Sources\Node.cpp.obj: ..\Headers\Node.h
-CMakeFiles\KinderColoring.dir\Sources\Node.cpp.obj: ..\Sources\Node.cpp
-
 CMakeFiles\KinderColoring.dir\Sources\XmlManager.cpp.obj: ..\_Libraries\rapidxml-1.13\rapidxml.hpp
 CMakeFiles\KinderColoring.dir\Sources\XmlManager.cpp.obj: ..\_Libraries\rapidxml-1.13\rapidxml_print.hpp
 CMakeFiles\KinderColoring.dir\Sources\XmlManager.cpp.obj: ..\_Libraries\rapidxml-1.13\rapidxml_utils.hpp

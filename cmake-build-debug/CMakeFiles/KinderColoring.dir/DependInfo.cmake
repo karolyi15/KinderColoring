@@ -5,8 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/aguer/Documents/GitHub/KinderColoring/Sources/Country.cpp" "C:/Users/aguer/Documents/GitHub/KinderColoring/cmake-build-debug/CMakeFiles/KinderColoring.dir/Sources/Country.cpp.obj"
-  "C:/Users/aguer/Documents/GitHub/KinderColoring/Sources/LinkedList.cpp" "C:/Users/aguer/Documents/GitHub/KinderColoring/cmake-build-debug/CMakeFiles/KinderColoring.dir/Sources/LinkedList.cpp.obj"
-  "C:/Users/aguer/Documents/GitHub/KinderColoring/Sources/Node.cpp" "C:/Users/aguer/Documents/GitHub/KinderColoring/cmake-build-debug/CMakeFiles/KinderColoring.dir/Sources/Node.cpp.obj"
   "C:/Users/aguer/Documents/GitHub/KinderColoring/Sources/XmlManager.cpp" "C:/Users/aguer/Documents/GitHub/KinderColoring/cmake-build-debug/CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.obj"
   "C:/Users/aguer/Documents/GitHub/KinderColoring/main.cpp" "C:/Users/aguer/Documents/GitHub/KinderColoring/cmake-build-debug/CMakeFiles/KinderColoring.dir/main.cpp.obj"
   )
