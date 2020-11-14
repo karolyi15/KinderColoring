@@ -50,7 +50,7 @@ vector<string> changePoints(string points,vector<string> contry){
 }
 
 bool compararPuntos (string puntoActual, string puntoVerificar, int dimension){
-    cout<<puntoActual<<endl;
+    //cout<<puntoActual<<endl;
     if ((pow((puntoActual.at(0)-puntoVerificar.at(0)),2)+pow((puntoActual.at(1)-puntoVerificar.at(1)),2))== dimension){
         return true;
     }
@@ -118,6 +118,9 @@ int main() {
         vector<string> limites = {};
         limites.push_back(matriz.at(pais).at(0));
         for (int paisComparar = 0; paisComparar < matriz.size(); paisComparar++){
+            /*if (paisComparar ==  pais){
+                break;
+            }*/
             if (verificarFrontera(matriz.at(pais),matriz.at(paisComparar))){
                 limites.push_back(matriz.at(paisComparar).at(0));
                 break;
@@ -129,10 +132,13 @@ int main() {
     //Verificar fronteras
     cout<<fronteras.size();
     for (int i = 0; i < fronteras.size(); i++) {
+        cout<<fronteras.at(i).at(0) <<"-";
+        cout<<fronteras.at(i).at(1);
         cout<<endl;
-        for (int j = 0; j < fronteras.at(i).size(); i++) {
-            cout<<fronteras.at(i).at(j)<<" ";
-        }
+       /* for (int j = 0; j < fronteras.at(i).size()-1; i++) {
+            cout<<fronteras.at(i).at(j)<<"/";
+        }*/
+
     }
 
     return 0;
