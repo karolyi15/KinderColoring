@@ -84,13 +84,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/gunther/CLionProjects/DataStructures/Headers/GraphBuilder.h">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.h">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/DataStructures/Headers/MapGraph.h">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/DataStructures/Headers/Node.h">
+			<Option target="KinderColoring"/>
+		</Unit>
 		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Headers/Country.h">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Headers/LinkedList.h">
-			<Option target="KinderColoring"/>
-		</Unit>
-		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Headers/Node.h">
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Headers/SvgManager.h">
 			<Option target="KinderColoring"/>
 		</Unit>
 		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Headers/XmlManager.h">
@@ -99,10 +111,7 @@
 		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Sources/Country.cpp">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Sources/LinkedList.cpp">
-			<Option target="KinderColoring"/>
-		</Unit>
-		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Sources/Node.cpp">
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Sources/SvgManager.cpp">
 			<Option target="KinderColoring"/>
 		</Unit>
 		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Sources/XmlManager.cpp">

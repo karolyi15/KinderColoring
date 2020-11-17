@@ -170,59 +170,32 @@ Sources/Country.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/Country.cpp.s
 .PHONY : Sources/Country.cpp.s
 
-Sources/LinkedList.o: Sources/LinkedList.cpp.o
+Sources/SvgManager.o: Sources/SvgManager.cpp.o
 
-.PHONY : Sources/LinkedList.o
-
-# target to build an object file
-Sources/LinkedList.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/LinkedList.cpp.o
-.PHONY : Sources/LinkedList.cpp.o
-
-Sources/LinkedList.i: Sources/LinkedList.cpp.i
-
-.PHONY : Sources/LinkedList.i
-
-# target to preprocess a source file
-Sources/LinkedList.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/LinkedList.cpp.i
-.PHONY : Sources/LinkedList.cpp.i
-
-Sources/LinkedList.s: Sources/LinkedList.cpp.s
-
-.PHONY : Sources/LinkedList.s
-
-# target to generate assembly for a file
-Sources/LinkedList.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/LinkedList.cpp.s
-.PHONY : Sources/LinkedList.cpp.s
-
-Sources/Node.o: Sources/Node.cpp.o
-
-.PHONY : Sources/Node.o
+.PHONY : Sources/SvgManager.o
 
 # target to build an object file
-Sources/Node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/Node.cpp.o
-.PHONY : Sources/Node.cpp.o
+Sources/SvgManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.o
+.PHONY : Sources/SvgManager.cpp.o
 
-Sources/Node.i: Sources/Node.cpp.i
+Sources/SvgManager.i: Sources/SvgManager.cpp.i
 
-.PHONY : Sources/Node.i
+.PHONY : Sources/SvgManager.i
 
 # target to preprocess a source file
-Sources/Node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/Node.cpp.i
-.PHONY : Sources/Node.cpp.i
+Sources/SvgManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.i
+.PHONY : Sources/SvgManager.cpp.i
 
-Sources/Node.s: Sources/Node.cpp.s
+Sources/SvgManager.s: Sources/SvgManager.cpp.s
 
-.PHONY : Sources/Node.s
+.PHONY : Sources/SvgManager.s
 
 # target to generate assembly for a file
-Sources/Node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/Node.cpp.s
-.PHONY : Sources/Node.cpp.s
+Sources/SvgManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.s
+.PHONY : Sources/SvgManager.cpp.s
 
 Sources/XmlManager.o: Sources/XmlManager.cpp.o
 
@@ -250,6 +223,33 @@ Sources/XmlManager.s: Sources/XmlManager.cpp.s
 Sources/XmlManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.s
 .PHONY : Sources/XmlManager.cpp.s
+
+home/gunther/CLionProjects/DataStructures/Headers/LinkedList.o: home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.o
+
+.PHONY : home/gunther/CLionProjects/DataStructures/Headers/LinkedList.o
+
+# target to build an object file
+home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.o
+.PHONY : home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.o
+
+home/gunther/CLionProjects/DataStructures/Headers/LinkedList.i: home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.i
+
+.PHONY : home/gunther/CLionProjects/DataStructures/Headers/LinkedList.i
+
+# target to preprocess a source file
+home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.i
+.PHONY : home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.i
+
+home/gunther/CLionProjects/DataStructures/Headers/LinkedList.s: home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.s
+
+.PHONY : home/gunther/CLionProjects/DataStructures/Headers/LinkedList.s
+
+# target to generate assembly for a file
+home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.s
+.PHONY : home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.s
 
 main.o: main.cpp.o
 
@@ -290,15 +290,15 @@ help:
 	@echo "... Sources/Country.o"
 	@echo "... Sources/Country.i"
 	@echo "... Sources/Country.s"
-	@echo "... Sources/LinkedList.o"
-	@echo "... Sources/LinkedList.i"
-	@echo "... Sources/LinkedList.s"
-	@echo "... Sources/Node.o"
-	@echo "... Sources/Node.i"
-	@echo "... Sources/Node.s"
+	@echo "... Sources/SvgManager.o"
+	@echo "... Sources/SvgManager.i"
+	@echo "... Sources/SvgManager.s"
 	@echo "... Sources/XmlManager.o"
 	@echo "... Sources/XmlManager.i"
 	@echo "... Sources/XmlManager.s"
+	@echo "... home/gunther/CLionProjects/DataStructures/Headers/LinkedList.o"
+	@echo "... home/gunther/CLionProjects/DataStructures/Headers/LinkedList.i"
+	@echo "... home/gunther/CLionProjects/DataStructures/Headers/LinkedList.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
