@@ -38,6 +38,7 @@ public:
 
     std::vector<std::pair<float,float>>* getBoundsPoints();
 
+    void setBoundCountry(char* countryId);
     std::vector<std::string>* getBoundsCountries();
 
     //To String

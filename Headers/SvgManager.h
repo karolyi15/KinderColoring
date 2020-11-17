@@ -19,13 +19,16 @@ private:
     map<char*, Country*> *countries;
     XmlManager* xmlManager;
 
+    //Parsing System
+    void parseCountries();
+    void calculateCountriesBounds();
+
 public:
 
     //Constructor
     SvgManager(char* svgPath);
 
-    //Parse System
-    void parseCountries();
+    //Parsing System
     void printCountries();
 
     //Setters & Getters

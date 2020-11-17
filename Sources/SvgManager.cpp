@@ -12,6 +12,7 @@ SvgManager::SvgManager(char* svgPath) {
     this->xmlManager = XmlManager::getInstance();
 
     this->parseCountries();
+    this->calculateCountriesBounds();
 }
 
 //Setters & Getters
@@ -42,6 +43,40 @@ void SvgManager::parseCountries() {
         //Update Country Node
         country = country->next_sibling();
 
+    }
+}
+
+void SvgManager::calculateCountriesBounds() {
+
+    //Iterators
+    map<char*, Country*>::iterator country;
+    map<char*, Country*>::iterator tempCountry;
+
+    for(country = this->countries->begin(); country != this->countries->end(); country++){
+
+        //Get Country Data Points
+        vector<pair<float, float>> *points = country->second->getBoundsPoints();
+        pair<float, float> countryMinPoints = points->at(0);
+        pair<float, float> countryMaxPoints = points->at(1);
+
+        for(tempCountry = this->countries->begin(); tempCountry != this->countries->end(); tempCountry++){
+
+            //Get Temp Country Data Points
+            vector<pair<float, float>> *tempPoints = tempCountry->second->getBoundsPoints();
+            pair<float, float> tempCountryMinPoints = tempPoints->at(0);
+            pair<float, float> tempCountryMaxPoints = tempPoints->at(1);
+
+            //Country Bounds
+            if(tempCountryMinPoints.first <= countryMaxPoints.first && tempCountryMinPoints.first >= countryMinPoints.first || tempCountryMaxPoints.first <= countryMaxPoints.first && tempCountryMaxPoints.first >= countryMinPoints.first){
+                //Point X
+                country->second->setBoundCountry(tempCountry->second->getId());
+
+            }else if(tempCountryMinPoints.second <= countryMaxPoints.second && tempCountryMinPoints.second >= countryMinPoints.second || tempCountryMaxPoints.second <= countryMaxPoints.second && tempCountryMaxPoints.second >= countryMinPoints.second){
+                //Point Y
+                country->second->setBoundCountry(tempCountry->second->getId());
+
+            }
+        }
     }
 }
 

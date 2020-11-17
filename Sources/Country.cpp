@@ -43,6 +43,11 @@ std::vector<std::pair<float,float>>* Country::getBoundsPoints() {
     return &this->boundsPoints;
 }
 
+void Country::setBoundCountry(char* countryId) {
+
+    this->boundsCountries.push_back(countryId);
+}
+
 std::vector<std::string>* Country::getBoundsCountries() {
 
     return &this->boundsCountries;
@@ -69,8 +74,14 @@ void Country::calculateBoundsPoints(char* stringPoints) {
 
     std::vector<std::string> stringVector = splitString(stringPoints," ");
 
-    float pointX = 0;
-    float pointY = 0;
+    float minX = 0;
+    float maxX = 0;
+
+    float minY = 0;
+    float maxY = 0;
+
+    float tempX = 0;
+    float tempY = 0;
 
     for(int point = 0; point < stringVector.size(); point++){
 
@@ -78,22 +89,44 @@ void Country::calculateBoundsPoints(char* stringPoints) {
 
             std::vector<std::string> tempStringPoint = splitString(stringVector.at(point),",");
 
-            pointX += std::stof(tempStringPoint.at(0));
-            pointY += std::stof(tempStringPoint.at(1));
+            tempX += std::stof(tempStringPoint.at(0));
+            tempY += std::stof(tempStringPoint.at(1));
 
-            //std::cout << "point X: " << pointX << " point Y: " << pointY << std::endl;
+           if( tempX < minX){
 
-            this->boundsPoints.push_back(std::pair<float,float>(pointX,pointY));
+               minX = tempX;
+
+           } else  if( tempX > maxX){
+
+               maxX = tempX;
+
+           } else if( tempY < minY){
+
+               minY = tempY;
+
+           }else if( tempY > maxY){
+
+               maxY = tempY;
+
+           } else if(minX == 0 && minY == 0){
+
+               minX = tempX;
+               maxX = tempX;
+
+               minY = tempY;
+               maxY = tempY;
+           }
         }
     }
+
+    //Push Data Into Vector
+    this->boundsPoints.push_back(std::pair<float,float>(minX, minY));
+    this->boundsPoints.push_back(std::pair<float,float>(maxX, maxY));
 }
 
 
 //To String
 std::string Country::toString() {
-
-    //Define char*
-    char* charCountry;
 
     //Append Country Information
     std::string stringCountry = "{";
@@ -118,6 +151,15 @@ std::string Country::toString() {
         stringCountry+= std::to_string(this->boundsPoints.at(point).second);
         stringCountry+= "]";
         stringCountry+= ",";
+    }
+    stringCountry+= "]";
+
+    //Limit Countries
+    stringCountry+= "limitCountries:[";
+    for(int country = 0; country< this->boundsCountries.size(); country++){
+
+        stringCountry+= this->boundsCountries.at(country);
+        stringCountry+= ", ";
     }
     stringCountry+= "]";
 
