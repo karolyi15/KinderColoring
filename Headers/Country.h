@@ -16,8 +16,8 @@ private:
     //Fields
     char* id;
     char* color;
-    std::vector< std::pair<float,float> >* boundsPoints;
-    std:: vector<std::string>* boundsCountries;
+    std::vector< std::pair<float,float> > boundsPoints;
+    std:: vector<std::string> boundsCountries;
 
     //Parsing System
     std::vector<std::string> splitString(const std::string& str, const std::string& delim);

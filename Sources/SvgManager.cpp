@@ -54,6 +54,6 @@ void SvgManager::printCountries() {
     cout << "*** Hash Map Countries ***" << endl;
     for(itr = this->countries->begin(); itr != this->countries->end(); itr++){
 
-        cout << "Key ID: " << itr->first << "   Node ID: " << itr->second->toString() << endl;
+        cout << "Key ID: " << itr->first << "   Node: " << itr->second->toString() << endl;
     }
 }

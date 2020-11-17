@@ -40,12 +40,12 @@ char * Country::getColor() {
 
 std::vector<std::pair<float,float>>* Country::getBoundsPoints() {
 
-    return this->boundsPoints;
+    return &this->boundsPoints;
 }
 
 std::vector<std::string>* Country::getBoundsCountries() {
 
-    return this->boundsCountries;
+    return &this->boundsCountries;
 }
 
 //Parsing System
@@ -81,7 +81,9 @@ void Country::calculateBoundsPoints(char* stringPoints) {
             pointX += std::stof(tempStringPoint.at(0));
             pointY += std::stof(tempStringPoint.at(1));
 
-            this->boundsPoints->push_back(std::make_pair(pointX,pointY));
+            //std::cout << "point X: " << pointX << " point Y: " << pointY << std::endl;
+
+            this->boundsPoints.push_back(std::pair<float,float>(pointX,pointY));
         }
     }
 }
@@ -104,20 +106,20 @@ std::string Country::toString() {
     //Color
     stringCountry+= "color:";
     stringCountry+= this->color;
-    //stringCountry+= ", ";
+    stringCountry+= ", ";
 
     //Points
-    /*stringCountry+= "points:[";
-    for(int point = 0; point< this->boundsPoints->size(); point++){
+    stringCountry+= "points:[";
+    for(int point = 0; point< this->boundsPoints.size(); point++){
 
         stringCountry+= "[";
-        stringCountry+= this->boundsPoints->at(point).first;
+        stringCountry+= std::to_string(this->boundsPoints.at(point).first);
         stringCountry+= ",";
-        stringCountry+= this->boundsPoints->at(point).second;
+        stringCountry+= std::to_string(this->boundsPoints.at(point).second);
         stringCountry+= "]";
         stringCountry+= ",";
     }
-    stringCountry+= "]";*/
+    stringCountry+= "]";
 
     stringCountry += "}";
 
