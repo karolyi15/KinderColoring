@@ -21,6 +21,7 @@ private:
 
     //Parsing System
     void parseCountries();
+    bool validateIntersection(vector<pair<float, float>>* countryPoints, vector<pair<float, float>>* tempCountryPoints);
     void calculateCountriesBounds();
 
 public:

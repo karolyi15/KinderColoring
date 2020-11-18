@@ -74,55 +74,73 @@ void Country::calculateBoundsPoints(char* stringPoints) {
 
     std::vector<std::string> stringVector = splitString(stringPoints," ");
 
-    float minX = 0;
-    float maxX = 0;
-
-    float minY = 0;
-    float maxY = 0;
+    //** Points **
+   //Most Left
+   std::pair<float, float> mostLeft (0,0);
+   //Most Left
+   std::pair<float, float> mostRight (0,0);
+   //Most Left
+   std::pair<float, float> mostUp (0,0);
+   //Most Left
+   std::pair<float, float> mostDown (0,0);
 
     float tempX = 0;
     float tempY = 0;
 
     for(int point = 0; point < stringVector.size(); point++){
 
-        if(stringVector.at(point) != "m" && stringVector.at(point) != "z" && stringVector.at(point) != "M" && stringVector.at(point) != "l"){
+        if(stringVector.at(point) != "m" && stringVector.at(point) != "z" && stringVector.at(point) != "M" && stringVector.at(point) != "l") {
 
-            std::vector<std::string> tempStringPoint = splitString(stringVector.at(point),",");
+            std::vector<std::string> tempStringPoint = splitString(stringVector.at(point), ",");
 
             tempX += std::stof(tempStringPoint.at(0));
             tempY += std::stof(tempStringPoint.at(1));
 
-           if( tempX < minX){
+            if (mostLeft.second != 0 && mostRight.second != 0 && mostUp.second != 0 && mostDown.second != 0) {
+                //Verify if not initialize
 
-               minX = tempX;
+                if(tempX < mostLeft.first){
+                    //Verify Most Left
+                    mostLeft = std::make_pair(tempX, tempY);
 
-           } else  if( tempX > maxX){
+                }
+                if(tempX > mostRight.first){
+                    //Verify Most Right
+                    mostRight = std::make_pair(tempX,tempY);
 
-               maxX = tempX;
+                }
+                if(tempY > mostUp.second){
+                    //Verify Most Up
+                    mostUp = std::make_pair(tempX, tempY);
 
-           } else if( tempY < minY){
+                }
+                if(tempY < mostDown.second){
+                    //Verify Most Down
+                    mostDown = std::make_pair(tempX, tempY);
 
-               minY = tempY;
+                }
 
-           }else if( tempY > maxY){
+            } else {
 
-               maxY = tempY;
-
-           } else if(minX == 0 && minY == 0){
-
-               minX = tempX;
-               maxX = tempX;
-
-               minY = tempY;
-               maxY = tempY;
-           }
+                mostLeft = std::make_pair(tempX,tempY);
+                mostRight = std::make_pair(tempX,tempY);
+                mostUp = std::make_pair(tempX,tempY);
+                mostDown = std::make_pair(tempX,tempY);
+            }
         }
     }
 
     //Push Data Into Vector
-    this->boundsPoints.push_back(std::pair<float,float>(minX, minY));
-    this->boundsPoints.push_back(std::pair<float,float>(maxX, maxY));
+    //Most Left
+    this->boundsPoints.push_back(mostLeft);
+    //Most Right
+    this->boundsPoints.push_back(mostRight);
+    //Most Up
+    this->boundsPoints.push_back(mostUp);
+    //Most Down
+    this->boundsPoints.push_back(mostDown);
 }
+
 
 
 //To String
@@ -150,7 +168,7 @@ std::string Country::toString() {
         stringCountry+= ",";
         stringCountry+= std::to_string(this->boundsPoints.at(point).second);
         stringCountry+= "]";
-        stringCountry+= ",";
+            stringCountry+= ",";
     }
     stringCountry+= "]";
 

@@ -46,6 +46,19 @@ void SvgManager::parseCountries() {
     }
 }
 
+bool SvgManager::validateIntersection(vector<pair<float, float>>* countryPoints, vector<pair<float, float>>* tempCountryPoints) {
+
+    for(int point = 0; point< countryPoints->size(); point++){
+
+        if((countryPoints->at(point).first >= tempCountryPoints->at(0).first && countryPoints->at(point).first <= tempCountryPoints->at(1).first) && (countryPoints->at(point).second <= tempCountryPoints->at(2).second && countryPoints->at(point).second >= tempCountryPoints->at(3).second)){
+
+            return true;
+        }
+    }
+
+    return false;
+}
+
 void SvgManager::calculateCountriesBounds() {
 
     //Iterators
@@ -56,25 +69,18 @@ void SvgManager::calculateCountriesBounds() {
 
         //Get Country Data Points
         vector<pair<float, float>> *points = country->second->getBoundsPoints();
-        pair<float, float> countryMinPoints = points->at(0);
-        pair<float, float> countryMaxPoints = points->at(1);
+
 
         for(tempCountry = this->countries->begin(); tempCountry != this->countries->end(); tempCountry++){
 
-            //Get Temp Country Data Points
-            vector<pair<float, float>> *tempPoints = tempCountry->second->getBoundsPoints();
-            pair<float, float> tempCountryMinPoints = tempPoints->at(0);
-            pair<float, float> tempCountryMaxPoints = tempPoints->at(1);
+            if(tempCountry->second->getId() != country->second->getId()) {
+                //Get Temp Country Data Points
+                vector<pair<float, float>> *tempPoints = tempCountry->second->getBoundsPoints();
 
-            //Country Bounds
-            if(tempCountryMinPoints.first <= countryMaxPoints.first && tempCountryMinPoints.first >= countryMinPoints.first || tempCountryMaxPoints.first <= countryMaxPoints.first && tempCountryMaxPoints.first >= countryMinPoints.first){
-                //Point X
-                country->second->setBoundCountry(tempCountry->second->getId());
+                if (validateIntersection(points, tempPoints) || validateIntersection(tempPoints, points)) {
 
-            }else if(tempCountryMinPoints.second <= countryMaxPoints.second && tempCountryMinPoints.second >= countryMinPoints.second || tempCountryMaxPoints.second <= countryMaxPoints.second && tempCountryMaxPoints.second >= countryMinPoints.second){
-                //Point Y
-                country->second->setBoundCountry(tempCountry->second->getId());
-
+                    country->second->setBoundCountry(tempCountry->second->getId());
+                }
             }
         }
     }
