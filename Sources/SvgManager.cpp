@@ -16,6 +16,16 @@ SvgManager::SvgManager(char* svgPath) {
 }
 
 //Setters & Getters
+void SvgManager::setPath(char *svgPath) {
+
+    this->svgPath = svgPath;
+}
+
+char * SvgManager::getPath() {
+
+    return this,svgPath;
+}
+
 map<char*, Country*> * SvgManager::getCountries() {
 
     return this->countries;

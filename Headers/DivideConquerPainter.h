@@ -9,6 +9,15 @@
 
 class DivideConquerPainter:Painter {
 
+private:
+
+    //
+    vector<char*> countriesID;
+
+public:
+    //Constructor
+    DivideConquerPainter();
+    void initCountries(map<char*, Country*>* countriesHashMap);
 };
 
 

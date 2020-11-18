@@ -33,6 +33,9 @@ public:
     void printCountries();
 
     //Setters & Getters
+    void setPath(char* svgPath);
+    char* getPath();
+
     map<char*, Country*>* getCountries();
 
 };

@@ -3,3 +3,16 @@
 //
 
 #include "../Headers/Painter.h"
+
+//Constructor
+Painter::Painter() {
+
+    this->svgFileName = "test.svg";
+}
+
+//Setters & Getters
+
+void Painter::setSvgManager(SvgManager* svgManager) {
+
+    this->svgManager = svgManager;
+}
