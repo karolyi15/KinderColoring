@@ -99,7 +99,19 @@
 		<Unit filename="/home/gunther/CLionProjects/DataStructures/Headers/Node.h">
 			<Option target="KinderColoring"/>
 		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Headers/BacktrackingPainter.h">
+			<Option target="KinderColoring"/>
+		</Unit>
 		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Headers/Country.h">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Headers/DivideConquerPainter.h">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Headers/DynamicPainter.h">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Headers/Painter.h">
 			<Option target="KinderColoring"/>
 		</Unit>
 		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Headers/SvgManager.h">
@@ -108,7 +120,19 @@
 		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Headers/XmlManager.h">
 			<Option target="KinderColoring"/>
 		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Sources/BacktrackingPainter.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
 		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Sources/Country.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Sources/DivideConquerPainter.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Sources/DynamicPainter.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Sources/Painter.cpp">
 			<Option target="KinderColoring"/>
 		</Unit>
 		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Sources/SvgManager.cpp">

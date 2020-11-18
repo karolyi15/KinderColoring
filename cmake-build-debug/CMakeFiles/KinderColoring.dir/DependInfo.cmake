@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/gunther/CLionProjects/KinderColoring/Sources/BacktrackingPainter.cpp" "/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.o"
   "/home/gunther/CLionProjects/KinderColoring/Sources/Country.cpp" "/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles/KinderColoring.dir/Sources/Country.cpp.o"
+  "/home/gunther/CLionProjects/KinderColoring/Sources/DivideConquerPainter.cpp" "/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.o"
+  "/home/gunther/CLionProjects/KinderColoring/Sources/DynamicPainter.cpp" "/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.o"
+  "/home/gunther/CLionProjects/KinderColoring/Sources/Painter.cpp" "/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.o"
   "/home/gunther/CLionProjects/KinderColoring/Sources/SvgManager.cpp" "/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.o"
   "/home/gunther/CLionProjects/KinderColoring/Sources/XmlManager.cpp" "/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.o"
   "/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp" "/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles/KinderColoring.dir/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.o"
