@@ -108,3 +108,36 @@ void SvgManager::printCountries() {
         cout << "Key ID: " << itr->first << "   Node: " << itr->second->toString() << endl;
     }
 }
+
+
+void SvgManager::limits() {
+
+    //Iterators
+    map<char*, Country*>::iterator country;
+    map<char*, Country*>::iterator tempCountry;
+
+    for(country = this->countries->begin(); country != this->countries->end(); country++){
+
+        //Get Country Data Points
+        vector<pair<float, float>> *points = country->second->getBoundsPoints();
+
+
+        for(tempCountry = this->countries->begin(); tempCountry != this->countries->end(); tempCountry++){
+
+            if(tempCountry->second->getId() != country->second->getId()) {
+
+                //Get Temp Country Data Points
+                vector<pair<float, float>> *tempPoints = tempCountry->second->getBoundsPoints();
+
+                if (validateIntersection(points, tempPoints) || validateIntersection(tempPoints, points)) {
+
+                    country->second->setBoundCountry(tempCountry->second->getId());
+                }
+
+            }
+
+        }
+    }
+
+
+}

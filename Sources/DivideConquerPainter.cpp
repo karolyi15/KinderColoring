@@ -10,7 +10,7 @@ DivideConquerPainter::DivideConquerPainter() {
     //Init Country List
     this->initCountries(this->svgManager->getCountries());
 
-    
+
 
 
 }

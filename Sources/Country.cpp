@@ -74,59 +74,49 @@ void Country::calculateBoundsPoints(char* stringPoints) {
 
     std::vector<std::string> stringVector = splitString(stringPoints," ");
 
-    //** Points **
    //Most Left
-   std::pair<float, float> mostLeft (0,0);
+   std::pair<float, float> mostLeft (2000,0);
    //Most Left
    std::pair<float, float> mostRight (0,0);
    //Most Left
    std::pair<float, float> mostUp (0,0);
    //Most Left
-   std::pair<float, float> mostDown (0,0);
+   std::pair<float, float> mostDown (0,1001);
 
     float tempX = 0;
     float tempY = 0;
 
     for(int point = 0; point < stringVector.size(); point++){
 
-        if(stringVector.at(point) != "m" && stringVector.at(point) != "z" && stringVector.at(point) != "M" && stringVector.at(point) != "l") {
+        if(stringVector.at(point) != "m" && stringVector.at(point) != "l" && stringVector.at(point) != "z" && stringVector.at(point) != "M"){
 
-            std::vector<std::string> tempStringPoint = splitString(stringVector.at(point), ",");
+            //Get String Pair
+            std::vector<std::string> tempPair = this->splitString(stringVector.at(point), ",");
 
-            tempX += std::stof(tempStringPoint.at(0));
-            tempY += std::stof(tempStringPoint.at(1));
+            tempX += std::stof(tempPair.at(0));
+            tempY += std::stof(tempPair.at(1));
 
-            if (mostLeft.second != 0 && mostRight.second != 0 && mostUp.second != 0 && mostDown.second != 0) {
-                //Verify if not initialize
-
-                if(tempX < mostLeft.first){
-                    //Verify Most Left
-                    mostLeft = std::make_pair(tempX, tempY);
-
-                }
-                if(tempX > mostRight.first){
-                    //Verify Most Right
-                    mostRight = std::make_pair(tempX,tempY);
-
-                }
-                if(tempY > mostUp.second){
-                    //Verify Most Up
-                    mostUp = std::make_pair(tempX, tempY);
-
-                }
-                if(tempY < mostDown.second){
-                    //Verify Most Down
-                    mostDown = std::make_pair(tempX, tempY);
-
-                }
-
-            } else {
+            if(tempX < mostLeft.first){
 
                 mostLeft = std::make_pair(tempX,tempY);
+
+            }else if( tempX > mostRight.first){
+
                 mostRight = std::make_pair(tempX,tempY);
+
+            }else if( tempY > mostUp.second){
+
                 mostUp = std::make_pair(tempX,tempY);
+
+            }else if(tempY < mostDown.second){
+
                 mostDown = std::make_pair(tempX,tempY);
             }
+
+        }else if(stringVector.at(point) == "M"){
+
+            tempX = 0;
+            tempY = 0;
         }
     }
 

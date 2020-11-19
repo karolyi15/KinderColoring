@@ -24,6 +24,9 @@ private:
     bool validateIntersection(vector<pair<float, float>>* countryPoints, vector<pair<float, float>>* tempCountryPoints);
     void calculateCountriesBounds();
 
+    //
+    void limits();
+
 public:
 
     //Constructor
