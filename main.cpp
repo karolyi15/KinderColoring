@@ -6,6 +6,7 @@
 #include "../DataStructures/Headers/Node.h"
 #include "../DataStructures/Headers/LinkedList.h"
 #include "Headers/SvgManager.h"
+#include "Headers/DivideConquerPainter.h"
 
 using namespace rapidxml;
 using namespace std;
@@ -29,7 +30,11 @@ int main() {
      */
     //*****************************************************************************************************************//
     SvgManager *svgManager = new SvgManager("../_MapFiles/world.svg");
-    svgManager->printCountries();
+    //svgManager->printCountries();
+
+    DivideConquerPainter *painter = new DivideConquerPainter(svgManager);
+
+    painter->paint();
 
     //*****************************************************************************************************************//
     return 0;

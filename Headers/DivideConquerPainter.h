@@ -7,17 +7,27 @@
 
 #include "Painter.h"
 
-class DivideConquerPainter:Painter {
+class DivideConquerPainter {
 
 private:
 
-    //
+    //Fields
     vector<char*> countriesID;
+    SvgManager *svgManager;
+    vector<char*> *colors;
 
 public:
     //Constructor
-    DivideConquerPainter();
+    DivideConquerPainter(SvgManager *svgManager);
     void initCountries(map<char*, Country*>* countriesHashMap);
+
+    //Setters & Getter
+    void setSvgManager(SvgManager * svgManager);
+    //Paint System
+    void initColors();
+    void paint();
+    void divideConquer(vector<char*> countriesList);
+    char* verifyColor(vector<string> *openSet);
 };
 
 

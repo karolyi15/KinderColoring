@@ -116,22 +116,9 @@ CMakeFiles/KinderColoring.dir/Sources/Country.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Sources/Country.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Sources/Country.cpp -o CMakeFiles/KinderColoring.dir/Sources/Country.cpp.s
 
-CMakeFiles/KinderColoring.dir/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
-CMakeFiles/KinderColoring.dir/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.o: /home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/KinderColoring.dir/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.o -c /home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp
-
-CMakeFiles/KinderColoring.dir/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp > CMakeFiles/KinderColoring.dir/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.i
-
-CMakeFiles/KinderColoring.dir/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp -o CMakeFiles/KinderColoring.dir/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.s
-
 CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
 CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.o: ../Sources/SvgManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Sources/SvgManager.cpp
 
 CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.i: cmake_force
@@ -144,7 +131,7 @@ CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.s: cmake_force
 
 CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
 CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.o: ../Sources/Painter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Sources/Painter.cpp
 
 CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.i: cmake_force
@@ -157,7 +144,7 @@ CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.s: cmake_force
 
 CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
 CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.o: ../Sources/DivideConquerPainter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Sources/DivideConquerPainter.cpp
 
 CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.i: cmake_force
@@ -170,7 +157,7 @@ CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.s: cmake_force
 
 CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
 CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.o: ../Sources/DynamicPainter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Sources/DynamicPainter.cpp
 
 CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.i: cmake_force
@@ -183,7 +170,7 @@ CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.s: cmake_force
 
 CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
 CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.o: ../Sources/BacktrackingPainter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Sources/BacktrackingPainter.cpp
 
 CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.i: cmake_force
@@ -194,17 +181,30 @@ CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Sources/BacktrackingPainter.cpp -o CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.s
 
+CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
+CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.o: ../Sources/ColorSet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Sources/ColorSet.cpp
+
+CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/Sources/ColorSet.cpp > CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.i
+
+CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Sources/ColorSet.cpp -o CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.s
+
 # Object files for target KinderColoring
 KinderColoring_OBJECTS = \
 "CMakeFiles/KinderColoring.dir/main.cpp.o" \
 "CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.o" \
 "CMakeFiles/KinderColoring.dir/Sources/Country.cpp.o" \
-"CMakeFiles/KinderColoring.dir/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.o" \
 "CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.o" \
 "CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.o" \
 "CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.o" \
 "CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.o" \
-"CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.o"
+"CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.o" \
+"CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.o"
 
 # External object files for target KinderColoring
 KinderColoring_EXTERNAL_OBJECTS =
@@ -212,12 +212,12 @@ KinderColoring_EXTERNAL_OBJECTS =
 KinderColoring: CMakeFiles/KinderColoring.dir/main.cpp.o
 KinderColoring: CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.o
 KinderColoring: CMakeFiles/KinderColoring.dir/Sources/Country.cpp.o
-KinderColoring: CMakeFiles/KinderColoring.dir/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.o
 KinderColoring: CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.o
 KinderColoring: CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.o
 KinderColoring: CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.o
 KinderColoring: CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.o
 KinderColoring: CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.o
+KinderColoring: CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.o
 KinderColoring: CMakeFiles/KinderColoring.dir/build.make
 KinderColoring: CMakeFiles/KinderColoring.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable KinderColoring"

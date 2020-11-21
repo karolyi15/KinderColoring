@@ -170,6 +170,33 @@ Sources/BacktrackingPainter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.s
 .PHONY : Sources/BacktrackingPainter.cpp.s
 
+Sources/ColorSet.o: Sources/ColorSet.cpp.o
+
+.PHONY : Sources/ColorSet.o
+
+# target to build an object file
+Sources/ColorSet.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.o
+.PHONY : Sources/ColorSet.cpp.o
+
+Sources/ColorSet.i: Sources/ColorSet.cpp.i
+
+.PHONY : Sources/ColorSet.i
+
+# target to preprocess a source file
+Sources/ColorSet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.i
+.PHONY : Sources/ColorSet.cpp.i
+
+Sources/ColorSet.s: Sources/ColorSet.cpp.s
+
+.PHONY : Sources/ColorSet.s
+
+# target to generate assembly for a file
+Sources/ColorSet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.s
+.PHONY : Sources/ColorSet.cpp.s
+
 Sources/Country.o: Sources/Country.cpp.o
 
 .PHONY : Sources/Country.o
@@ -332,33 +359,6 @@ Sources/XmlManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.s
 .PHONY : Sources/XmlManager.cpp.s
 
-home/gunther/CLionProjects/DataStructures/Headers/LinkedList.o: home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.o
-
-.PHONY : home/gunther/CLionProjects/DataStructures/Headers/LinkedList.o
-
-# target to build an object file
-home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.o
-.PHONY : home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.o
-
-home/gunther/CLionProjects/DataStructures/Headers/LinkedList.i: home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.i
-
-.PHONY : home/gunther/CLionProjects/DataStructures/Headers/LinkedList.i
-
-# target to preprocess a source file
-home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.i
-.PHONY : home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.i
-
-home/gunther/CLionProjects/DataStructures/Headers/LinkedList.s: home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.s
-
-.PHONY : home/gunther/CLionProjects/DataStructures/Headers/LinkedList.s
-
-# target to generate assembly for a file
-home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.s
-.PHONY : home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -398,6 +398,9 @@ help:
 	@echo "... Sources/BacktrackingPainter.o"
 	@echo "... Sources/BacktrackingPainter.i"
 	@echo "... Sources/BacktrackingPainter.s"
+	@echo "... Sources/ColorSet.o"
+	@echo "... Sources/ColorSet.i"
+	@echo "... Sources/ColorSet.s"
 	@echo "... Sources/Country.o"
 	@echo "... Sources/Country.i"
 	@echo "... Sources/Country.s"
@@ -416,9 +419,6 @@ help:
 	@echo "... Sources/XmlManager.o"
 	@echo "... Sources/XmlManager.i"
 	@echo "... Sources/XmlManager.s"
-	@echo "... home/gunther/CLionProjects/DataStructures/Headers/LinkedList.o"
-	@echo "... home/gunther/CLionProjects/DataStructures/Headers/LinkedList.i"
-	@echo "... home/gunther/CLionProjects/DataStructures/Headers/LinkedList.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

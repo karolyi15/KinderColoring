@@ -8,6 +8,11 @@
 Painter::Painter() {
 
     this->svgFileName = "test.svg";
+
+    this->colors = {"", //
+                    "",
+                    "",
+                    };
 }
 
 //Setters & Getters

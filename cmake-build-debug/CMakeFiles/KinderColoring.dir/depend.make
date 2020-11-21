@@ -11,6 +11,8 @@ CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.o: ../Headers/SvgM
 CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.o: ../Headers/XmlManager.h
 CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.o: ../Sources/BacktrackingPainter.cpp
 
+CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.o: ../Sources/ColorSet.cpp
+
 CMakeFiles/KinderColoring.dir/Sources/Country.cpp.o: ../Headers/Country.h
 CMakeFiles/KinderColoring.dir/Sources/Country.cpp.o: ../Sources/Country.cpp
 
@@ -57,16 +59,14 @@ CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.o: ../_Libraries/rapidxml-1
 CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.o: ../Headers/XmlManager.h
 CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.o: ../Sources/XmlManager.cpp
 
-CMakeFiles/KinderColoring.dir/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.o: /home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp
-CMakeFiles/KinderColoring.dir/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.o: /home/gunther/CLionProjects/DataStructures/Headers/LinkedList.h
-CMakeFiles/KinderColoring.dir/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp.o: /home/gunther/CLionProjects/DataStructures/Headers/Node.h
-
 CMakeFiles/KinderColoring.dir/main.cpp.o: ../_Libraries/rapidxml-1.13/rapidxml.hpp
 CMakeFiles/KinderColoring.dir/main.cpp.o: ../_Libraries/rapidxml-1.13/rapidxml_print.hpp
 CMakeFiles/KinderColoring.dir/main.cpp.o: ../_Libraries/rapidxml-1.13/rapidxml_utils.hpp
 CMakeFiles/KinderColoring.dir/main.cpp.o: /home/gunther/CLionProjects/DataStructures/Headers/LinkedList.h
 CMakeFiles/KinderColoring.dir/main.cpp.o: /home/gunther/CLionProjects/DataStructures/Headers/Node.h
 CMakeFiles/KinderColoring.dir/main.cpp.o: ../Headers/Country.h
+CMakeFiles/KinderColoring.dir/main.cpp.o: ../Headers/DivideConquerPainter.h
+CMakeFiles/KinderColoring.dir/main.cpp.o: ../Headers/Painter.h
 CMakeFiles/KinderColoring.dir/main.cpp.o: ../Headers/SvgManager.h
 CMakeFiles/KinderColoring.dir/main.cpp.o: ../Headers/XmlManager.h
 CMakeFiles/KinderColoring.dir/main.cpp.o: ../main.cpp

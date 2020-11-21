@@ -87,9 +87,6 @@
 		<Unit filename="/home/gunther/CLionProjects/DataStructures/Headers/GraphBuilder.h">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.cpp">
-			<Option target="KinderColoring"/>
-		</Unit>
 		<Unit filename="/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.h">
 			<Option target="KinderColoring"/>
 		</Unit>
@@ -121,6 +118,9 @@
 			<Option target="KinderColoring"/>
 		</Unit>
 		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Sources/BacktrackingPainter.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Sources/ColorSet.cpp">
 			<Option target="KinderColoring"/>
 		</Unit>
 		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Sources/Country.cpp">

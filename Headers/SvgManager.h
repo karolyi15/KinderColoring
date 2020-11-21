@@ -19,6 +19,8 @@ private:
     map<char*, Country*> *countries;
     XmlManager* xmlManager;
 
+    xml_document<> * xmlData;
+
     //Parsing System
     void parseCountries();
     bool validateIntersection(vector<pair<float, float>>* countryPoints, vector<pair<float, float>>* tempCountryPoints);
@@ -40,6 +42,9 @@ public:
     char* getPath();
 
     map<char*, Country*>* getCountries();
+
+    //
+    void writeSvg(char* svgPath);
 
 };
 

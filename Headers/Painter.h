@@ -15,6 +15,9 @@ protected:
     //Fields
     SvgManager* svgManager;
 
+    //Colors
+    vector<string> colors;
+
 private:
 
     //Fields

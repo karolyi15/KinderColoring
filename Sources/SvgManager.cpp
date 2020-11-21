@@ -35,10 +35,10 @@ map<char*, Country*> * SvgManager::getCountries() {
 void SvgManager::parseCountries() {
 
     //Parse Svg Data
-    xml_document<> *xmlData = xmlManager->parseXML(this-> svgPath);
+    this->xmlData = xmlManager->parseXML(this-> svgPath);
 
     //Access First Country Node
-    xml_node<> *country = xmlData->first_node()->first_node("path");
+    xml_node<> *country = this->xmlData->first_node()->first_node("path");
 
     while( country != NULL){
 
@@ -139,5 +139,37 @@ void SvgManager::limits() {
         }
     }
 
+}
 
+
+void SvgManager::writeSvg(char *svgPath) {
+
+
+    //Access First Country Node
+    xml_node<> *country = this->xmlData->first_node()->first_node("path");
+
+    while( country != NULL){
+
+        //Create TempCountry
+        char* tempCountryId = country->first_attribute("id")->value();
+
+        //Get Hash Map Data
+        char* tempCountryColor = this->countries->at(tempCountryId)->getColor();
+
+        //Save Color
+        string tempAttribute ="fill:";
+        tempAttribute.append(tempCountryColor);
+        //string t= ";fill-rule:evenodd";
+        //tempAttribute.append(t);
+
+
+
+        country->first_attribute("style")->value(tempAttribute.c_str());
+
+        //Update Country Node
+        country = country->next_sibling();
+
+    }
+
+    this->xmlManager->writeXML(svgPath);
 }
