@@ -79,7 +79,7 @@ char * DivideConquerPainter::verifyColor(vector<string> *openSet) {
 
     }else{
 
-        int randomColor = random()%this->colors->size()-1;
+        int randomColor = rand() %this->colors->size()-1;
         return this->colors->at(randomColor);
     }
 }

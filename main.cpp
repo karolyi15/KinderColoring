@@ -3,10 +3,9 @@
 #include <rapidxml_utils.hpp>
 #include "rapidxml.hpp"
 #include "Headers/XmlManager.h"
-#include "../DataStructures/Headers/Node.h"
-#include "../DataStructures/Headers/LinkedList.h"
 #include "Headers/SvgManager.h"
 #include "Headers/DivideConquerPainter.h"
+#include "Headers/BacktrackingPainter.h"
 
 using namespace rapidxml;
 using namespace std;
@@ -32,9 +31,17 @@ int main() {
     SvgManager *svgManager = new SvgManager("../_MapFiles/world.svg");
     //svgManager->printCountries();
 
+    int cantidadColores = 0;
+    cout<<"Porfavor ingrese la cantidad de colores que desea utilizar"<<endl;
+    cin>>cantidadColores;
+
     DivideConquerPainter *painter = new DivideConquerPainter(svgManager);
 
     painter->paint();
+
+    BacktrackingPainter *back = new BacktrackingPainter(svgManager);
+    back->backtracking(0,cantidadColores,0);
+    back->paint();
 
     //*****************************************************************************************************************//
     return 0;

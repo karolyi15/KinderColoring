@@ -16,14 +16,14 @@ public:
 
     //Constructor
     BacktrackingPainter(SvgManager *svgManager);
-    void initCountries(map<char*, Country*>* countriesHashMap,int paisActual,int cantidadColores,int colorActual);
+    void initCountries(map<char*, Country*>* countriesHashMap);
 
     //Setters & Getter
     void setSvgManager(SvgManager * svgManager);
     //Paint System
     void initColors();
     void paint();
-    void backtracking(vector<char*> countriesList,);
+    void backtracking(int paisActual,int cantidadColores,int colorActual);
     char* verifyColor(vector<string> *openSet);
 };
 

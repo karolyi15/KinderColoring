@@ -3,6 +3,9 @@
 //
 
 #include "../Headers/Country.h"
+#include <string>
+
+using namespace std;
 
 //Constructor
 Country::Country(char *id, char* stringPoints) {
