@@ -10,7 +10,15 @@
 #include "Painter.h"
 
 class BacktrackingPainter:Painter {
+private:
 
+    //
+    vector<char*> countriesID;
+
+public:
+    //Constructor
+    BacktrackingPainter();
+    void initCountries(map<char*, Country*>* countriesHashMap);
 };
 
 
