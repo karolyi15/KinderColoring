@@ -3,6 +3,8 @@
 #include <rapidxml_utils.hpp>
 #include "rapidxml.hpp"
 #include "Headers/XmlManager.h"
+#include "../DataStructures/Headers/Node.h"
+#include "../DataStructures/Headers/LinkedList.h"
 #include "Headers/SvgManager.h"
 
 using namespace rapidxml;
