@@ -75,7 +75,7 @@ char * DivideConquerPainter::verifyColor(vector<string> *openSet) {
 
         }
 
-        return "#cd2121";
+        return "#c126b3";
 
     }else{
 

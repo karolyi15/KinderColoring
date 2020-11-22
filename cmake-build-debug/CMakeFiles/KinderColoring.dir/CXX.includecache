@@ -36,14 +36,6 @@ fstream
 stdexcept
 -
 
-/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.h
-../../DataStructures/Headers/Node.h
-/home/gunther/CLionProjects/DataStructures/Headers/Node.h
-iostream
--
-
-/home/gunther/CLionProjects/DataStructures/Headers/Node.h
-
 /home/gunther/CLionProjects/KinderColoring/Headers/Country.h
 iostream
 -
@@ -78,23 +70,9 @@ rapidxml_print.hpp
 string
 -
 
-/home/gunther/CLionProjects/KinderColoring/main.cpp
-iostream
+/home/gunther/CLionProjects/KinderColoring/Sources/DivideConquerPainter.cpp
+cstring
 -
-fstream
--
-rapidxml_utils.hpp
--
-rapidxml.hpp
-/home/gunther/CLionProjects/KinderColoring/rapidxml.hpp
-Headers/XmlManager.h
-/home/gunther/CLionProjects/KinderColoring/Headers/XmlManager.h
-../DataStructures/Headers/Node.h
-/home/gunther/CLionProjects/DataStructures/Headers/Node.h
-../DataStructures/Headers/LinkedList.h
-/home/gunther/CLionProjects/DataStructures/Headers/LinkedList.h
-Headers/SvgManager.h
-/home/gunther/CLionProjects/KinderColoring/Headers/SvgManager.h
-Headers/DivideConquerPainter.h
+../Headers/DivideConquerPainter.h
 /home/gunther/CLionProjects/KinderColoring/Headers/DivideConquerPainter.h
 
