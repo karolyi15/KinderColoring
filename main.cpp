@@ -29,20 +29,15 @@ int main() {
      */
     //*****************************************************************************************************************//
     SvgManager *svgManager = new SvgManager("../_MapFiles/world.svg");
-    svgManager->printCountries();
+    //svgManager->printCountries();
 
-   // int cantidadColores = 0;
-    //cout<<"Porfavor ingrese la cantidad de colores que desea utilizar"<<endl;
-    //cin>>cantidadColores;
-/*
-    DivideConquerPainter *painter = new DivideConquerPainter(svgManager);
+    
+    typeid (svgManager->getCountries());
+    svgManager->writeSvg("../_MapFiles/world.svg");
 
-    painter->paint();
+    //DivideConquerPainter *painter = new DivideConquerPainter(svgManager);
 
-    BacktrackingPainter *back = new BacktrackingPainter(svgManager);
-    back->backtracking(0,11,0);
-    back->paint();
-*/
+    //painter->paint();
 
     //*****************************************************************************************************************//
     return 0;

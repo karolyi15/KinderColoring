@@ -23,7 +23,7 @@ void SvgManager::setPath(char *svgPath) {
 
 char * SvgManager::getPath() {
 
-    return this,svgPath;
+    return this->svgPath;
 }
 
 map<char*, Country*> * SvgManager::getCountries() {

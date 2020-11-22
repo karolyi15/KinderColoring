@@ -33,19 +33,18 @@ void BacktrackingPainter::initCountries(map<char *, Country *> *countriesHashMap
 }
 
 //Paint System
-                    //Tienen que ser 11 colores
+//Tienen que ser 11 colores
 void BacktrackingPainter::initColors() {
 
     this->colors = new vector<char*>;
 
-
+    this->colors->push_back("#55faf5"); //light blue
     this->colors->push_back("#cd2121"); //RED
     this->colors->push_back("#f4d02d"); //YELLOW
     this->colors->push_back("#124a68"); //BLUE
     this->colors->push_back("#fcbabc"); //PINK
     this->colors->push_back("#008000"); //Green
     this->colors->push_back("#ff4800"); //Orange
-    this->colors->push_back("#55faf5"); //light blue
     this->colors->push_back("#8f008f"); //Purple
     this->colors->push_back("#00fc00"); //light green
     this->colors->push_back("#91602d"); //brown
@@ -76,7 +75,7 @@ void BacktrackingPainter::backtracking(int paisActual,int cantidadColores,int co
             backtracking(paisActual+1,cantidadColores,0);              // hace backtracking con el siguiente pais para asignarle color
         } else {
             if (limitCountries->size() != 0) {
-                                                                                     // verifica que el color no este en ninguno de los paises frontera
+                // verifica que el color no este en ninguno de los paises frontera
                 for (int count = 0; count < limitCountries->size(); count++) {
                     char *tempID = const_cast<char *>(limitCountries->at(count).c_str());           // pais frontera verificando
                     char* tempColor = this->svgManager->getCountries()->at(tempID)->getColor();     // color del pais frontera
