@@ -18,10 +18,10 @@ int main() {
     XmlManager * manager = XmlManager::getInstance();
 
     //Parse Xml File
-    xml_document<> *xmlData =manager->parseXML("/home/gunther/CLionProjects/KinderColoring/_MapFiles/world.svg");
+    xml_document<> *xmlData =manager->parseXML("/home/gunther/CLionProjects/KinderColoring/_MapFiles/world1.svg");
 
     //Access Xml Node
-    cout<<xmlData->fi
+   // cout<<xmlData->fi
      rst_node()->name();
 
     //Save Xml to File
@@ -29,11 +29,13 @@ int main() {
      */
     //*****************************************************************************************************************//
     SvgManager *svgManager = new SvgManager("../_MapFiles/world.svg");
+    svgManager->printCountries();
+    char * color= "#cd2120";
+    svgManager->getCountries()->begin()->second->setColor(color);
+
     //svgManager->printCountries();
 
-    
-    typeid (svgManager->getCountries());
-    svgManager->writeSvg("../_MapFiles/world.svg");
+    svgManager->writeSvg("../_MapFiles/worldtest.svg");
 
     //DivideConquerPainter *painter = new DivideConquerPainter(svgManager);
 

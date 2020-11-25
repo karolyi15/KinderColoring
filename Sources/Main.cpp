@@ -16,7 +16,7 @@ int main() {
     XmlManager * manager = XmlManager::getInstance();
 
     //Parse Xml File
-    xml_document<> *xmlData =manager->parseXML("/home/gunther/CLionProjects/KinderColoring/_MapFiles/world.svg");
+    xml_document<> *xmlData =manager->parseXML("/home/gunther/CLionProjects/KinderColoring/_MapFiles/world1.svg");
 
     //Access Xml Node
     cout<<xmlData->fi
@@ -26,7 +26,7 @@ int main() {
     //manager->writeXML("/home/gunther/CLionProjects/KinderColoring/_MapFiles/test.svg");
      */
     //*****************************************************************************************************************//
-    SvgManager *svgManager = new SvgManager("../_MapFiles/world.svg");
+    SvgManager *svgManager = new SvgManager("../_MapFiles/world1.svg");
     svgManager->printCountries();
 
     //*****************************************************************************************************************//
