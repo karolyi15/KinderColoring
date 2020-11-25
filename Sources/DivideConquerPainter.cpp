@@ -10,7 +10,7 @@ DivideConquerPainter::DivideConquerPainter(SvgManager* svgManager) {
 
     //Init Country List
     this->svgManager = svgManager;
-    map<char*, Country*> * countriesHashmap = this->svgManager->getCountries();
+    map<string, Country*> * countriesHashmap = this->svgManager->getCountries();
     this->initCountries(countriesHashmap);
 
     //Paint System
@@ -24,10 +24,10 @@ void DivideConquerPainter::setSvgManager(SvgManager *svgManager) {
     this->svgManager = svgManager;
 }
 
-void DivideConquerPainter::initCountries(map<char *, Country *> *countriesHashMap) {
+void DivideConquerPainter::initCountries(map<string, Country *> *countriesHashMap) {
 
     //Define Iterator
-    map<char*, Country*>::iterator itr;
+    map<string , Country*>::iterator itr;
 
     //
     for(itr = countriesHashMap->begin(); itr != countriesHashMap->end(); itr++){
@@ -92,7 +92,7 @@ void DivideConquerPainter::paint() {
     cout << "Saved" << endl;
 }
 
-void DivideConquerPainter::divideConquer(vector<char*> countriesList) {
+void DivideConquerPainter::divideConquer(vector<string> countriesList) {
 
     if(countriesList.size() == 1){
         //*** Conquer ***
@@ -132,8 +132,8 @@ void DivideConquerPainter::divideConquer(vector<char*> countriesList) {
 
         //*** Divide ***
         int splitSize = countriesList.size()/2;
-        std::vector<char*> lower(countriesList.begin(), countriesList.begin()+splitSize);
-        std::vector<char*> higher(countriesList.begin()+splitSize, countriesList.end());
+        std::vector<string> lower(countriesList.begin(), countriesList.begin()+splitSize);
+        std::vector<string> higher(countriesList.begin()+splitSize, countriesList.end());
 
         divideConquer(lower);
         divideConquer(higher);

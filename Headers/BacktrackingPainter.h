@@ -8,7 +8,7 @@ class BacktrackingPainter:Painter {
 private:
 
     //Fields
-    vector<char*> countriesID;
+    vector<string> countriesID;
     SvgManager *svgManager;
     vector<char*> *colors;
 
@@ -16,14 +16,15 @@ public:
 
     //Constructor
     BacktrackingPainter(SvgManager *svgManager);
-    void initCountries(map<char*, Country*>* countriesHashMap);
+    void initCountries(map<string, Country*>* countriesHashMap);
 
     //Setters & Getter
     void setSvgManager(SvgManager * svgManager);
     //Paint System
     void initColors();
     void paint();
-    void backtracking(int paisActual,int cantidadColores,int colorActual);
+    bool paintLimits(vector <string>* limitCountries);
+    int backtracking(int paisActual,int cantidadColores,int colorActual);
     char* verifyColor(vector<string> *openSet);
 };
 

@@ -36,23 +36,13 @@ fstream
 stdexcept
 -
 
-C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/BacktrackingPainter.h
-Painter.h
-C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/Painter.h
-
 C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/Country.h
 iostream
 -
 vector
 -
-
-C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/DivideConquerPainter.h
-Painter.h
-C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/Painter.h
-
-C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/Painter.h
-SvgManager.h
-C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/SvgManager.h
+cstring
+-
 
 C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/SvgManager.h
 map
@@ -74,21 +64,7 @@ rapidxml_print.hpp
 string
 -
 
-C:/Users/aguer/Documents/GitHub/KinderColoring/main.cpp
-iostream
--
-fstream
--
-rapidxml_utils.hpp
--
-rapidxml.hpp
-C:/Users/aguer/Documents/GitHub/KinderColoring/rapidxml.hpp
-Headers/XmlManager.h
-C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/XmlManager.h
-Headers/SvgManager.h
+C:/Users/aguer/Documents/GitHub/KinderColoring/Sources/SvgManager.cpp
+../Headers/SvgManager.h
 C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/SvgManager.h
-Headers/DivideConquerPainter.h
-C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/DivideConquerPainter.h
-Headers/BacktrackingPainter.h
-C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/BacktrackingPainter.h
 

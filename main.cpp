@@ -6,6 +6,7 @@
 #include "Headers/SvgManager.h"
 #include "Headers/DivideConquerPainter.h"
 #include "Headers/BacktrackingPainter.h"
+#include <typeinfo>
 
 using namespace rapidxml;
 using namespace std;
@@ -29,17 +30,24 @@ int main() {
      */
     //*****************************************************************************************************************//
     SvgManager *svgManager = new SvgManager("../_MapFiles/world.svg");
-    svgManager->printCountries();
-    char * color= "#cd2120";
-    svgManager->getCountries()->begin()->second->setColor(color);
+   // svgManager->printCountries();
+    //char * color= "#cd2120";
+   // svgManager->getCountries()->begin()->second->setColor(color);
 
     //svgManager->printCountries();
 
-    svgManager->writeSvg("../_MapFiles/worldtest.svg");
+   // svgManager->writeSvg("../_MapFiles/world1.svg");
 
     //DivideConquerPainter *painter = new DivideConquerPainter(svgManager);
 
     //painter->paint();
+
+
+    BacktrackingPainter *painter = new BacktrackingPainter(svgManager);
+
+
+    painter->backtracking(0,3,0);
+    painter->paint();
 
     //*****************************************************************************************************************//
     return 0;

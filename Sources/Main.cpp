@@ -29,6 +29,9 @@ int main() {
     SvgManager *svgManager = new SvgManager("../_MapFiles/world1.svg");
     svgManager->printCountries();
 
+    //DivideConquerPainter *painter = new DivideConquerPainter(svgManager);
+    //painter->paint();
+
     //*****************************************************************************************************************//
     return 0;
 

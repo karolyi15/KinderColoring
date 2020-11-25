@@ -4,17 +4,18 @@
 
 #include <iostream>
 #include <vector>
-
+#include <cstring>
 #ifndef KINDERCOLORING_COUNTRY_H
 #define KINDERCOLORING_COUNTRY_H
 
+using namespace std;
 
 class Country {
 
 private:
 
     //Fields
-    char* id;
+    std::string id;
     char* color;
     std::vector< std::pair<float,float> > boundsPoints;
     std:: vector<std::string> boundsCountries;
@@ -27,18 +28,18 @@ private:
 public:
 
     //Constructor
-    Country(char* id, char* stringPoints);
-    Country(char* id, char* color ,char* stringPoints);
+    Country(string id, char* stringPoints);
+    Country(string id, char* color ,char* stringPoints);
 
     //Setters & Getters
-    char* getId();
+    basic_string<string , char_traits<char>, allocator<char>> getId();
 
     void setColor(char* color);
     char* getColor();
 
     std::vector<std::pair<float,float>>* getBoundsPoints();
 
-    void setBoundCountry(char* countryId);
+    void setBoundCountry(string countryId);
     std::vector<std::string>* getBoundsCountries();
 
     //To String

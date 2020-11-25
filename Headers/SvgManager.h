@@ -16,7 +16,7 @@ private:
 
     //Fields
     char* svgPath;
-    map<char*, Country*> *countries;
+    map<string, Country*> *countries;
     XmlManager* xmlManager;
 
     xml_document<> * xmlData;
@@ -41,7 +41,7 @@ public:
     void setPath(char* svgPath);
     char* getPath();
 
-    map<char*, Country*>* getCountries();
+    map<string, Country*>* getCountries();
 
     //
     void writeSvg(char* svgPath);

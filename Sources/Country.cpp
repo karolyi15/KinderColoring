@@ -8,7 +8,7 @@
 using namespace std;
 
 //Constructor
-Country::Country(char *id, char* stringPoints) {
+Country::Country(string id, char* stringPoints) {
 
     this->id = id;
     this->color = "#f2f2f2";
@@ -16,7 +16,7 @@ Country::Country(char *id, char* stringPoints) {
     this->calculateBoundsPoints(stringPoints);
 }
 
-Country::Country(char *id, char *color, char *stringPoints) {
+Country::Country(string id, char *color, char *stringPoints) {
 
     this->id = id;
     this->color = color;
@@ -25,7 +25,7 @@ Country::Country(char *id, char *color, char *stringPoints) {
 }
 
 //Setters & Getters
-char * Country::getId() {
+basic_string<string, char_traits<char>, allocator<char>> Country::getId() {
 
     return this->id;
 }
@@ -46,7 +46,7 @@ std::vector<std::pair<float,float>>* Country::getBoundsPoints() {
     return &this->boundsPoints;
 }
 
-void Country::setBoundCountry(char* countryId) {
+void Country::setBoundCountry(string countryId) {
 
     this->boundsCountries.push_back(countryId);
 }

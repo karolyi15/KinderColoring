@@ -12,21 +12,21 @@ class DivideConquerPainter {
 private:
 
     //Fields
-    vector<char*> countriesID;
+    vector<string> countriesID;
     SvgManager *svgManager;
     vector<char*> *colors;
 
 public:
     //Constructor
     DivideConquerPainter(SvgManager *svgManager);
-    void initCountries(map<char*, Country*>* countriesHashMap);
+    void initCountries(map<string, Country*>* countriesHashMap);
 
     //Setters & Getter
     void setSvgManager(SvgManager * svgManager);
     //Paint System
     void initColors();
     void paint();
-    void divideConquer(vector<char*> countriesList);
+    void divideConquer(vector<string> countriesList);
     char* verifyColor(vector<string> *openSet);
 };
 
