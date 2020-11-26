@@ -73,19 +73,19 @@ bool BacktrackingPainter::paintLimits(vector <string>* limitCountries, int canti
             char *tempID = const_cast<char *>( limitCountries->at(pais).c_str());
             char *tempColor = this->svgManager->getCountries()->at(tempID)->getColor();
             if (tempColor != "#f2f2f2") {
-                if(Colores->find(tempColor)){
+                if(std::find(Colores.begin(), Colores.end(),tempColor)!=Colores.end()){
                     count++;
                 }
                 else{
                     count++;
-                    Colores->append(tempColor);
+                    Colores.push_back(tempColor);
                     countColores++;
                 }
             }
         }
-        if (count=limitCountries->size() && countColores = cantidadColores) {       // que todos los paises limites estan pintados y que todos los colores posibles se usaron 
+        if (count=limitCountries->size() && countColores == cantidadColores) {       // que todos los paises limites estan pintados y que todos los colores posibles se usaron
             return true;
-        }else{return false}
+        }else{return false;}
     }
 }
 

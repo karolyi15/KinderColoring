@@ -63,15 +63,16 @@ void DynamicPainter::paint() {
 
 vector<char *> DynamicPainter::optimizarColores(vector <string>* limitCountries, int cantidadColores){
     vector<char *> coloresOptimos;
+
     for(int color = 0; color <= cantidadColores;color++){
-        coloresOptimos->push_back(this->colors->at(colorActual));     //tiene todos los colores posibles
+        coloresOptimos.push_back(this->colors->at(color));     //tiene todos los colores posibles
     }
 
     for (int pais = 0; pais < limitCountries->size(); pais++) {
         char *tempID = const_cast<char *>( limitCountries->at(pais).c_str());
         char *tempColor = this->svgManager->getCountries()->at(tempID)->getColor();     
         if (tempColor != "#f2f2f2") {
-            coloresOptimos->remove(tempColor);                      // va eliminando colores que ya se han utilizado en las fronteras anteriormente
+            coloresOptimos.erase(std::remove(coloresOptimos.begin(), coloresOptimos.end(), tempColor), coloresOptimos.end());
         }
     }
     return coloresOptimos;                           
@@ -94,14 +95,14 @@ int DynamicPainter::dynamic(int paisActual,int cantidadColores) {
             
             coloresOptimos = optimizarColores(limitCountries,cantidadColores);      //Optimiza seleccion de colores
 
-            if (coloresOptimos->size() == 0) {                                  
+            if (coloresOptimos.size() == 0) {
                 //SetColor
                 tempCountry->setColor("#ffffff");                               //le asigna un color blanco al pais
                 return dynamic(paisActual+1,cantidadColores);              // hace dynamic con el siguiente pais para asignarle color
             }
             else{
                 
-                char *tempColor = coloresOptimos->at(0);
+                char *tempColor = coloresOptimos.at(0);
                 tempCountry->setColor(tempColor);
                 return dynamic(paisActual+1,cantidadColores);
             }

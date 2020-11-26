@@ -24,7 +24,7 @@ public:
     //Paint System
     void initColors();
     void paint();
-    vector<char *> optimizarColores(vector <string>* limitCountries, int cantidadColores)
+    vector<char *> optimizarColores(vector <string>* limitCountries, int cantidadColores);
     int dynamic(int paisActual,int cantidadColores);
     
 };
