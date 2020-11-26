@@ -143,221 +143,491 @@ KinderColoring/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/build
 .PHONY : KinderColoring/fast
 
-Sources/BacktrackingPainter.o: Sources/BacktrackingPainter.cpp.o
+FileManagers/Sources/FileManager.o: FileManagers/Sources/FileManager.cpp.o
 
-.PHONY : Sources/BacktrackingPainter.o
-
-# target to build an object file
-Sources/BacktrackingPainter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.o
-.PHONY : Sources/BacktrackingPainter.cpp.o
-
-Sources/BacktrackingPainter.i: Sources/BacktrackingPainter.cpp.i
-
-.PHONY : Sources/BacktrackingPainter.i
-
-# target to preprocess a source file
-Sources/BacktrackingPainter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.i
-.PHONY : Sources/BacktrackingPainter.cpp.i
-
-Sources/BacktrackingPainter.s: Sources/BacktrackingPainter.cpp.s
-
-.PHONY : Sources/BacktrackingPainter.s
-
-# target to generate assembly for a file
-Sources/BacktrackingPainter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.s
-.PHONY : Sources/BacktrackingPainter.cpp.s
-
-Sources/ColorSet.o: Sources/ColorSet.cpp.o
-
-.PHONY : Sources/ColorSet.o
+.PHONY : FileManagers/Sources/FileManager.o
 
 # target to build an object file
-Sources/ColorSet.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.o
-.PHONY : Sources/ColorSet.cpp.o
+FileManagers/Sources/FileManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManager.cpp.o
+.PHONY : FileManagers/Sources/FileManager.cpp.o
 
-Sources/ColorSet.i: Sources/ColorSet.cpp.i
+FileManagers/Sources/FileManager.i: FileManagers/Sources/FileManager.cpp.i
 
-.PHONY : Sources/ColorSet.i
+.PHONY : FileManagers/Sources/FileManager.i
 
 # target to preprocess a source file
-Sources/ColorSet.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.i
-.PHONY : Sources/ColorSet.cpp.i
+FileManagers/Sources/FileManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManager.cpp.i
+.PHONY : FileManagers/Sources/FileManager.cpp.i
 
-Sources/ColorSet.s: Sources/ColorSet.cpp.s
+FileManagers/Sources/FileManager.s: FileManagers/Sources/FileManager.cpp.s
 
-.PHONY : Sources/ColorSet.s
+.PHONY : FileManagers/Sources/FileManager.s
 
 # target to generate assembly for a file
-Sources/ColorSet.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.s
-.PHONY : Sources/ColorSet.cpp.s
+FileManagers/Sources/FileManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManager.cpp.s
+.PHONY : FileManagers/Sources/FileManager.cpp.s
 
-Sources/Country.o: Sources/Country.cpp.o
+FileManagers/Sources/FileManagerFactory.o: FileManagers/Sources/FileManagerFactory.cpp.o
 
-.PHONY : Sources/Country.o
+.PHONY : FileManagers/Sources/FileManagerFactory.o
 
 # target to build an object file
-Sources/Country.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/Country.cpp.o
-.PHONY : Sources/Country.cpp.o
+FileManagers/Sources/FileManagerFactory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManagerFactory.cpp.o
+.PHONY : FileManagers/Sources/FileManagerFactory.cpp.o
 
-Sources/Country.i: Sources/Country.cpp.i
+FileManagers/Sources/FileManagerFactory.i: FileManagers/Sources/FileManagerFactory.cpp.i
 
-.PHONY : Sources/Country.i
+.PHONY : FileManagers/Sources/FileManagerFactory.i
 
 # target to preprocess a source file
-Sources/Country.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/Country.cpp.i
-.PHONY : Sources/Country.cpp.i
+FileManagers/Sources/FileManagerFactory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManagerFactory.cpp.i
+.PHONY : FileManagers/Sources/FileManagerFactory.cpp.i
 
-Sources/Country.s: Sources/Country.cpp.s
+FileManagers/Sources/FileManagerFactory.s: FileManagers/Sources/FileManagerFactory.cpp.s
 
-.PHONY : Sources/Country.s
+.PHONY : FileManagers/Sources/FileManagerFactory.s
 
 # target to generate assembly for a file
-Sources/Country.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/Country.cpp.s
-.PHONY : Sources/Country.cpp.s
+FileManagers/Sources/FileManagerFactory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManagerFactory.cpp.s
+.PHONY : FileManagers/Sources/FileManagerFactory.cpp.s
 
-Sources/DivideConquerPainter.o: Sources/DivideConquerPainter.cpp.o
+FileManagers/Sources/StringSplitter.o: FileManagers/Sources/StringSplitter.cpp.o
 
-.PHONY : Sources/DivideConquerPainter.o
+.PHONY : FileManagers/Sources/StringSplitter.o
 
 # target to build an object file
-Sources/DivideConquerPainter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.o
-.PHONY : Sources/DivideConquerPainter.cpp.o
+FileManagers/Sources/StringSplitter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/FileManagers/Sources/StringSplitter.cpp.o
+.PHONY : FileManagers/Sources/StringSplitter.cpp.o
 
-Sources/DivideConquerPainter.i: Sources/DivideConquerPainter.cpp.i
+FileManagers/Sources/StringSplitter.i: FileManagers/Sources/StringSplitter.cpp.i
 
-.PHONY : Sources/DivideConquerPainter.i
+.PHONY : FileManagers/Sources/StringSplitter.i
 
 # target to preprocess a source file
-Sources/DivideConquerPainter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.i
-.PHONY : Sources/DivideConquerPainter.cpp.i
+FileManagers/Sources/StringSplitter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/FileManagers/Sources/StringSplitter.cpp.i
+.PHONY : FileManagers/Sources/StringSplitter.cpp.i
 
-Sources/DivideConquerPainter.s: Sources/DivideConquerPainter.cpp.s
+FileManagers/Sources/StringSplitter.s: FileManagers/Sources/StringSplitter.cpp.s
 
-.PHONY : Sources/DivideConquerPainter.s
+.PHONY : FileManagers/Sources/StringSplitter.s
 
 # target to generate assembly for a file
-Sources/DivideConquerPainter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.s
-.PHONY : Sources/DivideConquerPainter.cpp.s
+FileManagers/Sources/StringSplitter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/FileManagers/Sources/StringSplitter.cpp.s
+.PHONY : FileManagers/Sources/StringSplitter.cpp.s
 
-Sources/DynamicPainter.o: Sources/DynamicPainter.cpp.o
+FileManagers/Sources/XmlManager.o: FileManagers/Sources/XmlManager.cpp.o
 
-.PHONY : Sources/DynamicPainter.o
+.PHONY : FileManagers/Sources/XmlManager.o
 
 # target to build an object file
-Sources/DynamicPainter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.o
-.PHONY : Sources/DynamicPainter.cpp.o
+FileManagers/Sources/XmlManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/FileManagers/Sources/XmlManager.cpp.o
+.PHONY : FileManagers/Sources/XmlManager.cpp.o
 
-Sources/DynamicPainter.i: Sources/DynamicPainter.cpp.i
+FileManagers/Sources/XmlManager.i: FileManagers/Sources/XmlManager.cpp.i
 
-.PHONY : Sources/DynamicPainter.i
+.PHONY : FileManagers/Sources/XmlManager.i
 
 # target to preprocess a source file
-Sources/DynamicPainter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.i
-.PHONY : Sources/DynamicPainter.cpp.i
+FileManagers/Sources/XmlManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/FileManagers/Sources/XmlManager.cpp.i
+.PHONY : FileManagers/Sources/XmlManager.cpp.i
 
-Sources/DynamicPainter.s: Sources/DynamicPainter.cpp.s
+FileManagers/Sources/XmlManager.s: FileManagers/Sources/XmlManager.cpp.s
 
-.PHONY : Sources/DynamicPainter.s
+.PHONY : FileManagers/Sources/XmlManager.s
 
 # target to generate assembly for a file
-Sources/DynamicPainter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.s
-.PHONY : Sources/DynamicPainter.cpp.s
+FileManagers/Sources/XmlManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/FileManagers/Sources/XmlManager.cpp.s
+.PHONY : FileManagers/Sources/XmlManager.cpp.s
 
-Sources/Painter.o: Sources/Painter.cpp.o
+Models/Sources/AbstractMapBuilder.o: Models/Sources/AbstractMapBuilder.cpp.o
 
-.PHONY : Sources/Painter.o
+.PHONY : Models/Sources/AbstractMapBuilder.o
 
 # target to build an object file
-Sources/Painter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.o
-.PHONY : Sources/Painter.cpp.o
+Models/Sources/AbstractMapBuilder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/AbstractMapBuilder.cpp.o
+.PHONY : Models/Sources/AbstractMapBuilder.cpp.o
 
-Sources/Painter.i: Sources/Painter.cpp.i
+Models/Sources/AbstractMapBuilder.i: Models/Sources/AbstractMapBuilder.cpp.i
 
-.PHONY : Sources/Painter.i
+.PHONY : Models/Sources/AbstractMapBuilder.i
 
 # target to preprocess a source file
-Sources/Painter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.i
-.PHONY : Sources/Painter.cpp.i
+Models/Sources/AbstractMapBuilder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/AbstractMapBuilder.cpp.i
+.PHONY : Models/Sources/AbstractMapBuilder.cpp.i
 
-Sources/Painter.s: Sources/Painter.cpp.s
+Models/Sources/AbstractMapBuilder.s: Models/Sources/AbstractMapBuilder.cpp.s
 
-.PHONY : Sources/Painter.s
+.PHONY : Models/Sources/AbstractMapBuilder.s
 
 # target to generate assembly for a file
-Sources/Painter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.s
-.PHONY : Sources/Painter.cpp.s
+Models/Sources/AbstractMapBuilder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/AbstractMapBuilder.cpp.s
+.PHONY : Models/Sources/AbstractMapBuilder.cpp.s
 
-Sources/SvgManager.o: Sources/SvgManager.cpp.o
+Models/Sources/ColorType.o: Models/Sources/ColorType.cpp.o
 
-.PHONY : Sources/SvgManager.o
+.PHONY : Models/Sources/ColorType.o
 
 # target to build an object file
-Sources/SvgManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.o
-.PHONY : Sources/SvgManager.cpp.o
+Models/Sources/ColorType.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/ColorType.cpp.o
+.PHONY : Models/Sources/ColorType.cpp.o
 
-Sources/SvgManager.i: Sources/SvgManager.cpp.i
+Models/Sources/ColorType.i: Models/Sources/ColorType.cpp.i
 
-.PHONY : Sources/SvgManager.i
+.PHONY : Models/Sources/ColorType.i
 
 # target to preprocess a source file
-Sources/SvgManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.i
-.PHONY : Sources/SvgManager.cpp.i
+Models/Sources/ColorType.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/ColorType.cpp.i
+.PHONY : Models/Sources/ColorType.cpp.i
 
-Sources/SvgManager.s: Sources/SvgManager.cpp.s
+Models/Sources/ColorType.s: Models/Sources/ColorType.cpp.s
 
-.PHONY : Sources/SvgManager.s
+.PHONY : Models/Sources/ColorType.s
 
 # target to generate assembly for a file
-Sources/SvgManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.s
-.PHONY : Sources/SvgManager.cpp.s
+Models/Sources/ColorType.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/ColorType.cpp.s
+.PHONY : Models/Sources/ColorType.cpp.s
 
-Sources/XmlManager.o: Sources/XmlManager.cpp.o
+Models/Sources/Country.o: Models/Sources/Country.cpp.o
 
-.PHONY : Sources/XmlManager.o
+.PHONY : Models/Sources/Country.o
 
 # target to build an object file
-Sources/XmlManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.o
-.PHONY : Sources/XmlManager.cpp.o
+Models/Sources/Country.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/Country.cpp.o
+.PHONY : Models/Sources/Country.cpp.o
 
-Sources/XmlManager.i: Sources/XmlManager.cpp.i
+Models/Sources/Country.i: Models/Sources/Country.cpp.i
 
-.PHONY : Sources/XmlManager.i
+.PHONY : Models/Sources/Country.i
 
 # target to preprocess a source file
-Sources/XmlManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.i
-.PHONY : Sources/XmlManager.cpp.i
+Models/Sources/Country.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/Country.cpp.i
+.PHONY : Models/Sources/Country.cpp.i
 
-Sources/XmlManager.s: Sources/XmlManager.cpp.s
+Models/Sources/Country.s: Models/Sources/Country.cpp.s
 
-.PHONY : Sources/XmlManager.s
+.PHONY : Models/Sources/Country.s
 
 # target to generate assembly for a file
-Sources/XmlManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.s
-.PHONY : Sources/XmlManager.cpp.s
+Models/Sources/Country.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/Country.cpp.s
+.PHONY : Models/Sources/Country.cpp.s
+
+Models/Sources/CountryFactory.o: Models/Sources/CountryFactory.cpp.o
+
+.PHONY : Models/Sources/CountryFactory.o
+
+# target to build an object file
+Models/Sources/CountryFactory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/CountryFactory.cpp.o
+.PHONY : Models/Sources/CountryFactory.cpp.o
+
+Models/Sources/CountryFactory.i: Models/Sources/CountryFactory.cpp.i
+
+.PHONY : Models/Sources/CountryFactory.i
+
+# target to preprocess a source file
+Models/Sources/CountryFactory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/CountryFactory.cpp.i
+.PHONY : Models/Sources/CountryFactory.cpp.i
+
+Models/Sources/CountryFactory.s: Models/Sources/CountryFactory.cpp.s
+
+.PHONY : Models/Sources/CountryFactory.s
+
+# target to generate assembly for a file
+Models/Sources/CountryFactory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/CountryFactory.cpp.s
+.PHONY : Models/Sources/CountryFactory.cpp.s
+
+Models/Sources/Map.o: Models/Sources/Map.cpp.o
+
+.PHONY : Models/Sources/Map.o
+
+# target to build an object file
+Models/Sources/Map.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/Map.cpp.o
+.PHONY : Models/Sources/Map.cpp.o
+
+Models/Sources/Map.i: Models/Sources/Map.cpp.i
+
+.PHONY : Models/Sources/Map.i
+
+# target to preprocess a source file
+Models/Sources/Map.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/Map.cpp.i
+.PHONY : Models/Sources/Map.cpp.i
+
+Models/Sources/Map.s: Models/Sources/Map.cpp.s
+
+.PHONY : Models/Sources/Map.s
+
+# target to generate assembly for a file
+Models/Sources/Map.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/Map.cpp.s
+.PHONY : Models/Sources/Map.cpp.s
+
+Models/Sources/MapBuilder.o: Models/Sources/MapBuilder.cpp.o
+
+.PHONY : Models/Sources/MapBuilder.o
+
+# target to build an object file
+Models/Sources/MapBuilder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/MapBuilder.cpp.o
+.PHONY : Models/Sources/MapBuilder.cpp.o
+
+Models/Sources/MapBuilder.i: Models/Sources/MapBuilder.cpp.i
+
+.PHONY : Models/Sources/MapBuilder.i
+
+# target to preprocess a source file
+Models/Sources/MapBuilder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/MapBuilder.cpp.i
+.PHONY : Models/Sources/MapBuilder.cpp.i
+
+Models/Sources/MapBuilder.s: Models/Sources/MapBuilder.cpp.s
+
+.PHONY : Models/Sources/MapBuilder.s
+
+# target to generate assembly for a file
+Models/Sources/MapBuilder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/MapBuilder.cpp.s
+.PHONY : Models/Sources/MapBuilder.cpp.s
+
+Models/Sources/MapDirector.o: Models/Sources/MapDirector.cpp.o
+
+.PHONY : Models/Sources/MapDirector.o
+
+# target to build an object file
+Models/Sources/MapDirector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/MapDirector.cpp.o
+.PHONY : Models/Sources/MapDirector.cpp.o
+
+Models/Sources/MapDirector.i: Models/Sources/MapDirector.cpp.i
+
+.PHONY : Models/Sources/MapDirector.i
+
+# target to preprocess a source file
+Models/Sources/MapDirector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/MapDirector.cpp.i
+.PHONY : Models/Sources/MapDirector.cpp.i
+
+Models/Sources/MapDirector.s: Models/Sources/MapDirector.cpp.s
+
+.PHONY : Models/Sources/MapDirector.s
+
+# target to generate assembly for a file
+Models/Sources/MapDirector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/MapDirector.cpp.s
+.PHONY : Models/Sources/MapDirector.cpp.s
+
+Models/Sources/MapNode.o: Models/Sources/MapNode.cpp.o
+
+.PHONY : Models/Sources/MapNode.o
+
+# target to build an object file
+Models/Sources/MapNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/MapNode.cpp.o
+.PHONY : Models/Sources/MapNode.cpp.o
+
+Models/Sources/MapNode.i: Models/Sources/MapNode.cpp.i
+
+.PHONY : Models/Sources/MapNode.i
+
+# target to preprocess a source file
+Models/Sources/MapNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/MapNode.cpp.i
+.PHONY : Models/Sources/MapNode.cpp.i
+
+Models/Sources/MapNode.s: Models/Sources/MapNode.cpp.s
+
+.PHONY : Models/Sources/MapNode.s
+
+# target to generate assembly for a file
+Models/Sources/MapNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/MapNode.cpp.s
+.PHONY : Models/Sources/MapNode.cpp.s
+
+Models/Sources/MapNodeFactory.o: Models/Sources/MapNodeFactory.cpp.o
+
+.PHONY : Models/Sources/MapNodeFactory.o
+
+# target to build an object file
+Models/Sources/MapNodeFactory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/MapNodeFactory.cpp.o
+.PHONY : Models/Sources/MapNodeFactory.cpp.o
+
+Models/Sources/MapNodeFactory.i: Models/Sources/MapNodeFactory.cpp.i
+
+.PHONY : Models/Sources/MapNodeFactory.i
+
+# target to preprocess a source file
+Models/Sources/MapNodeFactory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/MapNodeFactory.cpp.i
+.PHONY : Models/Sources/MapNodeFactory.cpp.i
+
+Models/Sources/MapNodeFactory.s: Models/Sources/MapNodeFactory.cpp.s
+
+.PHONY : Models/Sources/MapNodeFactory.s
+
+# target to generate assembly for a file
+Models/Sources/MapNodeFactory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Models/Sources/MapNodeFactory.cpp.s
+.PHONY : Models/Sources/MapNodeFactory.cpp.s
+
+Painters/Sources/BacktrackingPainter.o: Painters/Sources/BacktrackingPainter.cpp.o
+
+.PHONY : Painters/Sources/BacktrackingPainter.o
+
+# target to build an object file
+Painters/Sources/BacktrackingPainter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Painters/Sources/BacktrackingPainter.cpp.o
+.PHONY : Painters/Sources/BacktrackingPainter.cpp.o
+
+Painters/Sources/BacktrackingPainter.i: Painters/Sources/BacktrackingPainter.cpp.i
+
+.PHONY : Painters/Sources/BacktrackingPainter.i
+
+# target to preprocess a source file
+Painters/Sources/BacktrackingPainter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Painters/Sources/BacktrackingPainter.cpp.i
+.PHONY : Painters/Sources/BacktrackingPainter.cpp.i
+
+Painters/Sources/BacktrackingPainter.s: Painters/Sources/BacktrackingPainter.cpp.s
+
+.PHONY : Painters/Sources/BacktrackingPainter.s
+
+# target to generate assembly for a file
+Painters/Sources/BacktrackingPainter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Painters/Sources/BacktrackingPainter.cpp.s
+.PHONY : Painters/Sources/BacktrackingPainter.cpp.s
+
+Painters/Sources/DivideConquerPainter.o: Painters/Sources/DivideConquerPainter.cpp.o
+
+.PHONY : Painters/Sources/DivideConquerPainter.o
+
+# target to build an object file
+Painters/Sources/DivideConquerPainter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.o
+.PHONY : Painters/Sources/DivideConquerPainter.cpp.o
+
+Painters/Sources/DivideConquerPainter.i: Painters/Sources/DivideConquerPainter.cpp.i
+
+.PHONY : Painters/Sources/DivideConquerPainter.i
+
+# target to preprocess a source file
+Painters/Sources/DivideConquerPainter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.i
+.PHONY : Painters/Sources/DivideConquerPainter.cpp.i
+
+Painters/Sources/DivideConquerPainter.s: Painters/Sources/DivideConquerPainter.cpp.s
+
+.PHONY : Painters/Sources/DivideConquerPainter.s
+
+# target to generate assembly for a file
+Painters/Sources/DivideConquerPainter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.s
+.PHONY : Painters/Sources/DivideConquerPainter.cpp.s
+
+Painters/Sources/DynamicPainter.o: Painters/Sources/DynamicPainter.cpp.o
+
+.PHONY : Painters/Sources/DynamicPainter.o
+
+# target to build an object file
+Painters/Sources/DynamicPainter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Painters/Sources/DynamicPainter.cpp.o
+.PHONY : Painters/Sources/DynamicPainter.cpp.o
+
+Painters/Sources/DynamicPainter.i: Painters/Sources/DynamicPainter.cpp.i
+
+.PHONY : Painters/Sources/DynamicPainter.i
+
+# target to preprocess a source file
+Painters/Sources/DynamicPainter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Painters/Sources/DynamicPainter.cpp.i
+.PHONY : Painters/Sources/DynamicPainter.cpp.i
+
+Painters/Sources/DynamicPainter.s: Painters/Sources/DynamicPainter.cpp.s
+
+.PHONY : Painters/Sources/DynamicPainter.s
+
+# target to generate assembly for a file
+Painters/Sources/DynamicPainter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Painters/Sources/DynamicPainter.cpp.s
+.PHONY : Painters/Sources/DynamicPainter.cpp.s
+
+Painters/Sources/Painter.o: Painters/Sources/Painter.cpp.o
+
+.PHONY : Painters/Sources/Painter.o
+
+# target to build an object file
+Painters/Sources/Painter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Painters/Sources/Painter.cpp.o
+.PHONY : Painters/Sources/Painter.cpp.o
+
+Painters/Sources/Painter.i: Painters/Sources/Painter.cpp.i
+
+.PHONY : Painters/Sources/Painter.i
+
+# target to preprocess a source file
+Painters/Sources/Painter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Painters/Sources/Painter.cpp.i
+.PHONY : Painters/Sources/Painter.cpp.i
+
+Painters/Sources/Painter.s: Painters/Sources/Painter.cpp.s
+
+.PHONY : Painters/Sources/Painter.s
+
+# target to generate assembly for a file
+Painters/Sources/Painter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Painters/Sources/Painter.cpp.s
+.PHONY : Painters/Sources/Painter.cpp.s
+
+Painters/Sources/PainterFactory.o: Painters/Sources/PainterFactory.cpp.o
+
+.PHONY : Painters/Sources/PainterFactory.o
+
+# target to build an object file
+Painters/Sources/PainterFactory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Painters/Sources/PainterFactory.cpp.o
+.PHONY : Painters/Sources/PainterFactory.cpp.o
+
+Painters/Sources/PainterFactory.i: Painters/Sources/PainterFactory.cpp.i
+
+.PHONY : Painters/Sources/PainterFactory.i
+
+# target to preprocess a source file
+Painters/Sources/PainterFactory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Painters/Sources/PainterFactory.cpp.i
+.PHONY : Painters/Sources/PainterFactory.cpp.i
+
+Painters/Sources/PainterFactory.s: Painters/Sources/PainterFactory.cpp.s
+
+.PHONY : Painters/Sources/PainterFactory.s
+
+# target to generate assembly for a file
+Painters/Sources/PainterFactory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KinderColoring.dir/build.make CMakeFiles/KinderColoring.dir/Painters/Sources/PainterFactory.cpp.s
+.PHONY : Painters/Sources/PainterFactory.cpp.s
 
 main.o: main.cpp.o
 
@@ -395,30 +665,60 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... KinderColoring"
-	@echo "... Sources/BacktrackingPainter.o"
-	@echo "... Sources/BacktrackingPainter.i"
-	@echo "... Sources/BacktrackingPainter.s"
-	@echo "... Sources/ColorSet.o"
-	@echo "... Sources/ColorSet.i"
-	@echo "... Sources/ColorSet.s"
-	@echo "... Sources/Country.o"
-	@echo "... Sources/Country.i"
-	@echo "... Sources/Country.s"
-	@echo "... Sources/DivideConquerPainter.o"
-	@echo "... Sources/DivideConquerPainter.i"
-	@echo "... Sources/DivideConquerPainter.s"
-	@echo "... Sources/DynamicPainter.o"
-	@echo "... Sources/DynamicPainter.i"
-	@echo "... Sources/DynamicPainter.s"
-	@echo "... Sources/Painter.o"
-	@echo "... Sources/Painter.i"
-	@echo "... Sources/Painter.s"
-	@echo "... Sources/SvgManager.o"
-	@echo "... Sources/SvgManager.i"
-	@echo "... Sources/SvgManager.s"
-	@echo "... Sources/XmlManager.o"
-	@echo "... Sources/XmlManager.i"
-	@echo "... Sources/XmlManager.s"
+	@echo "... FileManagers/Sources/FileManager.o"
+	@echo "... FileManagers/Sources/FileManager.i"
+	@echo "... FileManagers/Sources/FileManager.s"
+	@echo "... FileManagers/Sources/FileManagerFactory.o"
+	@echo "... FileManagers/Sources/FileManagerFactory.i"
+	@echo "... FileManagers/Sources/FileManagerFactory.s"
+	@echo "... FileManagers/Sources/StringSplitter.o"
+	@echo "... FileManagers/Sources/StringSplitter.i"
+	@echo "... FileManagers/Sources/StringSplitter.s"
+	@echo "... FileManagers/Sources/XmlManager.o"
+	@echo "... FileManagers/Sources/XmlManager.i"
+	@echo "... FileManagers/Sources/XmlManager.s"
+	@echo "... Models/Sources/AbstractMapBuilder.o"
+	@echo "... Models/Sources/AbstractMapBuilder.i"
+	@echo "... Models/Sources/AbstractMapBuilder.s"
+	@echo "... Models/Sources/ColorType.o"
+	@echo "... Models/Sources/ColorType.i"
+	@echo "... Models/Sources/ColorType.s"
+	@echo "... Models/Sources/Country.o"
+	@echo "... Models/Sources/Country.i"
+	@echo "... Models/Sources/Country.s"
+	@echo "... Models/Sources/CountryFactory.o"
+	@echo "... Models/Sources/CountryFactory.i"
+	@echo "... Models/Sources/CountryFactory.s"
+	@echo "... Models/Sources/Map.o"
+	@echo "... Models/Sources/Map.i"
+	@echo "... Models/Sources/Map.s"
+	@echo "... Models/Sources/MapBuilder.o"
+	@echo "... Models/Sources/MapBuilder.i"
+	@echo "... Models/Sources/MapBuilder.s"
+	@echo "... Models/Sources/MapDirector.o"
+	@echo "... Models/Sources/MapDirector.i"
+	@echo "... Models/Sources/MapDirector.s"
+	@echo "... Models/Sources/MapNode.o"
+	@echo "... Models/Sources/MapNode.i"
+	@echo "... Models/Sources/MapNode.s"
+	@echo "... Models/Sources/MapNodeFactory.o"
+	@echo "... Models/Sources/MapNodeFactory.i"
+	@echo "... Models/Sources/MapNodeFactory.s"
+	@echo "... Painters/Sources/BacktrackingPainter.o"
+	@echo "... Painters/Sources/BacktrackingPainter.i"
+	@echo "... Painters/Sources/BacktrackingPainter.s"
+	@echo "... Painters/Sources/DivideConquerPainter.o"
+	@echo "... Painters/Sources/DivideConquerPainter.i"
+	@echo "... Painters/Sources/DivideConquerPainter.s"
+	@echo "... Painters/Sources/DynamicPainter.o"
+	@echo "... Painters/Sources/DynamicPainter.i"
+	@echo "... Painters/Sources/DynamicPainter.s"
+	@echo "... Painters/Sources/Painter.o"
+	@echo "... Painters/Sources/Painter.i"
+	@echo "... Painters/Sources/Painter.s"
+	@echo "... Painters/Sources/PainterFactory.o"
+	@echo "... Painters/Sources/PainterFactory.i"
+	@echo "... Painters/Sources/PainterFactory.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

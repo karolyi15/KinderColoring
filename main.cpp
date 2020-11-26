@@ -1,43 +1,28 @@
-#include <iostream>
-#include <fstream>
-#include <rapidxml_utils.hpp>
-#include "rapidxml.hpp"
-#include "Headers/XmlManager.h"
-#include "../DataStructures/Headers/Node.h"
-#include "../DataStructures/Headers/LinkedList.h"
-#include "Headers/SvgManager.h"
-#include "Headers/DivideConquerPainter.h"
-
-using namespace rapidxml;
-using namespace std;
-
+#include "Models/Headers/MapDirector.h"
+#include "Models/Headers/CountryFactory.h"
+#include "Painters/Headers/PainterFactory.h"
 int main() {
-    //*****************************************************************************************************************//
-    //***** XML MANAGER TEST *****//
-    /*
-    //Init Xml Manager
-    XmlManager * manager = XmlManager::getInstance();
 
-    //Parse Xml File
-    xml_document<> *xmlData =manager->parseXML("/home/gunther/CLionProjects/KinderColoring/_MapFiles/world.svg");
+    //
+    char * SVG_PATH = "../_MapFiles/world.svg";
+    XmlManager *xmlManager = new XmlManager();
 
-    //Access Xml Node
-    cout<<xmlData->fi
-     rst_node()->name();
+    CountryFactory *countryFactory = new CountryFactory();
 
-    //Save Xml to File
-    //manager->writeXML("/home/gunther/CLionProjects/KinderColoring/_MapFiles/test.svg");
-     */
-    //*****************************************************************************************************************//
-    SvgManager *svgManager = new SvgManager("../_MapFiles/world.svg");
-    //svgManager->printCountries();
+    int colorSet = 3;
+    PainterFactory *painterFactory = new PainterFactory();
+    Painter *painter = painterFactory->createPainter(PainterType::BACKTRCKING);
+    painter->setColorSet(colorSet);
 
-    DivideConquerPainter *painter = new DivideConquerPainter(svgManager);
-
-    painter->paint();
-
-    //*****************************************************************************************************************//
-    return 0;
+    //
+    MapBuilder *builder = new MapBuilder();
+    MapDirector *director = new MapDirector(builder);
 
 
+    //
+    Map *map = director->buildWorldMap(SVG_PATH, xmlManager,countryFactory,painter);
+    map->printNodes();
+    map->paint();
+
+   return 0;
 }

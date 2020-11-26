@@ -90,137 +90,287 @@ CMakeFiles/KinderColoring.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/main.cpp -o CMakeFiles/KinderColoring.dir/main.cpp.s
 
-CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
-CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.o: ../Sources/XmlManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Sources/XmlManager.cpp
+CMakeFiles/KinderColoring.dir/FileManagers/Sources/XmlManager.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
+CMakeFiles/KinderColoring.dir/FileManagers/Sources/XmlManager.cpp.o: ../FileManagers/Sources/XmlManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/KinderColoring.dir/FileManagers/Sources/XmlManager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/FileManagers/Sources/XmlManager.cpp.o -c /home/gunther/CLionProjects/KinderColoring/FileManagers/Sources/XmlManager.cpp
 
-CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/Sources/XmlManager.cpp > CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.i
+CMakeFiles/KinderColoring.dir/FileManagers/Sources/XmlManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/FileManagers/Sources/XmlManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/FileManagers/Sources/XmlManager.cpp > CMakeFiles/KinderColoring.dir/FileManagers/Sources/XmlManager.cpp.i
 
-CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Sources/XmlManager.cpp -o CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.s
+CMakeFiles/KinderColoring.dir/FileManagers/Sources/XmlManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/FileManagers/Sources/XmlManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/FileManagers/Sources/XmlManager.cpp -o CMakeFiles/KinderColoring.dir/FileManagers/Sources/XmlManager.cpp.s
 
-CMakeFiles/KinderColoring.dir/Sources/Country.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
-CMakeFiles/KinderColoring.dir/Sources/Country.cpp.o: ../Sources/Country.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/Country.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Sources/Country.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Sources/Country.cpp
+CMakeFiles/KinderColoring.dir/Painters/Sources/Painter.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
+CMakeFiles/KinderColoring.dir/Painters/Sources/Painter.cpp.o: ../Painters/Sources/Painter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/KinderColoring.dir/Painters/Sources/Painter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Painters/Sources/Painter.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Painters/Sources/Painter.cpp
 
-CMakeFiles/KinderColoring.dir/Sources/Country.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Sources/Country.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/Sources/Country.cpp > CMakeFiles/KinderColoring.dir/Sources/Country.cpp.i
+CMakeFiles/KinderColoring.dir/Painters/Sources/Painter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Painters/Sources/Painter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/Painters/Sources/Painter.cpp > CMakeFiles/KinderColoring.dir/Painters/Sources/Painter.cpp.i
 
-CMakeFiles/KinderColoring.dir/Sources/Country.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Sources/Country.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Sources/Country.cpp -o CMakeFiles/KinderColoring.dir/Sources/Country.cpp.s
+CMakeFiles/KinderColoring.dir/Painters/Sources/Painter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Painters/Sources/Painter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Painters/Sources/Painter.cpp -o CMakeFiles/KinderColoring.dir/Painters/Sources/Painter.cpp.s
 
-CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
-CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.o: ../Sources/SvgManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Sources/SvgManager.cpp
+CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
+CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.o: ../Painters/Sources/DivideConquerPainter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Painters/Sources/DivideConquerPainter.cpp
 
-CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/Sources/SvgManager.cpp > CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.i
+CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/Painters/Sources/DivideConquerPainter.cpp > CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.i
 
-CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Sources/SvgManager.cpp -o CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.s
+CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Painters/Sources/DivideConquerPainter.cpp -o CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.s
 
-CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
-CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.o: ../Sources/Painter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Sources/Painter.cpp
+CMakeFiles/KinderColoring.dir/Painters/Sources/DynamicPainter.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
+CMakeFiles/KinderColoring.dir/Painters/Sources/DynamicPainter.cpp.o: ../Painters/Sources/DynamicPainter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/KinderColoring.dir/Painters/Sources/DynamicPainter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Painters/Sources/DynamicPainter.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Painters/Sources/DynamicPainter.cpp
 
-CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/Sources/Painter.cpp > CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.i
+CMakeFiles/KinderColoring.dir/Painters/Sources/DynamicPainter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Painters/Sources/DynamicPainter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/Painters/Sources/DynamicPainter.cpp > CMakeFiles/KinderColoring.dir/Painters/Sources/DynamicPainter.cpp.i
 
-CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Sources/Painter.cpp -o CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.s
+CMakeFiles/KinderColoring.dir/Painters/Sources/DynamicPainter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Painters/Sources/DynamicPainter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Painters/Sources/DynamicPainter.cpp -o CMakeFiles/KinderColoring.dir/Painters/Sources/DynamicPainter.cpp.s
 
-CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
-CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.o: ../Sources/DivideConquerPainter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Sources/DivideConquerPainter.cpp
+CMakeFiles/KinderColoring.dir/Painters/Sources/BacktrackingPainter.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
+CMakeFiles/KinderColoring.dir/Painters/Sources/BacktrackingPainter.cpp.o: ../Painters/Sources/BacktrackingPainter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/KinderColoring.dir/Painters/Sources/BacktrackingPainter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Painters/Sources/BacktrackingPainter.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Painters/Sources/BacktrackingPainter.cpp
 
-CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/Sources/DivideConquerPainter.cpp > CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.i
+CMakeFiles/KinderColoring.dir/Painters/Sources/BacktrackingPainter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Painters/Sources/BacktrackingPainter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/Painters/Sources/BacktrackingPainter.cpp > CMakeFiles/KinderColoring.dir/Painters/Sources/BacktrackingPainter.cpp.i
 
-CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Sources/DivideConquerPainter.cpp -o CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.s
+CMakeFiles/KinderColoring.dir/Painters/Sources/BacktrackingPainter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Painters/Sources/BacktrackingPainter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Painters/Sources/BacktrackingPainter.cpp -o CMakeFiles/KinderColoring.dir/Painters/Sources/BacktrackingPainter.cpp.s
 
-CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
-CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.o: ../Sources/DynamicPainter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Sources/DynamicPainter.cpp
+CMakeFiles/KinderColoring.dir/Models/Sources/ColorType.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
+CMakeFiles/KinderColoring.dir/Models/Sources/ColorType.cpp.o: ../Models/Sources/ColorType.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/KinderColoring.dir/Models/Sources/ColorType.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Models/Sources/ColorType.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Models/Sources/ColorType.cpp
 
-CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/Sources/DynamicPainter.cpp > CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.i
+CMakeFiles/KinderColoring.dir/Models/Sources/ColorType.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Models/Sources/ColorType.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/Models/Sources/ColorType.cpp > CMakeFiles/KinderColoring.dir/Models/Sources/ColorType.cpp.i
 
-CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Sources/DynamicPainter.cpp -o CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.s
+CMakeFiles/KinderColoring.dir/Models/Sources/ColorType.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Models/Sources/ColorType.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Models/Sources/ColorType.cpp -o CMakeFiles/KinderColoring.dir/Models/Sources/ColorType.cpp.s
 
-CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
-CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.o: ../Sources/BacktrackingPainter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Sources/BacktrackingPainter.cpp
+CMakeFiles/KinderColoring.dir/Models/Sources/MapNode.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
+CMakeFiles/KinderColoring.dir/Models/Sources/MapNode.cpp.o: ../Models/Sources/MapNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/KinderColoring.dir/Models/Sources/MapNode.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Models/Sources/MapNode.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Models/Sources/MapNode.cpp
 
-CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/Sources/BacktrackingPainter.cpp > CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.i
+CMakeFiles/KinderColoring.dir/Models/Sources/MapNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Models/Sources/MapNode.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/Models/Sources/MapNode.cpp > CMakeFiles/KinderColoring.dir/Models/Sources/MapNode.cpp.i
 
-CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Sources/BacktrackingPainter.cpp -o CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.s
+CMakeFiles/KinderColoring.dir/Models/Sources/MapNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Models/Sources/MapNode.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Models/Sources/MapNode.cpp -o CMakeFiles/KinderColoring.dir/Models/Sources/MapNode.cpp.s
 
-CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
-CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.o: ../Sources/ColorSet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Sources/ColorSet.cpp
+CMakeFiles/KinderColoring.dir/Models/Sources/MapNodeFactory.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
+CMakeFiles/KinderColoring.dir/Models/Sources/MapNodeFactory.cpp.o: ../Models/Sources/MapNodeFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/KinderColoring.dir/Models/Sources/MapNodeFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Models/Sources/MapNodeFactory.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Models/Sources/MapNodeFactory.cpp
 
-CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/Sources/ColorSet.cpp > CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.i
+CMakeFiles/KinderColoring.dir/Models/Sources/MapNodeFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Models/Sources/MapNodeFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/Models/Sources/MapNodeFactory.cpp > CMakeFiles/KinderColoring.dir/Models/Sources/MapNodeFactory.cpp.i
 
-CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Sources/ColorSet.cpp -o CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.s
+CMakeFiles/KinderColoring.dir/Models/Sources/MapNodeFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Models/Sources/MapNodeFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Models/Sources/MapNodeFactory.cpp -o CMakeFiles/KinderColoring.dir/Models/Sources/MapNodeFactory.cpp.s
+
+CMakeFiles/KinderColoring.dir/Models/Sources/CountryFactory.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
+CMakeFiles/KinderColoring.dir/Models/Sources/CountryFactory.cpp.o: ../Models/Sources/CountryFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/KinderColoring.dir/Models/Sources/CountryFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Models/Sources/CountryFactory.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Models/Sources/CountryFactory.cpp
+
+CMakeFiles/KinderColoring.dir/Models/Sources/CountryFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Models/Sources/CountryFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/Models/Sources/CountryFactory.cpp > CMakeFiles/KinderColoring.dir/Models/Sources/CountryFactory.cpp.i
+
+CMakeFiles/KinderColoring.dir/Models/Sources/CountryFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Models/Sources/CountryFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Models/Sources/CountryFactory.cpp -o CMakeFiles/KinderColoring.dir/Models/Sources/CountryFactory.cpp.s
+
+CMakeFiles/KinderColoring.dir/Models/Sources/Country.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
+CMakeFiles/KinderColoring.dir/Models/Sources/Country.cpp.o: ../Models/Sources/Country.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/KinderColoring.dir/Models/Sources/Country.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Models/Sources/Country.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Models/Sources/Country.cpp
+
+CMakeFiles/KinderColoring.dir/Models/Sources/Country.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Models/Sources/Country.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/Models/Sources/Country.cpp > CMakeFiles/KinderColoring.dir/Models/Sources/Country.cpp.i
+
+CMakeFiles/KinderColoring.dir/Models/Sources/Country.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Models/Sources/Country.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Models/Sources/Country.cpp -o CMakeFiles/KinderColoring.dir/Models/Sources/Country.cpp.s
+
+CMakeFiles/KinderColoring.dir/FileManagers/Sources/StringSplitter.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
+CMakeFiles/KinderColoring.dir/FileManagers/Sources/StringSplitter.cpp.o: ../FileManagers/Sources/StringSplitter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/KinderColoring.dir/FileManagers/Sources/StringSplitter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/FileManagers/Sources/StringSplitter.cpp.o -c /home/gunther/CLionProjects/KinderColoring/FileManagers/Sources/StringSplitter.cpp
+
+CMakeFiles/KinderColoring.dir/FileManagers/Sources/StringSplitter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/FileManagers/Sources/StringSplitter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/FileManagers/Sources/StringSplitter.cpp > CMakeFiles/KinderColoring.dir/FileManagers/Sources/StringSplitter.cpp.i
+
+CMakeFiles/KinderColoring.dir/FileManagers/Sources/StringSplitter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/FileManagers/Sources/StringSplitter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/FileManagers/Sources/StringSplitter.cpp -o CMakeFiles/KinderColoring.dir/FileManagers/Sources/StringSplitter.cpp.s
+
+CMakeFiles/KinderColoring.dir/Models/Sources/MapDirector.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
+CMakeFiles/KinderColoring.dir/Models/Sources/MapDirector.cpp.o: ../Models/Sources/MapDirector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/KinderColoring.dir/Models/Sources/MapDirector.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Models/Sources/MapDirector.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Models/Sources/MapDirector.cpp
+
+CMakeFiles/KinderColoring.dir/Models/Sources/MapDirector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Models/Sources/MapDirector.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/Models/Sources/MapDirector.cpp > CMakeFiles/KinderColoring.dir/Models/Sources/MapDirector.cpp.i
+
+CMakeFiles/KinderColoring.dir/Models/Sources/MapDirector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Models/Sources/MapDirector.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Models/Sources/MapDirector.cpp -o CMakeFiles/KinderColoring.dir/Models/Sources/MapDirector.cpp.s
+
+CMakeFiles/KinderColoring.dir/Models/Sources/MapBuilder.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
+CMakeFiles/KinderColoring.dir/Models/Sources/MapBuilder.cpp.o: ../Models/Sources/MapBuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/KinderColoring.dir/Models/Sources/MapBuilder.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Models/Sources/MapBuilder.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Models/Sources/MapBuilder.cpp
+
+CMakeFiles/KinderColoring.dir/Models/Sources/MapBuilder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Models/Sources/MapBuilder.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/Models/Sources/MapBuilder.cpp > CMakeFiles/KinderColoring.dir/Models/Sources/MapBuilder.cpp.i
+
+CMakeFiles/KinderColoring.dir/Models/Sources/MapBuilder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Models/Sources/MapBuilder.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Models/Sources/MapBuilder.cpp -o CMakeFiles/KinderColoring.dir/Models/Sources/MapBuilder.cpp.s
+
+CMakeFiles/KinderColoring.dir/Models/Sources/Map.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
+CMakeFiles/KinderColoring.dir/Models/Sources/Map.cpp.o: ../Models/Sources/Map.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/KinderColoring.dir/Models/Sources/Map.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Models/Sources/Map.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Models/Sources/Map.cpp
+
+CMakeFiles/KinderColoring.dir/Models/Sources/Map.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Models/Sources/Map.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/Models/Sources/Map.cpp > CMakeFiles/KinderColoring.dir/Models/Sources/Map.cpp.i
+
+CMakeFiles/KinderColoring.dir/Models/Sources/Map.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Models/Sources/Map.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Models/Sources/Map.cpp -o CMakeFiles/KinderColoring.dir/Models/Sources/Map.cpp.s
+
+CMakeFiles/KinderColoring.dir/Models/Sources/AbstractMapBuilder.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
+CMakeFiles/KinderColoring.dir/Models/Sources/AbstractMapBuilder.cpp.o: ../Models/Sources/AbstractMapBuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/KinderColoring.dir/Models/Sources/AbstractMapBuilder.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Models/Sources/AbstractMapBuilder.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Models/Sources/AbstractMapBuilder.cpp
+
+CMakeFiles/KinderColoring.dir/Models/Sources/AbstractMapBuilder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Models/Sources/AbstractMapBuilder.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/Models/Sources/AbstractMapBuilder.cpp > CMakeFiles/KinderColoring.dir/Models/Sources/AbstractMapBuilder.cpp.i
+
+CMakeFiles/KinderColoring.dir/Models/Sources/AbstractMapBuilder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Models/Sources/AbstractMapBuilder.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Models/Sources/AbstractMapBuilder.cpp -o CMakeFiles/KinderColoring.dir/Models/Sources/AbstractMapBuilder.cpp.s
+
+CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManager.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
+CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManager.cpp.o: ../FileManagers/Sources/FileManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManager.cpp.o -c /home/gunther/CLionProjects/KinderColoring/FileManagers/Sources/FileManager.cpp
+
+CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/FileManagers/Sources/FileManager.cpp > CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManager.cpp.i
+
+CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/FileManagers/Sources/FileManager.cpp -o CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManager.cpp.s
+
+CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManagerFactory.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
+CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManagerFactory.cpp.o: ../FileManagers/Sources/FileManagerFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManagerFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManagerFactory.cpp.o -c /home/gunther/CLionProjects/KinderColoring/FileManagers/Sources/FileManagerFactory.cpp
+
+CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManagerFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManagerFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/FileManagers/Sources/FileManagerFactory.cpp > CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManagerFactory.cpp.i
+
+CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManagerFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManagerFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/FileManagers/Sources/FileManagerFactory.cpp -o CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManagerFactory.cpp.s
+
+CMakeFiles/KinderColoring.dir/Painters/Sources/PainterFactory.cpp.o: CMakeFiles/KinderColoring.dir/flags.make
+CMakeFiles/KinderColoring.dir/Painters/Sources/PainterFactory.cpp.o: ../Painters/Sources/PainterFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/KinderColoring.dir/Painters/Sources/PainterFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/KinderColoring.dir/Painters/Sources/PainterFactory.cpp.o -c /home/gunther/CLionProjects/KinderColoring/Painters/Sources/PainterFactory.cpp
+
+CMakeFiles/KinderColoring.dir/Painters/Sources/PainterFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Painters/Sources/PainterFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gunther/CLionProjects/KinderColoring/Painters/Sources/PainterFactory.cpp > CMakeFiles/KinderColoring.dir/Painters/Sources/PainterFactory.cpp.i
+
+CMakeFiles/KinderColoring.dir/Painters/Sources/PainterFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Painters/Sources/PainterFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gunther/CLionProjects/KinderColoring/Painters/Sources/PainterFactory.cpp -o CMakeFiles/KinderColoring.dir/Painters/Sources/PainterFactory.cpp.s
 
 # Object files for target KinderColoring
 KinderColoring_OBJECTS = \
 "CMakeFiles/KinderColoring.dir/main.cpp.o" \
-"CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.o" \
-"CMakeFiles/KinderColoring.dir/Sources/Country.cpp.o" \
-"CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.o" \
-"CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.o" \
-"CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.o" \
-"CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.o" \
-"CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.o" \
-"CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.o"
+"CMakeFiles/KinderColoring.dir/FileManagers/Sources/XmlManager.cpp.o" \
+"CMakeFiles/KinderColoring.dir/Painters/Sources/Painter.cpp.o" \
+"CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.o" \
+"CMakeFiles/KinderColoring.dir/Painters/Sources/DynamicPainter.cpp.o" \
+"CMakeFiles/KinderColoring.dir/Painters/Sources/BacktrackingPainter.cpp.o" \
+"CMakeFiles/KinderColoring.dir/Models/Sources/ColorType.cpp.o" \
+"CMakeFiles/KinderColoring.dir/Models/Sources/MapNode.cpp.o" \
+"CMakeFiles/KinderColoring.dir/Models/Sources/MapNodeFactory.cpp.o" \
+"CMakeFiles/KinderColoring.dir/Models/Sources/CountryFactory.cpp.o" \
+"CMakeFiles/KinderColoring.dir/Models/Sources/Country.cpp.o" \
+"CMakeFiles/KinderColoring.dir/FileManagers/Sources/StringSplitter.cpp.o" \
+"CMakeFiles/KinderColoring.dir/Models/Sources/MapDirector.cpp.o" \
+"CMakeFiles/KinderColoring.dir/Models/Sources/MapBuilder.cpp.o" \
+"CMakeFiles/KinderColoring.dir/Models/Sources/Map.cpp.o" \
+"CMakeFiles/KinderColoring.dir/Models/Sources/AbstractMapBuilder.cpp.o" \
+"CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManager.cpp.o" \
+"CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManagerFactory.cpp.o" \
+"CMakeFiles/KinderColoring.dir/Painters/Sources/PainterFactory.cpp.o"
 
 # External object files for target KinderColoring
 KinderColoring_EXTERNAL_OBJECTS =
 
 KinderColoring: CMakeFiles/KinderColoring.dir/main.cpp.o
-KinderColoring: CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.o
-KinderColoring: CMakeFiles/KinderColoring.dir/Sources/Country.cpp.o
-KinderColoring: CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.o
-KinderColoring: CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.o
-KinderColoring: CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.o
-KinderColoring: CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.o
-KinderColoring: CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.o
-KinderColoring: CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.o
+KinderColoring: CMakeFiles/KinderColoring.dir/FileManagers/Sources/XmlManager.cpp.o
+KinderColoring: CMakeFiles/KinderColoring.dir/Painters/Sources/Painter.cpp.o
+KinderColoring: CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.o
+KinderColoring: CMakeFiles/KinderColoring.dir/Painters/Sources/DynamicPainter.cpp.o
+KinderColoring: CMakeFiles/KinderColoring.dir/Painters/Sources/BacktrackingPainter.cpp.o
+KinderColoring: CMakeFiles/KinderColoring.dir/Models/Sources/ColorType.cpp.o
+KinderColoring: CMakeFiles/KinderColoring.dir/Models/Sources/MapNode.cpp.o
+KinderColoring: CMakeFiles/KinderColoring.dir/Models/Sources/MapNodeFactory.cpp.o
+KinderColoring: CMakeFiles/KinderColoring.dir/Models/Sources/CountryFactory.cpp.o
+KinderColoring: CMakeFiles/KinderColoring.dir/Models/Sources/Country.cpp.o
+KinderColoring: CMakeFiles/KinderColoring.dir/FileManagers/Sources/StringSplitter.cpp.o
+KinderColoring: CMakeFiles/KinderColoring.dir/Models/Sources/MapDirector.cpp.o
+KinderColoring: CMakeFiles/KinderColoring.dir/Models/Sources/MapBuilder.cpp.o
+KinderColoring: CMakeFiles/KinderColoring.dir/Models/Sources/Map.cpp.o
+KinderColoring: CMakeFiles/KinderColoring.dir/Models/Sources/AbstractMapBuilder.cpp.o
+KinderColoring: CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManager.cpp.o
+KinderColoring: CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManagerFactory.cpp.o
+KinderColoring: CMakeFiles/KinderColoring.dir/Painters/Sources/PainterFactory.cpp.o
 KinderColoring: CMakeFiles/KinderColoring.dir/build.make
 KinderColoring: CMakeFiles/KinderColoring.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable KinderColoring"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gunther/CLionProjects/KinderColoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable KinderColoring"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/KinderColoring.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

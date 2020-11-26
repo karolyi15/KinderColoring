@@ -96,49 +96,112 @@
 		<Unit filename="/home/gunther/CLionProjects/DataStructures/Headers/Node.h">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Headers/BacktrackingPainter.h">
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/FileManagers/Headers/FileManager.h">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Headers/Country.h">
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/FileManagers/Headers/FileManagerFactory.h">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Headers/DivideConquerPainter.h">
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/FileManagers/Headers/StringSplitter.h">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Headers/DynamicPainter.h">
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/FileManagers/Headers/XmlManager.h">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Headers/Painter.h">
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/FileManagers/Sources/FileManager.cpp">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Headers/SvgManager.h">
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/FileManagers/Sources/FileManagerFactory.cpp">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Headers/XmlManager.h">
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/FileManagers/Sources/StringSplitter.cpp">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Sources/BacktrackingPainter.cpp">
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/FileManagers/Sources/XmlManager.cpp">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Sources/ColorSet.cpp">
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Models/Headers/AbstractMapBuilder.h">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Sources/Country.cpp">
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Models/Headers/ColorType.h">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Sources/DivideConquerPainter.cpp">
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Models/Headers/Country.h">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Sources/DynamicPainter.cpp">
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Models/Headers/CountryFactory.h">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Sources/Painter.cpp">
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Models/Headers/Map.h">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Sources/SvgManager.cpp">
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Models/Headers/MapBuilder.h">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Sources/XmlManager.cpp">
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Models/Headers/MapDirector.h">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Models/Headers/MapNode.h">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Models/Headers/MapNodeFactory.h">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Models/Sources/AbstractMapBuilder.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Models/Sources/ColorType.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Models/Sources/Country.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Models/Sources/CountryFactory.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Models/Sources/Map.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Models/Sources/MapBuilder.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Models/Sources/MapDirector.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Models/Sources/MapNode.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Models/Sources/MapNodeFactory.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Painters/Headers/BacktrackingPainter.h">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Painters/Headers/DivideConquerPainter.h">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Painters/Headers/DynamicPainter.h">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Painters/Headers/Painter.h">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Painters/Headers/PainterFactory.h">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Painters/Sources/BacktrackingPainter.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Painters/Sources/DivideConquerPainter.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Painters/Sources/DynamicPainter.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Painters/Sources/Painter.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="/home/gunther/CLionProjects/KinderColoring/Painters/Sources/PainterFactory.cpp">
 			<Option target="KinderColoring"/>
 		</Unit>
 		<Unit filename="/home/gunther/CLionProjects/KinderColoring/main.cpp">
