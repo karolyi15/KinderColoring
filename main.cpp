@@ -11,7 +11,7 @@ int main() {
 
     int colorSet = 3;
     PainterFactory *painterFactory = new PainterFactory();
-    Painter *painter = painterFactory->createPainter(PainterType::BACKTRCKING);
+    Painter *painter = painterFactory->createPainter(PainterType::DYNAMIC);
     painter->setColorSet(colorSet);
 
     //
@@ -21,8 +21,9 @@ int main() {
 
     //
     Map *map = director->buildWorldMap(SVG_PATH, xmlManager,countryFactory,painter);
-    map->printNodes();
+    //map->printNodes();
     map->paint();
+    map->printNodes();
 
    return 0;
 }

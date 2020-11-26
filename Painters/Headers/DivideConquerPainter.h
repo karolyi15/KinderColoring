@@ -5,29 +5,29 @@
 #ifndef KINDERCOLORING_DIVIDECONQUERPAINTER_H
 #define KINDERCOLORING_DIVIDECONQUERPAINTER_H
 
+#include <vector>
 #include "Painter.h"
+#include "../../Models/Headers/Country.h"
 
 class DivideConquerPainter: public Painter {
-/*
+
 private:
 
-    //Fields
-    vector<char*> countriesID;
-    SvgManager *svgManager;
-    vector<char*> *colors;
+    std::vector<Country*> inputData;
 
 public:
-    //Constructor
-    DivideConquerPainter(SvgManager *svgManager);
-    void initCountries(map<char*, Country*>* countriesHashMap);
 
-    //Setters & Getter
-    void setSvgManager(SvgManager * svgManager);
-    //Paint System
-    void initColors();
-    void paint();
-    void divideConquer(vector<char*> countriesList);
-    char* verifyColor(vector<string> *openSet);*/
+    //Constructor
+    DivideConquerPainter();
+
+    //Analyse Input Data
+    void setInputData(std::map<char*, MapNode*>* inputData);
+
+    //Painting System
+    void start();
+
+    void divideConquer(std::vector<Country*> countriesList);
+    Color verifyColor(std::vector<Color> *openSet);
 };
 
 

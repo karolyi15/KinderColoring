@@ -30,11 +30,13 @@ vector
 iostream
 /home/gunther/CLionProjects/KinderColoring/Models/Headers/iostream
 
-/home/gunther/CLionProjects/KinderColoring/Painters/Headers/BacktrackingPainter.h
+/home/gunther/CLionProjects/KinderColoring/Painters/Headers/DynamicPainter.h
 vector
 -
 Painter.h
 /home/gunther/CLionProjects/KinderColoring/Painters/Headers/Painter.h
+iostream
+/home/gunther/CLionProjects/KinderColoring/Painters/Headers/iostream
 ../../Models/Headers/Country.h
 /home/gunther/CLionProjects/KinderColoring/Models/Headers/Country.h
 
@@ -46,7 +48,7 @@ iostream
 ../../Models/Headers/MapNode.h
 /home/gunther/CLionProjects/KinderColoring/Models/Headers/MapNode.h
 
-/home/gunther/CLionProjects/KinderColoring/Painters/Sources/BacktrackingPainter.cpp
-../Headers/BacktrackingPainter.h
-/home/gunther/CLionProjects/KinderColoring/Painters/Headers/BacktrackingPainter.h
+/home/gunther/CLionProjects/KinderColoring/Painters/Sources/DynamicPainter.cpp
+../Headers/DynamicPainter.h
+/home/gunther/CLionProjects/KinderColoring/Painters/Headers/DynamicPainter.h
 

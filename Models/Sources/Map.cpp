@@ -30,13 +30,18 @@ void Map::saveMapData() {
         //Get Hash Map Data
         Country *tempCountry = (Country *) this->nodes->at(tempCountryId);
         char *tempCountryColor = ColorType::getHexColor(tempCountry->getColor());
+        //cout<<endl<< endl<< "ID: " << tempCountry->getId() << "Color: " << tempCountryColor <<"  ";
+
 
         //Save Color
         string tempAttribute = "fill:";
         tempAttribute.append(tempCountryColor);
-
+        //cout<< "attribute: " << tempAttribute.c_str();
+        //cout<< "oldColor: " <<  country->first_attribute("style")->value()<< endl;
 
         country->first_attribute("style")->value(tempAttribute.c_str());
+
+        //cout<< "newColor: " <<  country->first_attribute("style")->value()<<endl<< endl;
 
         //Update Country Node
         country = country->next_sibling();

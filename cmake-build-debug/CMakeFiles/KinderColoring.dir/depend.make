@@ -121,6 +121,9 @@ CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.o: ../Pa
 CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.o: ../Painters/Headers/Painter.h
 CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.o: ../Painters/Sources/DivideConquerPainter.cpp
 
+CMakeFiles/KinderColoring.dir/Painters/Sources/DynamicPainter.cpp.o: ../FileManagers/Headers/StringSplitter.h
+CMakeFiles/KinderColoring.dir/Painters/Sources/DynamicPainter.cpp.o: ../Models/Headers/ColorType.h
+CMakeFiles/KinderColoring.dir/Painters/Sources/DynamicPainter.cpp.o: ../Models/Headers/Country.h
 CMakeFiles/KinderColoring.dir/Painters/Sources/DynamicPainter.cpp.o: ../Models/Headers/MapNode.h
 CMakeFiles/KinderColoring.dir/Painters/Sources/DynamicPainter.cpp.o: ../Painters/Headers/DynamicPainter.h
 CMakeFiles/KinderColoring.dir/Painters/Sources/DynamicPainter.cpp.o: ../Painters/Headers/Painter.h

@@ -4,70 +4,52 @@
 
 #include <cstring>
 #include "../Headers/DivideConquerPainter.h"
-/*
+
 //Constructor
-DivideConquerPainter::DivideConquerPainter(SvgManager* svgManager) {
+DivideConquerPainter::DivideConquerPainter() {
 
-    //Init Country List
-    this->svgManager = svgManager;
-    map<char*, Country*> * countriesHashmap = this->svgManager->getCountries();
-    this->initCountries(countriesHashmap);
-
-    //Paint System
-    this->initColors();
-
+    this->id = "WDivideConquer.svg";
 }
 
-//Setters & Getters
-void DivideConquerPainter::setSvgManager(SvgManager *svgManager) {
 
-    this->svgManager = svgManager;
-}
+//Analyse Input Data
+void DivideConquerPainter::setInputData(std::map<char *, MapNode *> *inputData) {
 
-void DivideConquerPainter::initCountries(map<char *, Country *> *countriesHashMap) {
+    std::map<char *, MapNode *>::iterator itr;
 
-    //Define Iterator
-    map<char*, Country*>::iterator itr;
+    for(itr = inputData->begin(); itr != inputData->end(); itr++){
 
-    //
-    for(itr = countriesHashMap->begin(); itr != countriesHashMap->end(); itr++){
-
-       this->countriesID.push_back(itr->second->getId());
+        this->inputData.push_back((Country*) itr->second);
     }
-}
-
-//Paint System
-
-void DivideConquerPainter::initColors() {
-
-    this->colors = new vector<char*>;
-
-
-    this->colors->push_back("#cd2121"); //RED
-    this->colors->push_back("#f4b22d"); //YELLOW
-    this->colors->push_back("#124a68"); //BLUE
-    this->colors->push_back("#c126b3"); //PINK
 
 }
 
-char * DivideConquerPainter::verifyColor(vector<string> *openSet) {
+
+//Painting System
+void DivideConquerPainter::start() {
+
+    this->divideConquer(this->inputData);
+}
+
+
+Color DivideConquerPainter::verifyColor(std::vector<Color> *openSet) {
 
     bool used = false;
 
     if(openSet->size() != 0){
 
-        for(int color =0; color<this->colors->size(); color++){
+        for(int color =0; color<this->colorSet; color++){
 
             for(int set = 0; set < openSet->size(); set++){
 
-                if(this->colors->at(color) == openSet->at(set)){
+                if(ColorType::getPosition(color) == openSet->at(set)){
                     used = true;
                 }
             }
 
             if(used == false){
 
-                return this->colors->at(color);
+                return ColorType::getPosition(color);
 
             }else{
                 used = false;
@@ -75,45 +57,40 @@ char * DivideConquerPainter::verifyColor(vector<string> *openSet) {
 
         }
 
-        return "#c126b3";
+        return Color::DEFAULT;
 
     }else{
 
-        int randomColor = random()%this->colors->size()-1;
-        return this->colors->at(randomColor);
+        int randomColor = random()%this->colorSet-1;
+        return ColorType::getPosition(randomColor);
     }
 }
 
-void DivideConquerPainter::paint() {
 
-    divideConquer(this->countriesID);
-    cout << "Painted" << endl;
-    this->svgManager->writeSvg("../_MapFiles/DivideConquerWorld.svg");
-    cout << "Saved" << endl;
-}
-
-void DivideConquerPainter::divideConquer(vector<char*> countriesList) {
+void DivideConquerPainter::divideConquer(std::vector<Country*> countriesList) {
 
     if(countriesList.size() == 1){
         //*** Conquer ***
-        cout << "caso base"<< endl;
-        Country *tempCountry = this->svgManager->getCountries()->at(countriesList.at(0));
-        cout <<"id: " << tempCountry->getId()<<" color "<< tempCountry->getColor()<< endl;
+        //cout << "caso base"<< endl;
+        Country *tempCountry = countriesList.at(0);
+        //cout <<"id: " << tempCountry->getId()<<" color "<< tempCountry->getColor()<< endl;
 
 
-        if(strcmp(tempCountry->getColor(),"#f2f2f2" ) == 0) {
-            cout << "entro"<< endl;
+        if(tempCountry->getColor() == Color::DEFAULT) {
+            //cout << "entro"<< endl;
 
-            vector<string> *limitCountries = tempCountry->getBoundsCountries();
-            vector<string> * openSetColors = new vector<string>;
+            std::vector<MapNode*> *limitCountries = tempCountry->getLimitCountries();
+            std::vector<Color> * openSetColors = new std::vector<Color>;
 
             if(limitCountries->size() != 0) {
+
                 for (int count = 0; count < limitCountries->size(); count++) {
 
-                    char *tempID = const_cast<char *>(limitCountries->at(count).c_str());
-                    //char* tempColor = this->svgManager->getCountries()->at( tempID)->getColor();
-                    char *tempColor = "";
-                    if (tempColor != "#f2f2f2") {
+                    Country* tempCountry = (Country*) limitCountries->at(count);
+                    char *tempID = tempCountry->getId();
+                    Color tempColor = tempCountry->getColor();
+
+                    if (tempColor != Color::DEFAULT) {
 
                         openSetColors->push_back(tempColor);
                     }
@@ -123,17 +100,17 @@ void DivideConquerPainter::divideConquer(vector<char*> countriesList) {
                 //Paint
                 tempCountry->setColor(this->verifyColor(openSetColors));
             }
-            cout<< "color: " << tempCountry->getColor() << endl;
+            //cout<< "color: " << tempCountry->getColor() << endl;
         }
 
-        cout<<"salio"<<endl;
+        //cout<<"salio"<<endl;
 
     }else{
 
         //*** Divide ***
         int splitSize = countriesList.size()/2;
-        std::vector<char*> lower(countriesList.begin(), countriesList.begin()+splitSize);
-        std::vector<char*> higher(countriesList.begin()+splitSize, countriesList.end());
+        std::vector<Country*> lower(countriesList.begin(), countriesList.begin()+splitSize);
+        std::vector<Country*> higher(countriesList.begin()+splitSize, countriesList.end());
 
         divideConquer(lower);
         divideConquer(higher);
@@ -142,4 +119,3 @@ void DivideConquerPainter::divideConquer(vector<char*> countriesList) {
 
     }
 }
-*/
