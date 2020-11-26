@@ -23,9 +23,9 @@ public:
     //Paint System
     void initColors();
     void paint();
-    bool paintLimits(vector <string>* limitCountries);
+    bool paintLimits(vector <string>* limitCountries, int cantidadColores);
     int backtracking(int paisActual,int cantidadColores,int colorActual);
-    char* verifyColor(vector<string> *openSet);
+
 };
 
 

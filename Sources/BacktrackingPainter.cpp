@@ -60,45 +60,57 @@ void BacktrackingPainter::paint() {
     cout << "Saved" << endl;
 }
 
-bool BacktrackingPainter::paintLimits(vector <string>* limitCountries) {
+bool BacktrackingPainter::paintLimits(vector <string>* limitCountries, int cantidadColores) {
     int count = 0;
-    for (int pais = 0; pais < limitCountries->size(); pais++) {
-        char *tempID = const_cast<char *>( limitCountries->at(pais).c_str());
-        char *tempColor = this->svgManager->getCountries()->at(tempID)->getColor();
-        if (tempColor != "#f2f2f2") {
-            count++;
-        } else {
-            return false;
-        }
+    int countColores = 0;
+
+    if(limitCountries->size()<cantidadColores){
+        return false;
     }
-    if (count=limitCountries->size()) {
-        return true;
+    else{
+        vector<char *> Colores;
+        for (int pais = 0; pais < limitCountries->size(); pais++) {
+            char *tempID = const_cast<char *>( limitCountries->at(pais).c_str());
+            char *tempColor = this->svgManager->getCountries()->at(tempID)->getColor();
+            if (tempColor != "#f2f2f2") {
+                if(Colores->find(tempColor)){
+                    count++;
+                }
+                else{
+                    count++;
+                    Colores->append(tempColor);
+                    countColores++;
+                }
+            }
+        }
+        if (count=limitCountries->size() && countColores = cantidadColores) {       // que todos los paises limites estan pintados y que todos los colores posibles se usaron 
+            return true;
+        }else{return false}
     }
 }
 
 // como mando el mismo pais o el pais siguiente osea el itr siguiente o el actual
 int BacktrackingPainter::backtracking(int paisActual,int cantidadColores,int colorActual) {
-    cout<<"pez : "<<countriesID.size()<<endl;
-    cout<<"pez por el que voy: "<<paisActual<<endl;
+    //cout<<"pez : "<<countriesID.size()<<endl;
+    //cout<<"pez por el que voy: "<<paisActual<<endl;
     if (paisActual>=countriesID.size()) {
-
-        cout<<endl<<endl<<endl;
-        cout<<"Pez Feliz"<<endl;
+        //cout<<endl<<endl<<endl;
+        //cout<<"Pez Feliz"<<endl;
         return 0;                                             //ya se recorrieron todos los paises
     }
     else {
 
         Country *tempCountry = this->svgManager->getCountries()->at(countriesID.at(paisActual));  //saca la info del pais actual
 
-        cout<<"Pais Actual: " <<this->svgManager->getCountries()->at(countriesID.at(paisActual))->getId()<<endl;
-        cout<< tempCountry->toString()<<endl;
-        cout<<"Limites : "<<endl;
+        //cout<<"Pais Actual: " <<this->svgManager->getCountries()->at(countriesID.at(paisActual))->getId()<<endl;
+        //cout<< tempCountry->toString()<<endl;
+        //cout<<"Limites : "<<endl;
         vector <string> *limitCountries = tempCountry->getBoundsCountries();            // los paises que son limites al pais actual
 
         if (colorActual > cantidadColores) {
-            //Paint
+            //SetColor
             tempCountry->setColor("#ffffff");                               //le asigna un color blanco al pais
-            cout << "color: " << tempCountry->getColor() << endl<<endl;
+           // cout << "color: " << tempCountry->getColor() << endl<<endl;
 
             return backtracking(paisActual+1,cantidadColores,0);              // hace backtracking con el siguiente pais para asignarle color
         }
@@ -107,21 +119,21 @@ int BacktrackingPainter::backtracking(int paisActual,int cantidadColores,int col
             if (limitCountries->size() != 0) {
                 //cout<<"Pez limites: "<<limitCountries->size()<<endl;
                                                                                         //Poda
-                /*if(limitCountries->size() >= cantidadColores && paintLimits(limitCountries)){
+                if(paintLimits(limitCountries,cantidadColores)){
 
-                    cout<<endl<<"ENTRE EN PODA"<<endl;
+                    //cout<<endl<<"ENTRE EN PODA"<<endl;
 
                     tempCountry->setColor("#ffffff");                               //le asigna un color blanco al pais
-                    cout << "color: " << tempCountry->getColor() << endl;
+                    //cout << "color: " << tempCountry->getColor() << endl;
                     return backtracking(paisActual+1, cantidadColores, 0);
                 }
                 else {
-                 */   // verifica que el color no este en ninguno de los paises frontera
+                    // verifica que el color no este en ninguno de los paises frontera
                     for (int count = 0; count <= limitCountries->size() - 1; count++) {
                         char *tempID = const_cast<char *>( limitCountries->at(count).c_str());
                         // string te = limitCountries->at(count);
                         // cout<<te<<endl;
-                        cout << tempID << endl;
+                        //cout << tempID << endl;
                         //cout << "La GAM " << endl;
 
                         // Country *temp = this->svgManager->getCountries()->at(countriesID.at(tempID));
@@ -129,25 +141,24 @@ int BacktrackingPainter::backtracking(int paisActual,int cantidadColores,int col
 
 
                         char *tempColor = this->svgManager->getCountries()->at(tempID)->getColor();     // color del pais frontera
-                        cout << "Color pais limite: " << tempColor << "       ";
+                        //cout << "Color pais limite: " << tempColor << "       ";
 
-                        cout << "Color a compara: " << this->colors->at(colorActual) << endl;
+                        //cout << "Color a compara: " << this->colors->at(colorActual) << endl;
 
                         if (tempColor == this->colors->at(colorActual)) {                                 // color del pais frontera = color a validar
                             //cout << "pez volador" << endl;
                            return backtracking(paisActual, cantidadColores, colorActual + 1);    // hace backtracking con el mismo pais pero con color diferente
                         }
                     }
-                //}
+                }
             }
-            //Paint
+            //SetColor
             tempCountry->setColor(this->colors->at(colorActual) );                     //le asigna un color al pais
-            cout << "Color pais actual: " << tempCountry->getColor() << endl;
+            //cout << "Color pais actual: " << tempCountry->getColor() << endl;
 
-            cout<< endl<<endl;
+            //cout<< endl<<endl;
 
             return backtracking(paisActual+1,cantidadColores,0);          // hace backtracking con el siguiente pais para asignarle color
         }
     }
 }
-
