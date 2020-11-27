@@ -2,8 +2,7 @@
 #include "Models/Headers/CountryFactory.h"
 #include "Painters/Headers/PainterFactory.h"
 int main() {
-
-    //
+    srand (time(NULL));
     char * SVG_PATH = "../_MapFiles/world.svg";
     XmlManager *xmlManager = new XmlManager();
 
@@ -11,7 +10,7 @@ int main() {
 
     int colorSet = 3;
     PainterFactory *painterFactory = new PainterFactory();
-    Painter *painter = painterFactory->createPainter(PainterType::DYNAMIC);
+    Painter *painter = painterFactory->createPainter(PainterType::BACKTRCKING);
     painter->setColorSet(colorSet);
 
     //
@@ -23,6 +22,8 @@ int main() {
     Map *map = director->buildWorldMap(SVG_PATH, xmlManager,countryFactory,painter);
     //map->printNodes();
     map->paint();
+
+    map->saveMapData();
     map->printNodes();
 
    return 0;

@@ -11,6 +11,7 @@
 enum class FileType{
 
     Xml,
+    Txt
 };
 
 class FileManagerFactory {

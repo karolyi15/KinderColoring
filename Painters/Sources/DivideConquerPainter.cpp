@@ -33,7 +33,7 @@ void DivideConquerPainter::start() {
 
 
 Color DivideConquerPainter::verifyColor(std::vector<Color> *openSet) {
-
+    std::cout<<"Entro"<<std::endl;
     bool used = false;
 
     if(openSet->size() != 0){
@@ -49,6 +49,7 @@ Color DivideConquerPainter::verifyColor(std::vector<Color> *openSet) {
 
             if(used == false){
 
+                std::cout<<"Salio"<<std::endl;
                 return ColorType::getPosition(color);
 
             }else{
@@ -56,14 +57,16 @@ Color DivideConquerPainter::verifyColor(std::vector<Color> *openSet) {
             }
 
         }
-
+        std::cout<<"Salio"<<std::endl;
         return Color::DEFAULT;
 
     }else{
 
         int randomColor = random()%this->colorSet-1;
+        std::cout<<"Salio"<<std::endl;
         return ColorType::getPosition(randomColor);
     }
+
 }
 
 
@@ -71,23 +74,21 @@ void DivideConquerPainter::divideConquer(std::vector<Country*> countriesList) {
 
     if(countriesList.size() == 1){
         //*** Conquer ***
-        //cout << "caso base"<< endl;
-        Country *tempCountry = countriesList.at(0);
-        //cout <<"id: " << tempCountry->getId()<<" color "<< tempCountry->getColor()<< endl;
 
+        Country *tempCountry = countriesList.at(0);
 
         if(tempCountry->getColor() == Color::DEFAULT) {
-            //cout << "entro"<< endl;
+            //std::cout << "entro"<< std::endl;
 
-            std::vector<MapNode*> *limitCountries = tempCountry->getLimitCountries();
-            std::vector<Color> * openSetColors = new std::vector<Color>;
+            std::vector<MapNode *> *limitCountries = tempCountry->getLimitCountries();
+            std::vector<Color> *openSetColors = new std::vector<Color>;
 
-            if(limitCountries->size() != 0) {
+            if (limitCountries->size() != 0) {
 
                 for (int count = 0; count < limitCountries->size(); count++) {
 
-                    Country* tempCountry = (Country*) limitCountries->at(count);
-                    char *tempID = tempCountry->getId();
+                    Country *tempCountry = (Country *) limitCountries->at(count);
+
                     Color tempColor = tempCountry->getColor();
 
                     if (tempColor != Color::DEFAULT) {
@@ -98,12 +99,20 @@ void DivideConquerPainter::divideConquer(std::vector<Country*> countriesList) {
 
 
                 //Paint
-                tempCountry->setColor(this->verifyColor(openSetColors));
-            }
-            //cout<< "color: " << tempCountry->getColor() << endl;
-        }
+                int randomColor = random()%this->colorSet+1;
+                tempCountry->setColor(ColorType::getPosition(randomColor));
+                //tempCountry->setColor(Color::RED);
+                //tempCountry->setColor(this->verifyColor(openSetColors));
 
-        //cout<<"salio"<<endl;
+            } else {
+                int randomColor = random()%this->colorSet+1;
+                tempCountry->setColor(ColorType::getPosition(randomColor));
+                //Solos Countries
+                //tempCountry->setColor(Color::RED);
+            }
+
+            //cout<<"salio"<<endl;
+        }
 
     }else{
 

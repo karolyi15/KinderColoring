@@ -18,8 +18,7 @@ class Map {
 
 private :
 
-    //File Management System
-    void saveMapData();
+
 
     //Nodes Management System
     std::map<char*, MapNode*> *nodes;
@@ -37,6 +36,9 @@ private :
 
 
 public:
+
+    //File Management System
+    void saveMapData();
 
     //Constructor
     Map();

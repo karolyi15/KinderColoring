@@ -10,8 +10,8 @@ FileManager* FileManagerFactory::createManager(FileType fileType) {
 
         case FileType::Xml:
 
-            XmlManager *xmlManager = new XmlManager();
-            return (FileManager*) xmlManager;
+            return (FileManager*) new XmlManager();
+
 
     }
 }

@@ -10,15 +10,19 @@ void XmlManager::readFile(char *filePath) {
 
     this->xmlData.clear();
     file<> * xmlFile = new file<>(filePath);
+
     this->xmlData.parse<0>(xmlFile->data());
 
 }
 
 void XmlManager::writeFile(char *filePath) {
 
+    //cout<<this->xmlData<<endl;
     string xml_as_string;
     print(std::back_inserter(xml_as_string), this->xmlData);
 
+
+    //cout<<xml_as_string<<endl;
     ofstream xmlFile(filePath);
     xmlFile << this->xmlData;
 

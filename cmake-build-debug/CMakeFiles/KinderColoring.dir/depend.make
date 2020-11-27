@@ -116,6 +116,9 @@ CMakeFiles/KinderColoring.dir/Painters/Sources/BacktrackingPainter.cpp.o: ../Pai
 CMakeFiles/KinderColoring.dir/Painters/Sources/BacktrackingPainter.cpp.o: ../Painters/Headers/Painter.h
 CMakeFiles/KinderColoring.dir/Painters/Sources/BacktrackingPainter.cpp.o: ../Painters/Sources/BacktrackingPainter.cpp
 
+CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.o: ../FileManagers/Headers/StringSplitter.h
+CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.o: ../Models/Headers/ColorType.h
+CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.o: ../Models/Headers/Country.h
 CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.o: ../Models/Headers/MapNode.h
 CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.o: ../Painters/Headers/DivideConquerPainter.h
 CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.o: ../Painters/Headers/Painter.h
