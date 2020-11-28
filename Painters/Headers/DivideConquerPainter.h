@@ -26,8 +26,9 @@ public:
     //Painting System
     void start();
 
-    void divideConquer(std::vector<Country*> countriesList);
     Color verifyColor(std::vector<Color> *openSet);
+    void divideConquer(std::vector<Country*> countriesList);
+
 };
 
 

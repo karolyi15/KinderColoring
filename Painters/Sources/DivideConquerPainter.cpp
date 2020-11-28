@@ -33,40 +33,31 @@ void DivideConquerPainter::start() {
 
 
 Color DivideConquerPainter::verifyColor(std::vector<Color> *openSet) {
-    std::cout<<"Entro"<<std::endl;
-    bool used = false;
 
-    if(openSet->size() != 0){
+    bool usedColor = false;
 
-        for(int color =0; color<this->colorSet; color++){
+    for(int color =0; color<this->colorSet; color++) {
 
-            for(int set = 0; set < openSet->size(); set++){
+        for (int set = 0; set < openSet->size(); set++) {
 
-                if(ColorType::getPosition(color) == openSet->at(set)){
-                    used = true;
-                }
+            if(ColorType::getPosition(color) == openSet->at(set)){
+
+                usedColor =true;
             }
-
-            if(used == false){
-
-                std::cout<<"Salio"<<std::endl;
-                return ColorType::getPosition(color);
-
-            }else{
-                used = false;
-            }
-
         }
-        std::cout<<"Salio"<<std::endl;
-        return Color::DEFAULT;
 
-    }else{
+        if (usedColor) {
 
-        int randomColor = random()%this->colorSet-1;
-        std::cout<<"Salio"<<std::endl;
-        return ColorType::getPosition(randomColor);
+            usedColor = false;
+
+        }else{
+
+            return ColorType::getPosition(color);
+        }
+
     }
 
+    return Color::DEFAULT;
 }
 
 
@@ -81,9 +72,11 @@ void DivideConquerPainter::divideConquer(std::vector<Country*> countriesList) {
             //std::cout << "entro"<< std::endl;
 
             std::vector<MapNode *> *limitCountries = tempCountry->getLimitCountries();
-            std::vector<Color> *openSetColors = new std::vector<Color>;
+
 
             if (limitCountries->size() != 0) {
+
+                std::vector<Color> *openSetColors = new std::vector<Color>;
 
                 for (int count = 0; count < limitCountries->size(); count++) {
 
@@ -99,15 +92,18 @@ void DivideConquerPainter::divideConquer(std::vector<Country*> countriesList) {
 
 
                 //Paint
-                int randomColor = random()%this->colorSet+1;
-                tempCountry->setColor(ColorType::getPosition(randomColor));
+
+                //int randomColor = random()%this->colorSet+1;
+                //tempCountry->setColor(ColorType::getPosition(randomColor));
                 //tempCountry->setColor(Color::RED);
-                //tempCountry->setColor(this->verifyColor(openSetColors));
+                tempCountry->setColor(this->verifyColor(openSetColors));
 
             } else {
-                int randomColor = random()%this->colorSet+1;
-                tempCountry->setColor(ColorType::getPosition(randomColor));
+
                 //Solos Countries
+
+                tempCountry->setColor(ColorType::getPosition(0));
+
                 //tempCountry->setColor(Color::RED);
             }
 
