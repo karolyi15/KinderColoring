@@ -10,7 +10,7 @@ int main() {
 
     CountryFactory *countryFactory = new CountryFactory();
 
-    int colorSet = 3;
+    int colorSet = 5;
     PainterFactory *painterFactory = new PainterFactory();
     Painter *painter = painterFactory->createPainter(PainterType::DYNAMIC);
     painter->setColorSet(colorSet);

@@ -18,7 +18,7 @@ enum class Color{
     PURPLE,
     RASPBERRY,
     RED,
-    YELLOW,
+    DARK_GREEN,
 };
 
 class ColorType {

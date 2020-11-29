@@ -4,6 +4,7 @@
 
 #include "../Headers/DynamicPainter.h"
 #include <vector>
+#include "time.h"
 
 
 //Constructor
@@ -128,8 +129,12 @@ int DynamicPainter::dynamic(int paisActual, int cantidadColores) {
             } else {
                // cout<< " ^^^ Entre a pais que todavia tiene colores posible  ^^^ "<<endl;
                 //cout <<"Cantidad de colores optimos: " <<coloresOptimos.size() << endl;
+                srand (time(NULL));
 
-                Color tempColor = coloresOptimos.at(0);
+                /* generate secret number between 1 and 10: */
+                int position = rand() % coloresOptimos.size();
+
+                Color tempColor = coloresOptimos.at(position);
                 tempCountry->setColor(tempColor);
 
                 //cout << "Color del pais, que tiene limites: " << ColorType::getHexColor(tempCountry->getColor()) << endl;

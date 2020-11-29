@@ -13,37 +13,37 @@ char * ColorType::getHexColor(Color color) {
             return "#f2f2f2";
 
         case Color::AMBER:
-            return "#FFBF00";
+            return "#FFF700";
 
         case Color::BRICK_RED:
-            return "#CB4154";
+            return "#FFB6C1";
 
         case Color::BLUE:
-            return "#124a68";
+            return "#124A68";
 
         case Color::BROWN:
-            return "#A52A2A";
+            return "#6E4A14";
 
         case Color::DARK_CYAN:
             return "#008B8B";
 
         case Color::GREEN:
-            return "#2a9619";
+            return "#04D90B";
 
         case Color::ORANGE:
-            return "#ec7b0a";
+            return "#EC730A";
 
         case Color::PURPLE:
-            return "#9f08ba";
+            return "#7B1FA2";
 
         case Color::RASPBERRY:
-            return "#E30B5C";
+            return "#DD9D00";
 
         case Color::RED:
-            return "#cd2121";
+            return "#DB0909";
 
-        case Color::YELLOW:
-            return "#f4b22d";
+        case Color::DARK_GREEN:
+            return "#276E01";
 
     }
 }
@@ -56,13 +56,13 @@ Color ColorType::getPosition(int position) {
         case 1:
             return Color::BRICK_RED;
         case 2:
-            return Color::BLUE;
+            return Color::DARK_CYAN;
         case 3:
             return Color::BROWN;
         case 4:
-            return Color::DARK_CYAN;
-        case 5:
             return Color::GREEN;
+        case 5:
+            return Color::BLUE;
         case 6:
             return Color::ORANGE;
         case 7:
@@ -72,6 +72,6 @@ Color ColorType::getPosition(int position) {
         case 9:
             return Color::RED;
         case 10:
-            return Color::YELLOW;
+            return Color::DARK_GREEN;
     }
 }
