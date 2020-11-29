@@ -80,185 +80,395 @@ CMakeFiles\KinderColoring.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\main.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\main.cpp
 <<
 
-CMakeFiles\KinderColoring.dir\Sources\XmlManager.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
-CMakeFiles\KinderColoring.dir\Sources\XmlManager.cpp.obj: ..\Sources\XmlManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.obj"
+CMakeFiles\KinderColoring.dir\FileManagers\Sources\XmlManager.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
+CMakeFiles\KinderColoring.dir\FileManagers\Sources\XmlManager.cpp.obj: ..\FileManagers\Sources\XmlManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/KinderColoring.dir/FileManagers/Sources/XmlManager.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\Sources\XmlManager.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\XmlManager.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\FileManagers\Sources\XmlManager.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\FileManagers\Sources\XmlManager.cpp
 <<
 
-CMakeFiles\KinderColoring.dir\Sources\XmlManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\Sources\XmlManager.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\XmlManager.cpp
+CMakeFiles\KinderColoring.dir\FileManagers\Sources\XmlManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/FileManagers/Sources/XmlManager.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\FileManagers\Sources\XmlManager.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\FileManagers\Sources\XmlManager.cpp
 <<
 
-CMakeFiles\KinderColoring.dir\Sources\XmlManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Sources/XmlManager.cpp.s"
+CMakeFiles\KinderColoring.dir\FileManagers\Sources\XmlManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/FileManagers/Sources/XmlManager.cpp.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\Sources\XmlManager.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\XmlManager.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\FileManagers\Sources\XmlManager.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\FileManagers\Sources\XmlManager.cpp
 <<
 
-CMakeFiles\KinderColoring.dir\Sources\Country.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
-CMakeFiles\KinderColoring.dir\Sources\Country.cpp.obj: ..\Sources\Country.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/Country.cpp.obj"
+CMakeFiles\KinderColoring.dir\Painters\Sources\Painter.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
+CMakeFiles\KinderColoring.dir\Painters\Sources\Painter.cpp.obj: ..\Painters\Sources\Painter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/KinderColoring.dir/Painters/Sources/Painter.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\Sources\Country.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\Country.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\Painters\Sources\Painter.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\Painters\Sources\Painter.cpp
 <<
 
-CMakeFiles\KinderColoring.dir\Sources\Country.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Sources/Country.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\Sources\Country.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\Country.cpp
+CMakeFiles\KinderColoring.dir\Painters\Sources\Painter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Painters/Sources/Painter.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\Painters\Sources\Painter.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\Painters\Sources\Painter.cpp
 <<
 
-CMakeFiles\KinderColoring.dir\Sources\Country.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Sources/Country.cpp.s"
+CMakeFiles\KinderColoring.dir\Painters\Sources\Painter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Painters/Sources/Painter.cpp.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\Sources\Country.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\Country.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\Painters\Sources\Painter.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\Painters\Sources\Painter.cpp
 <<
 
-CMakeFiles\KinderColoring.dir\Sources\SvgManager.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
-CMakeFiles\KinderColoring.dir\Sources\SvgManager.cpp.obj: ..\Sources\SvgManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.obj"
+CMakeFiles\KinderColoring.dir\Painters\Sources\DivideConquerPainter.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
+CMakeFiles\KinderColoring.dir\Painters\Sources\DivideConquerPainter.cpp.obj: ..\Painters\Sources\DivideConquerPainter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\Sources\SvgManager.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\SvgManager.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\Painters\Sources\DivideConquerPainter.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\Painters\Sources\DivideConquerPainter.cpp
 <<
 
-CMakeFiles\KinderColoring.dir\Sources\SvgManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\Sources\SvgManager.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\SvgManager.cpp
+CMakeFiles\KinderColoring.dir\Painters\Sources\DivideConquerPainter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\Painters\Sources\DivideConquerPainter.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\Painters\Sources\DivideConquerPainter.cpp
 <<
 
-CMakeFiles\KinderColoring.dir\Sources\SvgManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Sources/SvgManager.cpp.s"
+CMakeFiles\KinderColoring.dir\Painters\Sources\DivideConquerPainter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Painters/Sources/DivideConquerPainter.cpp.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\Sources\SvgManager.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\SvgManager.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\Painters\Sources\DivideConquerPainter.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\Painters\Sources\DivideConquerPainter.cpp
 <<
 
-CMakeFiles\KinderColoring.dir\Sources\Painter.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
-CMakeFiles\KinderColoring.dir\Sources\Painter.cpp.obj: ..\Sources\Painter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.obj"
+CMakeFiles\KinderColoring.dir\Painters\Sources\DynamicPainter.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
+CMakeFiles\KinderColoring.dir\Painters\Sources\DynamicPainter.cpp.obj: ..\Painters\Sources\DynamicPainter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/KinderColoring.dir/Painters/Sources/DynamicPainter.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\Sources\Painter.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\Painter.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\Painters\Sources\DynamicPainter.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\Painters\Sources\DynamicPainter.cpp
 <<
 
-CMakeFiles\KinderColoring.dir\Sources\Painter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\Sources\Painter.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\Painter.cpp
+CMakeFiles\KinderColoring.dir\Painters\Sources\DynamicPainter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Painters/Sources/DynamicPainter.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\Painters\Sources\DynamicPainter.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\Painters\Sources\DynamicPainter.cpp
 <<
 
-CMakeFiles\KinderColoring.dir\Sources\Painter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Sources/Painter.cpp.s"
+CMakeFiles\KinderColoring.dir\Painters\Sources\DynamicPainter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Painters/Sources/DynamicPainter.cpp.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\Sources\Painter.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\Painter.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\Painters\Sources\DynamicPainter.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\Painters\Sources\DynamicPainter.cpp
 <<
 
-CMakeFiles\KinderColoring.dir\Sources\DivideConquerPainter.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
-CMakeFiles\KinderColoring.dir\Sources\DivideConquerPainter.cpp.obj: ..\Sources\DivideConquerPainter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.obj"
+CMakeFiles\KinderColoring.dir\Painters\Sources\BacktrackingPainter.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
+CMakeFiles\KinderColoring.dir\Painters\Sources\BacktrackingPainter.cpp.obj: ..\Painters\Sources\BacktrackingPainter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/KinderColoring.dir/Painters/Sources/BacktrackingPainter.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\Sources\DivideConquerPainter.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\DivideConquerPainter.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\Painters\Sources\BacktrackingPainter.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\Painters\Sources\BacktrackingPainter.cpp
 <<
 
-CMakeFiles\KinderColoring.dir\Sources\DivideConquerPainter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\Sources\DivideConquerPainter.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\DivideConquerPainter.cpp
+CMakeFiles\KinderColoring.dir\Painters\Sources\BacktrackingPainter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Painters/Sources/BacktrackingPainter.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\Painters\Sources\BacktrackingPainter.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\Painters\Sources\BacktrackingPainter.cpp
 <<
 
-CMakeFiles\KinderColoring.dir\Sources\DivideConquerPainter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Sources/DivideConquerPainter.cpp.s"
+CMakeFiles\KinderColoring.dir\Painters\Sources\BacktrackingPainter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Painters/Sources/BacktrackingPainter.cpp.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\Sources\DivideConquerPainter.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\DivideConquerPainter.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\Painters\Sources\BacktrackingPainter.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\Painters\Sources\BacktrackingPainter.cpp
 <<
 
-CMakeFiles\KinderColoring.dir\Sources\DynamicPainter.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
-CMakeFiles\KinderColoring.dir\Sources\DynamicPainter.cpp.obj: ..\Sources\DynamicPainter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.obj"
+CMakeFiles\KinderColoring.dir\Models\Sources\ColorType.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
+CMakeFiles\KinderColoring.dir\Models\Sources\ColorType.cpp.obj: ..\Models\Sources\ColorType.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/KinderColoring.dir/Models/Sources/ColorType.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\Sources\DynamicPainter.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\DynamicPainter.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\Models\Sources\ColorType.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\ColorType.cpp
 <<
 
-CMakeFiles\KinderColoring.dir\Sources\DynamicPainter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\Sources\DynamicPainter.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\DynamicPainter.cpp
+CMakeFiles\KinderColoring.dir\Models\Sources\ColorType.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Models/Sources/ColorType.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\Models\Sources\ColorType.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\ColorType.cpp
 <<
 
-CMakeFiles\KinderColoring.dir\Sources\DynamicPainter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Sources/DynamicPainter.cpp.s"
+CMakeFiles\KinderColoring.dir\Models\Sources\ColorType.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Models/Sources/ColorType.cpp.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\Sources\DynamicPainter.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\DynamicPainter.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\Models\Sources\ColorType.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\ColorType.cpp
 <<
 
-CMakeFiles\KinderColoring.dir\Sources\BacktrackingPainter.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
-CMakeFiles\KinderColoring.dir\Sources\BacktrackingPainter.cpp.obj: ..\Sources\BacktrackingPainter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.obj"
+CMakeFiles\KinderColoring.dir\Models\Sources\MapNode.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
+CMakeFiles\KinderColoring.dir\Models\Sources\MapNode.cpp.obj: ..\Models\Sources\MapNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/KinderColoring.dir/Models/Sources/MapNode.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\Sources\BacktrackingPainter.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\BacktrackingPainter.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\Models\Sources\MapNode.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\MapNode.cpp
 <<
 
-CMakeFiles\KinderColoring.dir\Sources\BacktrackingPainter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\Sources\BacktrackingPainter.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\BacktrackingPainter.cpp
+CMakeFiles\KinderColoring.dir\Models\Sources\MapNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Models/Sources/MapNode.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\Models\Sources\MapNode.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\MapNode.cpp
 <<
 
-CMakeFiles\KinderColoring.dir\Sources\BacktrackingPainter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Sources/BacktrackingPainter.cpp.s"
+CMakeFiles\KinderColoring.dir\Models\Sources\MapNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Models/Sources/MapNode.cpp.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\Sources\BacktrackingPainter.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\BacktrackingPainter.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\Models\Sources\MapNode.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\MapNode.cpp
 <<
 
-CMakeFiles\KinderColoring.dir\Sources\ColorSet.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
-CMakeFiles\KinderColoring.dir\Sources\ColorSet.cpp.obj: ..\Sources\ColorSet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.obj"
+CMakeFiles\KinderColoring.dir\Models\Sources\MapNodeFactory.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
+CMakeFiles\KinderColoring.dir\Models\Sources\MapNodeFactory.cpp.obj: ..\Models\Sources\MapNodeFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/KinderColoring.dir/Models/Sources/MapNodeFactory.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\Sources\ColorSet.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\ColorSet.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\Models\Sources\MapNodeFactory.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\MapNodeFactory.cpp
 <<
 
-CMakeFiles\KinderColoring.dir\Sources\ColorSet.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\Sources\ColorSet.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\ColorSet.cpp
+CMakeFiles\KinderColoring.dir\Models\Sources\MapNodeFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Models/Sources/MapNodeFactory.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\Models\Sources\MapNodeFactory.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\MapNodeFactory.cpp
 <<
 
-CMakeFiles\KinderColoring.dir\Sources\ColorSet.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Sources/ColorSet.cpp.s"
+CMakeFiles\KinderColoring.dir\Models\Sources\MapNodeFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Models/Sources/MapNodeFactory.cpp.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\Sources\ColorSet.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\Sources\ColorSet.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\Models\Sources\MapNodeFactory.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\MapNodeFactory.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\Models\Sources\CountryFactory.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
+CMakeFiles\KinderColoring.dir\Models\Sources\CountryFactory.cpp.obj: ..\Models\Sources\CountryFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/KinderColoring.dir/Models/Sources/CountryFactory.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\Models\Sources\CountryFactory.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\CountryFactory.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\Models\Sources\CountryFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Models/Sources/CountryFactory.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\Models\Sources\CountryFactory.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\CountryFactory.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\Models\Sources\CountryFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Models/Sources/CountryFactory.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\Models\Sources\CountryFactory.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\CountryFactory.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\Models\Sources\Country.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
+CMakeFiles\KinderColoring.dir\Models\Sources\Country.cpp.obj: ..\Models\Sources\Country.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/KinderColoring.dir/Models/Sources/Country.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\Models\Sources\Country.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\Country.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\Models\Sources\Country.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Models/Sources/Country.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\Models\Sources\Country.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\Country.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\Models\Sources\Country.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Models/Sources/Country.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\Models\Sources\Country.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\Country.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\FileManagers\Sources\StringSplitter.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
+CMakeFiles\KinderColoring.dir\FileManagers\Sources\StringSplitter.cpp.obj: ..\FileManagers\Sources\StringSplitter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/KinderColoring.dir/FileManagers/Sources/StringSplitter.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\FileManagers\Sources\StringSplitter.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\FileManagers\Sources\StringSplitter.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\FileManagers\Sources\StringSplitter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/FileManagers/Sources/StringSplitter.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\FileManagers\Sources\StringSplitter.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\FileManagers\Sources\StringSplitter.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\FileManagers\Sources\StringSplitter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/FileManagers/Sources/StringSplitter.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\FileManagers\Sources\StringSplitter.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\FileManagers\Sources\StringSplitter.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\Models\Sources\MapDirector.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
+CMakeFiles\KinderColoring.dir\Models\Sources\MapDirector.cpp.obj: ..\Models\Sources\MapDirector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/KinderColoring.dir/Models/Sources/MapDirector.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\Models\Sources\MapDirector.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\MapDirector.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\Models\Sources\MapDirector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Models/Sources/MapDirector.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\Models\Sources\MapDirector.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\MapDirector.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\Models\Sources\MapDirector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Models/Sources/MapDirector.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\Models\Sources\MapDirector.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\MapDirector.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\Models\Sources\MapBuilder.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
+CMakeFiles\KinderColoring.dir\Models\Sources\MapBuilder.cpp.obj: ..\Models\Sources\MapBuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/KinderColoring.dir/Models/Sources/MapBuilder.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\Models\Sources\MapBuilder.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\MapBuilder.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\Models\Sources\MapBuilder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Models/Sources/MapBuilder.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\Models\Sources\MapBuilder.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\MapBuilder.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\Models\Sources\MapBuilder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Models/Sources/MapBuilder.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\Models\Sources\MapBuilder.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\MapBuilder.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\Models\Sources\Map.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
+CMakeFiles\KinderColoring.dir\Models\Sources\Map.cpp.obj: ..\Models\Sources\Map.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/KinderColoring.dir/Models/Sources/Map.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\Models\Sources\Map.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\Map.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\Models\Sources\Map.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Models/Sources/Map.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\Models\Sources\Map.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\Map.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\Models\Sources\Map.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Models/Sources/Map.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\Models\Sources\Map.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\Map.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\Models\Sources\AbstractMapBuilder.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
+CMakeFiles\KinderColoring.dir\Models\Sources\AbstractMapBuilder.cpp.obj: ..\Models\Sources\AbstractMapBuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/KinderColoring.dir/Models/Sources/AbstractMapBuilder.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\Models\Sources\AbstractMapBuilder.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\AbstractMapBuilder.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\Models\Sources\AbstractMapBuilder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Models/Sources/AbstractMapBuilder.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\Models\Sources\AbstractMapBuilder.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\AbstractMapBuilder.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\Models\Sources\AbstractMapBuilder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Models/Sources/AbstractMapBuilder.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\Models\Sources\AbstractMapBuilder.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\Models\Sources\AbstractMapBuilder.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\FileManagers\Sources\FileManager.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
+CMakeFiles\KinderColoring.dir\FileManagers\Sources\FileManager.cpp.obj: ..\FileManagers\Sources\FileManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManager.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\FileManagers\Sources\FileManager.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\FileManagers\Sources\FileManager.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\FileManagers\Sources\FileManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManager.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\FileManagers\Sources\FileManager.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\FileManagers\Sources\FileManager.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\FileManagers\Sources\FileManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManager.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\FileManagers\Sources\FileManager.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\FileManagers\Sources\FileManager.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\FileManagers\Sources\FileManagerFactory.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
+CMakeFiles\KinderColoring.dir\FileManagers\Sources\FileManagerFactory.cpp.obj: ..\FileManagers\Sources\FileManagerFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManagerFactory.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\FileManagers\Sources\FileManagerFactory.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\FileManagers\Sources\FileManagerFactory.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\FileManagers\Sources\FileManagerFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManagerFactory.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\FileManagers\Sources\FileManagerFactory.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\FileManagers\Sources\FileManagerFactory.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\FileManagers\Sources\FileManagerFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/FileManagers/Sources/FileManagerFactory.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\FileManagers\Sources\FileManagerFactory.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\FileManagers\Sources\FileManagerFactory.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\Painters\Sources\PainterFactory.cpp.obj: CMakeFiles\KinderColoring.dir\flags.make
+CMakeFiles\KinderColoring.dir\Painters\Sources\PainterFactory.cpp.obj: ..\Painters\Sources\PainterFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/KinderColoring.dir/Painters/Sources/PainterFactory.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KinderColoring.dir\Painters\Sources\PainterFactory.cpp.obj /FdCMakeFiles\KinderColoring.dir\ /FS -c C:\Users\aguer\Documents\GitHub\KinderColoring\Painters\Sources\PainterFactory.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\Painters\Sources\PainterFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KinderColoring.dir/Painters/Sources/PainterFactory.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\KinderColoring.dir\Painters\Sources\PainterFactory.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\aguer\Documents\GitHub\KinderColoring\Painters\Sources\PainterFactory.cpp
+<<
+
+CMakeFiles\KinderColoring.dir\Painters\Sources\PainterFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KinderColoring.dir/Painters/Sources/PainterFactory.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KinderColoring.dir\Painters\Sources\PainterFactory.cpp.s /c C:\Users\aguer\Documents\GitHub\KinderColoring\Painters\Sources\PainterFactory.cpp
 <<
 
 # Object files for target KinderColoring
 KinderColoring_OBJECTS = \
 "CMakeFiles\KinderColoring.dir\main.cpp.obj" \
-"CMakeFiles\KinderColoring.dir\Sources\XmlManager.cpp.obj" \
-"CMakeFiles\KinderColoring.dir\Sources\Country.cpp.obj" \
-"CMakeFiles\KinderColoring.dir\Sources\SvgManager.cpp.obj" \
-"CMakeFiles\KinderColoring.dir\Sources\Painter.cpp.obj" \
-"CMakeFiles\KinderColoring.dir\Sources\DivideConquerPainter.cpp.obj" \
-"CMakeFiles\KinderColoring.dir\Sources\DynamicPainter.cpp.obj" \
-"CMakeFiles\KinderColoring.dir\Sources\BacktrackingPainter.cpp.obj" \
-"CMakeFiles\KinderColoring.dir\Sources\ColorSet.cpp.obj"
+"CMakeFiles\KinderColoring.dir\FileManagers\Sources\XmlManager.cpp.obj" \
+"CMakeFiles\KinderColoring.dir\Painters\Sources\Painter.cpp.obj" \
+"CMakeFiles\KinderColoring.dir\Painters\Sources\DivideConquerPainter.cpp.obj" \
+"CMakeFiles\KinderColoring.dir\Painters\Sources\DynamicPainter.cpp.obj" \
+"CMakeFiles\KinderColoring.dir\Painters\Sources\BacktrackingPainter.cpp.obj" \
+"CMakeFiles\KinderColoring.dir\Models\Sources\ColorType.cpp.obj" \
+"CMakeFiles\KinderColoring.dir\Models\Sources\MapNode.cpp.obj" \
+"CMakeFiles\KinderColoring.dir\Models\Sources\MapNodeFactory.cpp.obj" \
+"CMakeFiles\KinderColoring.dir\Models\Sources\CountryFactory.cpp.obj" \
+"CMakeFiles\KinderColoring.dir\Models\Sources\Country.cpp.obj" \
+"CMakeFiles\KinderColoring.dir\FileManagers\Sources\StringSplitter.cpp.obj" \
+"CMakeFiles\KinderColoring.dir\Models\Sources\MapDirector.cpp.obj" \
+"CMakeFiles\KinderColoring.dir\Models\Sources\MapBuilder.cpp.obj" \
+"CMakeFiles\KinderColoring.dir\Models\Sources\Map.cpp.obj" \
+"CMakeFiles\KinderColoring.dir\Models\Sources\AbstractMapBuilder.cpp.obj" \
+"CMakeFiles\KinderColoring.dir\FileManagers\Sources\FileManager.cpp.obj" \
+"CMakeFiles\KinderColoring.dir\FileManagers\Sources\FileManagerFactory.cpp.obj" \
+"CMakeFiles\KinderColoring.dir\Painters\Sources\PainterFactory.cpp.obj"
 
 # External object files for target KinderColoring
 KinderColoring_EXTERNAL_OBJECTS =
 
 KinderColoring.exe: CMakeFiles\KinderColoring.dir\main.cpp.obj
-KinderColoring.exe: CMakeFiles\KinderColoring.dir\Sources\XmlManager.cpp.obj
-KinderColoring.exe: CMakeFiles\KinderColoring.dir\Sources\Country.cpp.obj
-KinderColoring.exe: CMakeFiles\KinderColoring.dir\Sources\SvgManager.cpp.obj
-KinderColoring.exe: CMakeFiles\KinderColoring.dir\Sources\Painter.cpp.obj
-KinderColoring.exe: CMakeFiles\KinderColoring.dir\Sources\DivideConquerPainter.cpp.obj
-KinderColoring.exe: CMakeFiles\KinderColoring.dir\Sources\DynamicPainter.cpp.obj
-KinderColoring.exe: CMakeFiles\KinderColoring.dir\Sources\BacktrackingPainter.cpp.obj
-KinderColoring.exe: CMakeFiles\KinderColoring.dir\Sources\ColorSet.cpp.obj
+KinderColoring.exe: CMakeFiles\KinderColoring.dir\FileManagers\Sources\XmlManager.cpp.obj
+KinderColoring.exe: CMakeFiles\KinderColoring.dir\Painters\Sources\Painter.cpp.obj
+KinderColoring.exe: CMakeFiles\KinderColoring.dir\Painters\Sources\DivideConquerPainter.cpp.obj
+KinderColoring.exe: CMakeFiles\KinderColoring.dir\Painters\Sources\DynamicPainter.cpp.obj
+KinderColoring.exe: CMakeFiles\KinderColoring.dir\Painters\Sources\BacktrackingPainter.cpp.obj
+KinderColoring.exe: CMakeFiles\KinderColoring.dir\Models\Sources\ColorType.cpp.obj
+KinderColoring.exe: CMakeFiles\KinderColoring.dir\Models\Sources\MapNode.cpp.obj
+KinderColoring.exe: CMakeFiles\KinderColoring.dir\Models\Sources\MapNodeFactory.cpp.obj
+KinderColoring.exe: CMakeFiles\KinderColoring.dir\Models\Sources\CountryFactory.cpp.obj
+KinderColoring.exe: CMakeFiles\KinderColoring.dir\Models\Sources\Country.cpp.obj
+KinderColoring.exe: CMakeFiles\KinderColoring.dir\FileManagers\Sources\StringSplitter.cpp.obj
+KinderColoring.exe: CMakeFiles\KinderColoring.dir\Models\Sources\MapDirector.cpp.obj
+KinderColoring.exe: CMakeFiles\KinderColoring.dir\Models\Sources\MapBuilder.cpp.obj
+KinderColoring.exe: CMakeFiles\KinderColoring.dir\Models\Sources\Map.cpp.obj
+KinderColoring.exe: CMakeFiles\KinderColoring.dir\Models\Sources\AbstractMapBuilder.cpp.obj
+KinderColoring.exe: CMakeFiles\KinderColoring.dir\FileManagers\Sources\FileManager.cpp.obj
+KinderColoring.exe: CMakeFiles\KinderColoring.dir\FileManagers\Sources\FileManagerFactory.cpp.obj
+KinderColoring.exe: CMakeFiles\KinderColoring.dir\Painters\Sources\PainterFactory.cpp.obj
 KinderColoring.exe: CMakeFiles\KinderColoring.dir\build.make
 KinderColoring.exe: CMakeFiles\KinderColoring.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable KinderColoring.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable KinderColoring.exe"
 	"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\KinderColoring.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\KinderColoring.dir\objects1.rsp @<<
  /out:KinderColoring.exe /implib:KinderColoring.lib /pdb:C:\Users\aguer\Documents\GitHub\KinderColoring\cmake-build-debug\KinderColoring.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

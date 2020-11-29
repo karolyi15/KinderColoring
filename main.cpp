@@ -1,56 +1,32 @@
-#include <iostream>
-#include <fstream>
-#include <rapidxml_utils.hpp>
-#include "rapidxml.hpp"
-#include "Headers/XmlManager.h"
-#include "Headers/SvgManager.h"
-#include "Headers/DivideConquerPainter.h"
-#include "Headers/BacktrackingPainter.h"
-#include <typeinfo>
-
-using namespace rapidxml;
-using namespace std;
+#include "Models/Headers/MapDirector.h"
+#include "Models/Headers/CountryFactory.h"
+#include "Painters/Headers/PainterFactory.h"
+#include <ctime>
 
 int main() {
-    //*****************************************************************************************************************//
-    //***** XML MANAGER TEST *****//
-    /*
-    //Init Xml Manager
-    XmlManager * manager = XmlManager::getInstance();
+    srand (time(NULL));
+    char * SVG_PATH = "../_MapFiles/world.svg";
+    XmlManager *xmlManager = new XmlManager();
 
-    //Parse Xml File
-    xml_document<> *xmlData =manager->parseXML("/home/gunther/CLionProjects/KinderColoring/_MapFiles/world1.svg");
+    CountryFactory *countryFactory = new CountryFactory();
 
-    //Access Xml Node
-   // cout<<xmlData->fi
-     rst_node()->name();
+    int colorSet = 3;
+    PainterFactory *painterFactory = new PainterFactory();
+    Painter *painter = painterFactory->createPainter(PainterType::DYNAMIC);
+    painter->setColorSet(colorSet);
 
-    //Save Xml to File
-    //manager->writeXML("/home/gunther/CLionProjects/KinderColoring/_MapFiles/test.svg");
-     */
-    //*****************************************************************************************************************//
-    SvgManager *svgManager = new SvgManager("../_MapFiles/world.svg");
-   // svgManager->printCountries();
-    //char * color= "#cd2120";
-   // svgManager->getCountries()->begin()->second->setColor(color);
-
-    //svgManager->printCountries();
-
-   // svgManager->writeSvg("../_MapFiles/world1.svg");
-
-    //DivideConquerPainter *painter = new DivideConquerPainter(svgManager);
-
-    //painter->paint();
+    //
+    MapBuilder *builder = new MapBuilder();
+    MapDirector *director = new MapDirector(builder);
 
 
-    BacktrackingPainter *painter = new BacktrackingPainter(svgManager);
+    //
+    Map *map = director->buildWorldMap(SVG_PATH, xmlManager,countryFactory,painter);
+    //map->printNodes();
+    map->paint();
 
+    map->saveMapData();
+    //map->printNodes();
 
-    painter->backtracking(0,3,0);
-    painter->paint();
-
-    //*****************************************************************************************************************//
-    return 0;
-
-
+   return 0;
 }

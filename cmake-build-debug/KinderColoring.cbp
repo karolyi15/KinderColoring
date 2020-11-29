@@ -86,49 +86,112 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/BacktrackingPainter.h">
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/FileManagers/Headers/FileManager.h">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/Country.h">
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/FileManagers/Headers/FileManagerFactory.h">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/DivideConquerPainter.h">
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/FileManagers/Headers/StringSplitter.h">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/DynamicPainter.h">
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/FileManagers/Headers/XmlManager.h">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/Painter.h">
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/FileManagers/Sources/FileManager.cpp">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/SvgManager.h">
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/FileManagers/Sources/FileManagerFactory.cpp">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Headers/XmlManager.h">
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/FileManagers/Sources/StringSplitter.cpp">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Sources/BacktrackingPainter.cpp">
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/FileManagers/Sources/XmlManager.cpp">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Sources/ColorSet.cpp">
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Models/Headers/AbstractMapBuilder.h">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Sources/Country.cpp">
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Models/Headers/ColorType.h">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Sources/DivideConquerPainter.cpp">
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Models/Headers/Country.h">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Sources/DynamicPainter.cpp">
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Models/Headers/CountryFactory.h">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Sources/Painter.cpp">
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Models/Headers/Map.h">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Sources/SvgManager.cpp">
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Models/Headers/MapBuilder.h">
 			<Option target="KinderColoring"/>
 		</Unit>
-		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Sources/XmlManager.cpp">
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Models/Headers/MapDirector.h">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Models/Headers/MapNode.h">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Models/Headers/MapNodeFactory.h">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Models/Sources/AbstractMapBuilder.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Models/Sources/ColorType.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Models/Sources/Country.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Models/Sources/CountryFactory.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Models/Sources/Map.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Models/Sources/MapBuilder.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Models/Sources/MapDirector.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Models/Sources/MapNode.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Models/Sources/MapNodeFactory.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Painters/Headers/BacktrackingPainter.h">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Painters/Headers/DivideConquerPainter.h">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Painters/Headers/DynamicPainter.h">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Painters/Headers/Painter.h">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Painters/Headers/PainterFactory.h">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Painters/Sources/BacktrackingPainter.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Painters/Sources/DivideConquerPainter.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Painters/Sources/DynamicPainter.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Painters/Sources/Painter.cpp">
+			<Option target="KinderColoring"/>
+		</Unit>
+		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/Painters/Sources/PainterFactory.cpp">
 			<Option target="KinderColoring"/>
 		</Unit>
 		<Unit filename="C:/Users/aguer/Documents/GitHub/KinderColoring/main.cpp">
