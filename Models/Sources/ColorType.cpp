@@ -28,7 +28,7 @@ char * ColorType::getHexColor(Color color) {
             return "#008B8B";
 
         case Color::GREEN:
-            return "#2a9619";
+            return "#066425";
 
         case Color::ORANGE:
             return "#ec7b0a";

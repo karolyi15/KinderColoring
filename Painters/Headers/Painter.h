@@ -18,6 +18,9 @@ protected:
     bool painting;
     int  colorSet;
 
+    int paintedNodes;
+    int blankNodes;
+
 public:
 
     //Constructor
@@ -35,6 +38,10 @@ public:
 
     void setColorSet(int colorSet);
     int getColorSet();
+
+    int getPaintedNodes();
+
+    int getBlankNodes();
 
     virtual void setInputData(std::map<char*, MapNode*>* inputData) = 0;
 };

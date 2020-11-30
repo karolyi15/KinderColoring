@@ -52,11 +52,13 @@ Color DivideConquerPainter::verifyColor(std::vector<Color> *openSet) {
 
         }else{
 
+            this->paintedNodes++;
             return ColorType::getPosition(color);
         }
 
     }
 
+    this->blankNodes++;
     return Color::DEFAULT;
 }
 
@@ -101,7 +103,7 @@ void DivideConquerPainter::divideConquer(std::vector<Country*> countriesList) {
             } else {
 
                 //Solos Countries
-
+                this->paintedNodes++;
                 tempCountry->setColor(ColorType::getPosition(0));
 
                 //tempCountry->setColor(Color::RED);
@@ -120,7 +122,6 @@ void DivideConquerPainter::divideConquer(std::vector<Country*> countriesList) {
         divideConquer(lower);
         divideConquer(higher);
 
-        //** Merge ***
 
     }
 }

@@ -3,7 +3,10 @@
 //
 
 #include "iostream"
+#include "cstring"
 #include "vector"
+
+using namespace std;
 
 #ifndef KINDERCOLORING_STRINGSPLITTER_H
 #define KINDERCOLORING_STRINGSPLITTER_H
@@ -15,6 +18,8 @@ public:
 
     //Split System
     static std::vector<std::string> splitString(const std::string &str, const std::string &delim);
+
+    static string *toString(int num);
 };
 
 

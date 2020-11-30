@@ -3,6 +3,7 @@
 //
 
 #include <map>
+#include "cstring"
 #include "iostream"
 #include "MapNodeFactory.h"
 #include "../../Painters/Headers/Painter.h"
@@ -18,30 +19,31 @@ class Map {
 
 private :
 
-
-
     //Nodes Management System
-    std::map<char*, MapNode*> *nodes;
-
     MapNodeFactory *nodeFactory;
-    XmlManager *xmlManager;
+    std::map<char*, MapNode*> *nodes;
 
     void loadNodes();
     void calculateLimitNodes();
-
     bool isLimit(vector<pair<float, float>>* countryPoints, vector<pair<float, float>>* tempCountryPoints);
+
+    //File Manager System
+    XmlManager *xmlManager;
+
+    void updaterThread();
 
     //Paint System
     Painter *painter;
 
+    void savePainterData();
 
 public:
 
-    //File Management System
-    void saveMapData();
-
     //Constructor
     Map();
+
+    //File Management System
+    void saveMapData();
 
     //Paint System
     void paint();

@@ -8,9 +8,9 @@ int main() {
 
     CountryFactory *countryFactory = new CountryFactory();
 
-    int colorSet = 7;
+    int colorSet = 5;
     PainterFactory *painterFactory = new PainterFactory();
-    Painter *painter = painterFactory->createPainter(PainterType::BACKTRCKING);
+    Painter *painter = painterFactory->createPainter(PainterType::DIVIDEANDCONQUER);
     painter->setColorSet(colorSet);
 
     //

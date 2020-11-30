@@ -21,3 +21,12 @@ std::vector<std::string> StringSplitter::splitString(const std::string &str, con
     while (pos < str.length() && prev < str.length());
     return tokens;
 }
+
+string *StringSplitter::toString(int num) {
+
+
+    string* string1 = new string();
+    string1->append(to_string(num));
+
+    return string1;
+}

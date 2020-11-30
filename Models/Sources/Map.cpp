@@ -2,6 +2,7 @@
 // Created by gunther on 25/11/20.
 //
 
+#include <sstream>
 #include "../Headers/Map.h"
 
 
@@ -51,10 +52,18 @@ void Map::saveMapData() {
 
     }
     /*string xml_as_string;
-    print(std::back_inserter(xml_as_string), this->xmlManager->getXmlData());
-    cout<xml_as_string<<endl;*/
+    print(std::back_inserter(xml_as_string), this->xmlManager->getXmlData());*/
+    cout<<"antes de painter data"<<endl;
+    this->savePainterData();
+    cout<<"despues de painter data"<<endl;
     this->xmlManager->writeFile(&DEFAULT_MAP_PATH.at(0));
 }
+
+void Map::updaterThread() {
+
+
+}
+
 
 //Nodes Management System
 void Map::loadNodes() {
@@ -136,6 +145,71 @@ void Map::paint() {
     //Save Map Data
     //this->saveMapData();
 }
+
+void Map::savePainterData() {
+
+    int textX = 20;
+    int textY = 20;
+    char* textColor = "fill:red;";
+
+    //*** Get Xml Data ***
+    xml_document<> *xmlData = this->xmlManager->getXmlData();
+
+    //*** Create Node ***
+    xml_node<>* text = xmlData->allocate_node(node_element,"svg:text");
+
+    //*** Create Attributes ***
+    text->append_attribute(xmlData->allocate_attribute("x",StringSplitter::toString(textX)->c_str()));
+    text->append_attribute(xmlData->allocate_attribute("y",StringSplitter::toString(textY)->c_str()));
+    text->append_attribute(xmlData->allocate_attribute("style",textColor));
+
+    //*** Create Child Nodes ***
+
+    //Title
+    xml_node<> *title = xmlData->allocate_node(node_element, "tspan", "Processed Data:");
+    title->append_attribute(xmlData->allocate_attribute("x",StringSplitter::toString(textX)->c_str()));
+    title->append_attribute(xmlData->allocate_attribute("y",StringSplitter::toString(textY)->c_str()));
+
+    text->append_node(title);
+
+    //Colored Nodes
+    string *colorNodesData = new string();
+    colorNodesData->append("*Colored Nodes: ");
+    colorNodesData->append(*StringSplitter::toString(this->painter->getPaintedNodes()));
+
+    xml_node<> *coloredNodes = xmlData->allocate_node(node_element, "tspan", colorNodesData->c_str());
+    coloredNodes->append_attribute(xmlData->allocate_attribute("x",StringSplitter::toString(textX)->c_str()));
+    coloredNodes->append_attribute(xmlData->allocate_attribute("y",StringSplitter::toString(textY+20)->c_str()));
+
+    text->append_node(coloredNodes);
+
+    //Blank Nodes
+    string *blankNodesData = new string();
+    blankNodesData->append("*Blank Nodes: ");
+    blankNodesData->append(*StringSplitter::toString(this->painter->getBlankNodes()));
+
+    xml_node<> *blankNodes = xmlData->allocate_node(node_element, "tspan", blankNodesData->c_str());
+    blankNodes->append_attribute(xmlData->allocate_attribute("x",StringSplitter::toString(textX)->c_str()));
+    blankNodes->append_attribute(xmlData->allocate_attribute("y",StringSplitter::toString(textY+35)->c_str()));
+
+    text->append_node(blankNodes);
+
+    //Elapsed Time
+    string *elapsedTimeData = new string();
+    elapsedTimeData->append("*Elapsed Time: ");
+    //elapsedTimeData->append(*StringSplitter::toString(this->painter->getPaintedNodes()));
+
+    xml_node<> *elapsedTime = xmlData->allocate_node(node_element, "tspan", elapsedTimeData->c_str());
+    elapsedTime->append_attribute(xmlData->allocate_attribute("x",StringSplitter::toString(textX)->c_str()));
+    elapsedTime->append_attribute(xmlData->allocate_attribute("y",StringSplitter::toString(textY+50)->c_str()));
+
+    text->append_node(elapsedTime);
+
+    //Append Node to Xml Data
+    xmlData->first_node()->append_node(text);
+
+}
+
 
 //Setters & Getters
 void Map::setDataPath(char *dataPath) {

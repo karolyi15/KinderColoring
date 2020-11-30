@@ -10,6 +10,9 @@ Painter::Painter() {
     this->id = "test.svg";
     this->painting = false;
     this->colorSet = 0;
+
+    this->blankNodes = 0;
+    this->paintedNodes = 0;
 }
 
 //Setters & Getters
@@ -40,4 +43,14 @@ int Painter::getColorSet() {
 
 
     return this->colorSet;
+}
+
+int Painter::getPaintedNodes() {
+
+    return this->paintedNodes;
+}
+
+int Painter::getBlankNodes() {
+
+    return this->blankNodes;
 }
