@@ -4,6 +4,7 @@
 
 #include "../Headers/CountryFactory.h"
 
+//Creation System
 MapNode * CountryFactory::createNode() {
 
     Country* country = new Country();

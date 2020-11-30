@@ -4,6 +4,7 @@
 
 #include "../Headers/FileManagerFactory.h"
 
+//C
 FileManager* FileManagerFactory::createManager(FileType fileType) {
 
     switch (fileType) {
@@ -11,7 +12,6 @@ FileManager* FileManagerFactory::createManager(FileType fileType) {
         case FileType::Xml:
 
             return (FileManager*) new XmlManager();
-
 
     }
 }

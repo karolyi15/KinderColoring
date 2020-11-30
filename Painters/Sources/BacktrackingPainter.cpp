@@ -25,7 +25,9 @@ void BacktrackingPainter::setInputData(std::map<char *, MapNode *> *inputData) {
 //Painting System
 void BacktrackingPainter::start() {
 
+    this->painting = true;
     this->backtracking(0,this->colorSet,0);
+    this->painting = false;
 }
 
 bool BacktrackingPainter::paintLimits(std::vector <MapNode*> *limitCountries, int cantidadColores) {
@@ -59,9 +61,13 @@ bool BacktrackingPainter::paintLimits(std::vector <MapNode*> *limitCountries, in
                 }
             }
         }
+
         if (count=limitCountries->size() && countColores == cantidadColores) {       // que todos los paises limites estan pintados y que todos los colores posibles se usaron
             return true;
-        }else{return false;}
+
+        }else{
+            return false;
+        }
     }
 }
 
@@ -81,8 +87,9 @@ int BacktrackingPainter::backtracking(int paisActual, int cantidadColores, int c
         //cout<<"Limites : "<<endl;
         std::vector <MapNode*> *limitCountries = tempCountry->getLimitCountries();  // los paises que son limites al pais actual
 
-        if (colorActual > cantidadColores) {
+        if (colorActual > cantidadColores-1) {
             //SetColor
+            this->blankNodes++;
             tempCountry->setColor(Color::DEFAULT);                               //le asigna un color blanco al pais
             // cout << "color: " << tempCountry->getColor() << endl<<endl;
 
@@ -96,7 +103,7 @@ int BacktrackingPainter::backtracking(int paisActual, int cantidadColores, int c
                 if(paintLimits(limitCountries,cantidadColores)){
 
                     //cout<<endl<<"ENTRE EN PODA"<<endl;
-
+                    this->blankNodes++;
                     tempCountry->setColor(Color::DEFAULT);                               //le asigna un color blanco al pais
                     //cout << "color: " << tempCountry->getColor() << endl;
                     return backtracking(paisActual+1, cantidadColores, 0);
@@ -129,6 +136,7 @@ int BacktrackingPainter::backtracking(int paisActual, int cantidadColores, int c
                 }
             }
             //SetColor
+            this->paintedNodes++;
             tempCountry->setColor(ColorType::getPosition(colorActual) );                     //le asigna un color al pais
             //cout << "Color pais actual: " << tempCountry->getColor() << endl;
 

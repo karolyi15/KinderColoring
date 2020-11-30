@@ -27,6 +27,7 @@ public:
     void start();
 
     Color verifyColor(std::vector<Color> *openSet);
+    void assignColor(Country* tempCountry);
     void divideConquer(std::vector<Country*> countriesList);
 
 };

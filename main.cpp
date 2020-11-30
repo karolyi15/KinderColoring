@@ -2,14 +2,16 @@
 #include "Models/Headers/CountryFactory.h"
 #include "Painters/Headers/PainterFactory.h"
 int main() {
+
+    int colorSet = 5;
     srand (time(NULL));
     char * SVG_PATH = "../_MapFiles/world.svg";
     XmlManager *xmlManager = new XmlManager();
 
     CountryFactory *countryFactory = new CountryFactory();
 
-    int colorSet = 5;
     PainterFactory *painterFactory = new PainterFactory();
+
     Painter *painter = painterFactory->createPainter(PainterType::DIVIDEANDCONQUER);
     painter->setColorSet(colorSet);
 
@@ -18,13 +20,10 @@ int main() {
     MapDirector *director = new MapDirector(builder);
 
 
-    //
+    //Create Backtracking Svg
     Map *map = director->buildWorldMap(SVG_PATH, xmlManager,countryFactory,painter);
-    //map->printNodes();
     map->paint();
-
-    map->saveMapData();
-    map->printNodes();
+    //map->printNodes();
 
    return 0;
 }

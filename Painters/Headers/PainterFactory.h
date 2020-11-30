@@ -21,6 +21,7 @@ class PainterFactory {
 
 public:
 
+    //Creation System
     Painter* createPainter(PainterType painterType);
 };
 

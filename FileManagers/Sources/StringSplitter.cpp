@@ -5,7 +5,6 @@
 #include "../Headers/StringSplitter.h"
 
 //Split System
-
 std::vector<std::string> StringSplitter::splitString(const std::string &str, const std::string &delim) {
 
     std::vector<std::string> tokens;
@@ -22,6 +21,7 @@ std::vector<std::string> StringSplitter::splitString(const std::string &str, con
     return tokens;
 }
 
+//Type Conversion
 string *StringSplitter::toString(int num) {
 
 

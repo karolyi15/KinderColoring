@@ -17,12 +17,10 @@ void XmlManager::readFile(char *filePath) {
 
 void XmlManager::writeFile(char *filePath) {
 
-    //cout<<this->xmlData<<endl;
     string xml_as_string;
     print(std::back_inserter(xml_as_string), this->xmlData);
 
 
-    //cout<<xml_as_string<<endl;
     ofstream xmlFile(filePath);
     xmlFile << this->xmlData;
 
@@ -31,7 +29,6 @@ void XmlManager::writeFile(char *filePath) {
 }
 
 //Setters & Getters
-
 xml_document<> * XmlManager::getXmlData() {
 
     return &this->xmlData;

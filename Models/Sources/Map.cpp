@@ -33,35 +33,21 @@ void Map::saveMapData() {
         //Get Hash Map Data
         Country *tempCountry = (Country *) this->nodes->at(tempCountryId);
         char *tempCountryColor = ColorType::getHexColor(tempCountry->getColor());
-        cout<<endl<< endl<< "ID: " << tempCountry->getId() << "Color: " << tempCountryColor <<"  ";
-
 
         //Save Color
         string *tempAttribute = new string();
         tempAttribute->append("fill:");
         tempAttribute->append(tempCountryColor);
-        //cout<< "attribute: " << tempAttribute.c_str();
-        //cout<< "oldColor: " <<  country->first_attribute("style")->value()<< endl;
 
         country->first_attribute("style")->value(tempAttribute->c_str());
-
-        //cout<< "newColor: " <<  country->first_attribute("style")->value()<<endl<< endl;
 
         //Update Country Node
         country = country->next_sibling();
 
     }
-    /*string xml_as_string;
-    print(std::back_inserter(xml_as_string), this->xmlManager->getXmlData());*/
-    cout<<"antes de painter data"<<endl;
+
     this->savePainterData();
-    cout<<"despues de painter data"<<endl;
     this->xmlManager->writeFile(&DEFAULT_MAP_PATH.at(0));
-}
-
-void Map::updaterThread() {
-
-
 }
 
 
@@ -142,8 +128,13 @@ void Map::paint() {
 
     this->painter->setInputData(this->nodes);
     this->painter->start();
-    //Save Map Data
-    //this->saveMapData();
+    cout << "===============================" << endl;
+    cout << "          Map Painted          " << endl;
+    cout << "===============================\n" << endl;
+    this->saveMapData();
+    cout << "===============================" << endl;
+    cout << "           Map Saved           " << endl;
+    cout << "===============================\n" << endl;
 }
 
 void Map::savePainterData() {
@@ -195,7 +186,7 @@ void Map::savePainterData() {
     text->append_node(blankNodes);
 
     //Elapsed Time
-    string *elapsedTimeData = new string();
+    /*string *elapsedTimeData = new string();
     elapsedTimeData->append("*Elapsed Time: ");
     //elapsedTimeData->append(*StringSplitter::toString(this->painter->getPaintedNodes()));
 
@@ -203,7 +194,7 @@ void Map::savePainterData() {
     elapsedTime->append_attribute(xmlData->allocate_attribute("x",StringSplitter::toString(textX)->c_str()));
     elapsedTime->append_attribute(xmlData->allocate_attribute("y",StringSplitter::toString(textY+50)->c_str()));
 
-    text->append_node(elapsedTime);
+    text->append_node(elapsedTime);*/
 
     //Append Node to Xml Data
     xmlData->first_node()->append_node(text);

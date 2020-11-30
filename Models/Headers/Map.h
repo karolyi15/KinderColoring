@@ -4,6 +4,7 @@
 
 #include <map>
 #include "cstring"
+#include "thread"
 #include "iostream"
 #include "MapNodeFactory.h"
 #include "../../Painters/Headers/Painter.h"
@@ -29,8 +30,6 @@ private :
 
     //File Manager System
     XmlManager *xmlManager;
-
-    void updaterThread();
 
     //Paint System
     Painter *painter;

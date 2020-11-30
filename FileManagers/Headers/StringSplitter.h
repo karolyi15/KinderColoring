@@ -19,6 +19,7 @@ public:
     //Split System
     static std::vector<std::string> splitString(const std::string &str, const std::string &delim);
 
+    //Type Conversion System
     static string *toString(int num);
 };
 

@@ -13,6 +13,7 @@ Painter::Painter() {
 
     this->blankNodes = 0;
     this->paintedNodes = 0;
+
 }
 
 //Setters & Getters

@@ -4,6 +4,7 @@
 
 #include "../Headers/PainterFactory.h"
 
+//Creation System
 Painter * PainterFactory::createPainter(PainterType painterType) {
 
     switch (painterType) {

@@ -3,6 +3,7 @@
 //
 
 #include <map>
+#include "chrono"
 #include "iostream"
 #include "../../Models/Headers/MapNode.h"
 
@@ -20,6 +21,7 @@ protected:
 
     int paintedNodes;
     int blankNodes;
+
 
 public:
 
@@ -42,6 +44,7 @@ public:
     int getPaintedNodes();
 
     int getBlankNodes();
+
 
     virtual void setInputData(std::map<char*, MapNode*>* inputData) = 0;
 };
